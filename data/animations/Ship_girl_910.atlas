@@ -1,0 +1,55 @@
+
+Ship_girl_910.png
+size: 512,512
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_armor_normal_light
+  rotate: true
+  xy: 436, 167
+  size: 90, 68
+  orig: 300, 300
+  offset: 141, 85
+  index: -1
+Rodney_body_back_normal
+  rotate: false
+  xy: 263, 259
+  size: 241, 247
+  orig: 300, 300
+  offset: 32, 25
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 2, 14
+  size: 222, 247
+  orig: 300, 300
+  offset: 34, 48
+  index: -1
+Rodney_fornt_normal
+  rotate: true
+  xy: 436, 91
+  size: 74, 57
+  orig: 300, 300
+  offset: 48, 86
+  index: -1
+Rodney_ship_armor_normal
+  rotate: true
+  xy: 436, 32
+  size: 57, 36
+  orig: 300, 300
+  offset: 144, 102
+  index: -1
+Rodney_ship_body_normal_back_light
+  rotate: false
+  xy: 2, 238
+  size: 259, 268
+  orig: 300, 300
+  offset: 41, 14
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 263, 2
+  size: 171, 255
+  orig: 300, 300
+  offset: 80, 45
+  index: -1

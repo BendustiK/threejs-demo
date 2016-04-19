@@ -1,0 +1,118 @@
+
+Ship_girl_1036.png
+size: 1024,512
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_armor_damage_light
+  rotate: false
+  xy: 780, 118
+  size: 207, 163
+  orig: 300, 300
+  offset: 65, 125
+  index: -1
+Rodney_armor_normal_light
+  rotate: false
+  xy: 567, 118
+  size: 211, 163
+  orig: 300, 300
+  offset: 65, 125
+  index: -1
+Rodney_body_damage
+  rotate: false
+  xy: 567, 283
+  size: 169, 227
+  orig: 300, 300
+  offset: 73, 19
+  index: -1
+Rodney_body_normal
+  rotate: false
+  xy: 738, 283
+  size: 169, 227
+  orig: 300, 300
+  offset: 73, 19
+  index: -1
+Rodney_eyes_damage
+  rotate: false
+  xy: 935, 358
+  size: 30, 33
+  orig: 300, 300
+  offset: 129, 135
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 995, 474
+  size: 27, 36
+  orig: 300, 300
+  offset: 130, 134
+  index: -1
+Rodney_item_damage
+  rotate: false
+  xy: 995, 452
+  size: 24, 20
+  orig: 300, 300
+  offset: 230, 171
+  index: -1
+Rodney_item_damage_light
+  rotate: false
+  xy: 909, 393
+  size: 74, 54
+  orig: 300, 300
+  offset: 209, 154
+  index: -1
+Rodney_item_normal
+  rotate: false
+  xy: 909, 350
+  size: 24, 41
+  orig: 300, 300
+  offset: 216, 176
+  index: -1
+Rodney_item_normal_light
+  rotate: false
+  xy: 909, 449
+  size: 84, 61
+  orig: 300, 300
+  offset: 189, 154
+  index: -1
+Rodney_ship_armor_damage
+  rotate: false
+  xy: 2, 261
+  size: 199, 249
+  orig: 300, 300
+  offset: 44, 43
+  index: -1
+Rodney_ship_armor_normal
+  rotate: false
+  xy: 2, 16
+  size: 186, 243
+  orig: 300, 300
+  offset: 57, 37
+  index: -1
+Rodney_ship_body_damage_light
+  rotate: false
+  xy: 387, 268
+  size: 178, 242
+  orig: 300, 300
+  offset: 105, 12
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 203, 268
+  size: 182, 242
+  orig: 300, 300
+  offset: 102, 12
+  index: -1
+Rodney_wings_d_damage
+  rotate: false
+  xy: 2, 2
+  size: 32, 4
+  orig: 300, 300
+  offset: 224, 176
+  index: -1
+Rodney_wings_u_damage
+  rotate: false
+  xy: 2, 8
+  size: 32, 6
+  orig: 300, 300
+  offset: 224, 179
+  index: -1

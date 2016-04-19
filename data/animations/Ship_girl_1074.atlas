@@ -1,0 +1,62 @@
+
+Ship_girl_1074.png
+size: 512,512
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_armor_damage_light
+  rotate: true
+  xy: 164, 6
+  size: 190, 108
+  orig: 300, 300
+  offset: 48, 39
+  index: -1
+Rodney_armor_normal_light
+  rotate: true
+  xy: 355, 283
+  size: 192, 113
+  orig: 300, 300
+  offset: 48, 34
+  index: -1
+Rodney_body_normal
+  rotate: false
+  xy: 178, 212
+  size: 175, 263
+  orig: 300, 300
+  offset: 46, 29
+  index: -1
+Rodney_eyes_damage
+  rotate: false
+  xy: 355, 234
+  size: 67, 47
+  orig: 300, 300
+  offset: 128, 173
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 274, 4
+  size: 57, 46
+  orig: 300, 300
+  offset: 137, 175
+  index: -1
+Rodney_ship_armor_damage
+  rotate: true
+  xy: 2, 2
+  size: 194, 160
+  orig: 300, 300
+  offset: 19, 43
+  index: -1
+Rodney_ship_armor_normal
+  rotate: false
+  xy: 274, 52
+  size: 145, 158
+  orig: 300, 300
+  offset: 58, 38
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 2, 198
+  size: 174, 277
+  orig: 300, 300
+  offset: 88, 23
+  index: -1

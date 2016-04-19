@@ -1,0 +1,90 @@
+
+Ship_girl_79.png
+size: 1024,256
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_armor_damage_light
+  rotate: true
+  xy: 935, 157
+  size: 97, 87
+  orig: 300, 300
+  offset: 59, 104
+  index: -1
+Rodney_armor_normal_light
+  rotate: false
+  xy: 633, 157
+  size: 110, 97
+  orig: 300, 300
+  offset: 47, 94
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 280, 108
+  size: 146, 261
+  orig: 300, 300
+  offset: 66, 24
+  index: -1
+Rodney_eyes_damage
+  rotate: false
+  xy: 59, 44
+  size: 61, 39
+  orig: 300, 300
+  offset: 129, 174
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 59, 2
+  size: 54, 40
+  orig: 300, 300
+  offset: 135, 174
+  index: -1
+Rodney_fornt_damage
+  rotate: false
+  xy: 745, 161
+  size: 92, 93
+  orig: 300, 300
+  offset: 92, 45
+  index: -1
+Rodney_fornt_damage_light
+  rotate: false
+  xy: 280, 2
+  size: 156, 104
+  orig: 300, 300
+  offset: 70, 41
+  index: -1
+Rodney_fornt_normal
+  rotate: true
+  xy: 839, 163
+  size: 91, 94
+  orig: 300, 300
+  offset: 93, 44
+  index: -1
+Rodney_fornt_normal_light
+  rotate: false
+  xy: 438, 2
+  size: 155, 104
+  orig: 300, 300
+  offset: 71, 40
+  index: -1
+Rodney_ship_armor_damage
+  rotate: false
+  xy: 543, 123
+  size: 88, 131
+  orig: 300, 300
+  offset: 53, 71
+  index: -1
+Rodney_ship_armor_normal
+  rotate: false
+  xy: 2, 9
+  size: 55, 74
+  orig: 300, 300
+  offset: 75, 103
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: true
+  xy: 2, 85
+  size: 169, 276
+  orig: 300, 300
+  offset: 90, 24
+  index: -1

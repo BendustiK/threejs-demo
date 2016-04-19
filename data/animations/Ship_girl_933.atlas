@@ -1,0 +1,104 @@
+
+Ship_girl_933.png
+size: 1024,256
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_body_down_normal
+  rotate: false
+  xy: 2, 2
+  size: 115, 101
+  orig: 300, 300
+  offset: 89, 6
+  index: -1
+Rodney_body_down_normal_fluorescence
+  rotate: false
+  xy: 2, 105
+  size: 286, 145
+  orig: 300, 300
+  offset: 0, 6
+  index: -1
+Rodney_body_down_normal_light
+  rotate: false
+  xy: 119, 15
+  size: 126, 88
+  orig: 300, 300
+  offset: 112, 2
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 659, 95
+  size: 155, 162
+  orig: 300, 300
+  offset: 98, 114
+  index: -1
+Rodney_body_up_normal
+  rotate: false
+  xy: 823, 137
+  size: 176, 113
+  orig: 300, 300
+  offset: 68, 53
+  index: -1
+Rodney_body_up_normal_fluorescence
+  rotate: false
+  xy: 482, 115
+  size: 175, 135
+  orig: 300, 300
+  offset: 73, 47
+  index: -1
+Rodney_body_up_normal_light
+  rotate: false
+  xy: 482, 7
+  size: 152, 106
+  orig: 300, 300
+  offset: 123, 45
+  index: -1
+Rodney_fornt_gun_normal
+  rotate: false
+  xy: 734, 16
+  size: 81, 77
+  orig: 300, 300
+  offset: 64, 144
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: true
+  xy: 290, 103
+  size: 147, 190
+  orig: 300, 300
+  offset: 129, 102
+  index: -1
+Rodney_ship_chain_normal
+  rotate: true
+  xy: 636, 21
+  size: 72, 96
+  orig: 72, 96
+  offset: 0, 0
+  index: -1
+Rodney_ship_gun_normal
+  rotate: false
+  xy: 247, 31
+  size: 91, 70
+  orig: 300, 300
+  offset: 178, 148
+  index: -1
+Rodney_ship_gun_normal_light
+  rotate: false
+  xy: 823, 27
+  size: 153, 108
+  orig: 300, 300
+  offset: 147, 132
+  index: -1
+Rodney_ship_item_normal
+  rotate: false
+  xy: 1001, 204
+  size: 14, 46
+  orig: 300, 300
+  offset: 58, 159
+  index: -1
+Rodney_ship_tongue_normal
+  rotate: false
+  xy: 340, 59
+  size: 74, 42
+  orig: 74, 42
+  offset: 0, 0
+  index: -1

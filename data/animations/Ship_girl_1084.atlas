@@ -1,0 +1,125 @@
+
+Ship_girl_1084.png
+size: 1024,512
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_body_damage
+  rotate: true
+  xy: 304, 321
+  size: 144, 242
+  orig: 300, 300
+  offset: 70, 19
+  index: -1
+Rodney_body_normal
+  rotate: false
+  xy: 157, 39
+  size: 144, 242
+  orig: 300, 300
+  offset: 70, 19
+  index: -1
+Rodney_eyes_damage
+  rotate: true
+  xy: 303, 2
+  size: 73, 82
+  orig: 300, 300
+  offset: 107, 145
+  index: -1
+Rodney_eyes_normal
+  rotate: true
+  xy: 448, 133
+  size: 54, 43
+  orig: 300, 300
+  offset: 124, 143
+  index: -1
+Rodney_hair_normal
+  rotate: true
+  xy: 497, 183
+  size: 136, 104
+  orig: 136, 104
+  offset: 0, 0
+  index: -1
+Rodney_head_normal
+  rotate: true
+  xy: 933, 306
+  size: 159, 67
+  orig: 300, 300
+  offset: 57, 148
+  index: -1
+Rodney_head_normal_light
+  rotate: false
+  xy: 738, 205
+  size: 96, 75
+  orig: 300, 300
+  offset: 160, 130
+  index: -1
+Rodney_light_normal
+  rotate: false
+  xy: 2, 283
+  size: 300, 182
+  orig: 300, 300
+  offset: 0, 118
+  index: -1
+Rodney_ship_armor_damage
+  rotate: false
+  xy: 603, 220
+  size: 133, 103
+  orig: 300, 300
+  offset: 0, 95
+  index: -1
+Rodney_ship_armor_normal
+  rotate: false
+  xy: 603, 188
+  size: 35, 30
+  orig: 300, 300
+  offset: 97, 93
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 2, 15
+  size: 153, 266
+  orig: 300, 300
+  offset: 98, 12
+  index: -1
+Rodney_tools_normal
+  rotate: false
+  xy: 933, 288
+  size: 35, 16
+  orig: 300, 300
+  offset: 132, 98
+  index: -1
+Rodney_tools_normal_light
+  rotate: false
+  xy: 836, 216
+  size: 93, 64
+  orig: 300, 300
+  offset: 103, 75
+  index: -1
+Rodney_top_damage
+  rotate: false
+  xy: 743, 282
+  size: 188, 183
+  orig: 300, 300
+  offset: 27, 18
+  index: -1
+Rodney_top_damage_light
+  rotate: false
+  xy: 304, 189
+  size: 191, 130
+  orig: 300, 300
+  offset: 46, 19
+  index: -1
+Rodney_top_normal
+  rotate: false
+  xy: 303, 77
+  size: 143, 110
+  orig: 300, 300
+  offset: 63, 19
+  index: -1
+Rodney_top_normal_light
+  rotate: false
+  xy: 548, 325
+  size: 193, 140
+  orig: 300, 300
+  offset: 47, 9
+  index: -1

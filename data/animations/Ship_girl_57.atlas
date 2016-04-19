@@ -1,0 +1,76 @@
+
+Ship_girl_57.png
+size: 512,512
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_body_damage
+  rotate: true
+  xy: 185, 305
+  size: 169, 275
+  orig: 300, 300
+  offset: 65, 15
+  index: -1
+Rodney_body_normal
+  rotate: false
+  xy: 293, 32
+  size: 169, 271
+  orig: 300, 300
+  offset: 65, 15
+  index: -1
+Rodney_eyes_damage
+  rotate: true
+  xy: 252, 245
+  size: 58, 34
+  orig: 300, 300
+  offset: 120, 144
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 185, 185
+  size: 52, 43
+  orig: 300, 300
+  offset: 124, 143
+  index: -1
+Rodney_head_L
+  rotate: false
+  xy: 185, 230
+  size: 65, 73
+  orig: 300, 300
+  offset: 175, 216
+  index: -1
+Rodney_head_R
+  rotate: false
+  xy: 462, 404
+  size: 40, 70
+  orig: 300, 300
+  offset: 75, 213
+  index: -1
+Rodney_ship_body_damage_light
+  rotate: false
+  xy: 2, 185
+  size: 181, 289
+  orig: 300, 300
+  offset: 96, 11
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: true
+  xy: 2, 2
+  size: 181, 289
+  orig: 300, 300
+  offset: 96, 11
+  index: -1
+Rodney_tail_path_1
+  rotate: true
+  xy: 462, 328
+  size: 74, 15
+  orig: 74, 18
+  offset: 0, 0
+  index: -1
+Rodney_tail_path_2
+  rotate: true
+  xy: 239, 188
+  size: 40, 46
+  orig: 300, 300
+  offset: 18, 19
+  index: -1

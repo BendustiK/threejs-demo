@@ -1,0 +1,132 @@
+
+Ship_girl_909.png
+size: 1024,512
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_body_normal
+  rotate: false
+  xy: 202, 250
+  size: 164, 262
+  orig: 300, 300
+  offset: 80, 26
+  index: -1
+Rodney_body_normal_fluorescence
+  rotate: false
+  xy: 366, 391
+  size: 266, 121
+  orig: 300, 300
+  offset: 7, 179
+  index: -1
+Rodney_body_obai
+  rotate: true
+  xy: 615, 322
+  size: 32, 25
+  orig: 32, 25
+  offset: 0, 0
+  index: -1
+Rodney_fornt_normal
+  rotate: false
+  xy: 555, 293
+  size: 60, 98
+  orig: 300, 300
+  offset: 73, 97
+  index: -1
+Rodney_fornt_normal_light
+  rotate: true
+  xy: 632, 394
+  size: 118, 129
+  orig: 300, 300
+  offset: 58, 78
+  index: -1
+Rodney_fornt_normal_light_fluorescence
+  rotate: true
+  xy: 0, 11
+  size: 223, 176
+  orig: 300, 300
+  offset: 0, 54
+  index: -1
+Rodney_ship_armor_down
+  rotate: false
+  xy: 555, 253
+  size: 57, 40
+  orig: 300, 300
+  offset: 173, 76
+  index: -1
+Rodney_ship_armor_down_fluorescence
+  rotate: false
+  xy: 879, 379
+  size: 95, 55
+  orig: 300, 300
+  offset: 154, 71
+  index: -1
+Rodney_ship_armor_down_light
+  rotate: true
+  xy: 176, 145
+  size: 89, 67
+  orig: 300, 300
+  offset: 177, 56
+  index: -1
+Rodney_ship_armor_gun
+  rotate: true
+  xy: 615, 354
+  size: 37, 24
+  orig: 300, 300
+  offset: 182, 103
+  index: -1
+Rodney_ship_armor_gun_light
+  rotate: false
+  xy: 176, 21
+  size: 62, 47
+  orig: 300, 300
+  offset: 182, 91
+  index: -1
+Rodney_ship_armor_normal
+  rotate: false
+  xy: 879, 434
+  size: 100, 78
+  orig: 300, 300
+  offset: 154, 109
+  index: -1
+Rodney_ship_armor_normal_fluorescence
+  rotate: false
+  xy: 366, 254
+  size: 189, 137
+  orig: 300, 300
+  offset: 111, 71
+  index: -1
+Rodney_ship_armor_normal_light
+  rotate: false
+  xy: 761, 407
+  size: 118, 105
+  orig: 300, 300
+  offset: 169, 101
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 0, 234
+  size: 202, 278
+  orig: 300, 300
+  offset: 85, 22
+  index: -1
+Rodney_ship_normal
+  rotate: true
+  xy: 979, 443
+  size: 69, 44
+  orig: 300, 300
+  offset: 25, 43
+  index: -1
+Rodney_ship_normal_fluorescence
+  rotate: true
+  xy: 176, 68
+  size: 77, 63
+  orig: 300, 300
+  offset: 31, 37
+  index: -1
+Rodney_tail_path_1
+  rotate: false
+  xy: 0, 0
+  size: 74, 11
+  orig: 74, 18
+  offset: 0, 2
+  index: -1

@@ -1,0 +1,986 @@
+{
+"skeleton": { "hash": "6qMwx5MH6CM0uREnufXyG5bT2+k", "spine": "2.1.27", "width": 303, "height": 303, "images": "" },
+"bones": [
+	{ "name": "Root_All", "x": 25.09, "y": -5.9, "scaleX": 1.01, "scaleY": 1.01 },
+	{ "name": "Ship_All", "parent": "Root_All", "x": -4.77, "y": -44.33 },
+	{ "name": "Body", "parent": "Ship_All", "length": 255.84, "x": -37.29, "y": 49.67, "rotation": 90 },
+	{ "name": "Antiaircraft", "parent": "Body", "length": 44.62, "x": 189.69, "y": -67.29, "rotation": -90 },
+	{ "name": "Attack_Point", "parent": "Body", "length": 25.69, "x": 63.2, "y": -42.97, "rotation": -88.64 },
+	{ "name": "Damage_Point", "parent": "Body", "length": 22.56, "x": 87.1, "y": 10.49, "rotation": -90 },
+	{ "name": "Dialogue", "parent": "Body", "length": 57.85, "x": 172.55, "y": -64.23, "rotation": -90 },
+	{ "name": "Expression", "parent": "Body", "length": 46.33, "x": 182.7, "y": -65.49, "rotation": -42.65 },
+	{ "name": "Face", "parent": "Body", "length": 66.94, "x": 180, "y": 30, "rotation": 270 },
+	{ "name": "Ship", "parent": "Body", "length": 127.17, "x": 100, "y": 60, "rotation": 270 },
+	{ "name": "Smoke_L1", "parent": "Body", "length": 51.75, "x": 85.08, "y": -98.99, "rotation": -16.57 },
+	{ "name": "Smoke_L2", "parent": "Body", "length": 51.75, "x": 48.19, "y": 58.18, "rotation": 35.37 },
+	{ "name": "Smoke_L3", "parent": "Body", "length": 51.75, "x": 59.42, "y": 103.1, "rotation": 23.52 },
+	{ "name": "Throw_Point", "parent": "Body", "length": 24.91, "x": 33.92, "y": -43.44, "rotation": -88.64 }
+],
+"slots": [
+	{ "name": "Light_Ship", "bone": "Ship", "blend": "additive" },
+	{ "name": "Rodney_body_normal", "bone": "Body", "attachment": "Body_Change" },
+	{ "name": "Rodney_ship_armor_normal", "bone": "Ship", "attachment": "Ship_armor_normal" },
+	{ "name": "Rodney_eyes_normal", "bone": "Face", "attachment": "Rodney_eyes_normal" },
+	{ "name": "Light_Body", "bone": "Body", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"Rodney_eyes_normal": {
+			"Rodney_eyes_damage": { "x": 20.8, "y": -49.36, "width": 300, "height": 300 },
+			"Rodney_eyes_normal": { "x": 20.8, "y": -49.36, "width": 300, "height": 300 }
+		}
+	},
+	"damage": {
+		"Light_Body": {
+			"Body_Change_Light": { "name": "Rodney_ship_body_damage_light", "x": 130.63, "y": 9.19, "rotation": -90, "width": 300, "height": 300 }
+		},
+		"Light_Ship": {
+			"Ship_light_change": { "name": "Rodney_armor_damage_light", "x": 50.8, "y": 30.63, "width": 300, "height": 300 }
+		},
+		"Rodney_body_normal": {
+			"Body_Change": { "name": "Rodney_body_damage", "x": 130.63, "y": 9.19, "rotation": -90, "width": 300, "height": 300 }
+		},
+		"Rodney_ship_armor_normal": {
+			"Ship_armor_normal": { "name": "Rodney_ship_armor_damage", "x": 50.8, "y": 30.63, "width": 300, "height": 300 }
+		}
+	},
+	"normal": {
+		"Light_Body": {
+			"Body_Change_Light": { "name": "Rodney_ship_body_normal_light", "x": 130.63, "y": 9.19, "rotation": -90, "width": 300, "height": 300 }
+		},
+		"Light_Ship": {
+			"Ship_light_change": { "name": "Rodney_armor_normal_light", "x": 50.8, "y": 30.63, "width": 300, "height": 300 }
+		},
+		"Rodney_body_normal": {
+			"Body_Change": { "name": "Rodney_body_normal", "x": 130.63, "y": 9.19, "rotation": -90, "width": 300, "height": 300 }
+		},
+		"Rodney_ship_armor_normal": {
+			"Ship_armor_normal": { "name": "Rodney_ship_armor_normal", "x": 50.8, "y": 30.63, "width": 300, "height": 300 }
+		}
+	}
+},
+"events": {
+	"Antiaircraft": {},
+	"attack_point": {},
+	"damage_point": {},
+	"throw_point": {}
+},
+"animations": {
+	"Antiaircraft": {
+		"slots": {
+			"Light_Body": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "Body_Change_Light" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6, "name": "Body_Change_Light" },
+					{ "time": 0.8, "name": "Body_Change_Light" },
+					{ "time": 1.2666, "name": null },
+					{ "time": 1.3666, "name": "Body_Change_Light" },
+					{ "time": 2, "name": null }
+				],
+				"color": [
+					{ "time": 0.0666, "color": "fffffffd" },
+					{ "time": 0.1666, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.3666, "color": "ffffffff" },
+					{ "time": 0.4666, "color": "ffffff00" },
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" },
+					{ "time": 0.8, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" },
+					{ "time": 0.9666, "color": "ffffffff" },
+					{ "time": 1.1, "color": "ffffff00" },
+					{ "time": 1.1333, "color": "ffffffff" },
+					{ "time": 1.2333, "color": "ffffff00" },
+					{ "time": 1.3666, "color": "ffffffff" },
+					{ "time": 1.4666, "color": "ffffff00" },
+					{ "time": 1.5333, "color": "ffffffff" },
+					{ "time": 1.6333, "color": "ffffff00" },
+					{ "time": 1.7, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" },
+					{ "time": 1.8666, "color": "ffffffff" },
+					{ "time": 1.9666, "color": "ffffff00" }
+				]
+			},
+			"Light_Ship": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "Ship_light_change" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.6, "name": "Ship_light_change" },
+					{ "time": 1.2666, "name": null },
+					{ "time": 1.3666, "name": "Ship_light_change" },
+					{ "time": 2, "name": null }
+				],
+				"color": [
+					{ "time": 0.0666, "color": "fffffffd" },
+					{ "time": 0.1666, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.3666, "color": "ffffffff" },
+					{ "time": 0.4666, "color": "ffffff00" },
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" },
+					{ "time": 0.8, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" },
+					{ "time": 0.9666, "color": "ffffffff" },
+					{ "time": 1.1, "color": "ffffff00" },
+					{ "time": 1.1333, "color": "ffffffff" },
+					{ "time": 1.2333, "color": "ffffff00" },
+					{ "time": 1.3666, "color": "ffffffff" },
+					{ "time": 1.4666, "color": "ffffff00" },
+					{ "time": 1.5333, "color": "ffffffff" },
+					{ "time": 1.6333, "color": "ffffff00" },
+					{ "time": 1.7, "color": "ffffffff" },
+					{ "time": 1.8333, "color": "ffffff00" },
+					{ "time": 1.8666, "color": "ffffffff" },
+					{ "time": 1.9666, "color": "ffffff00" }
+				]
+			},
+			"Rodney_body_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Body_Change" }
+				]
+			},
+			"Rodney_ship_armor_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Ship_armor_normal" }
+				]
+			}
+		},
+		"bones": {
+			"Body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"Ship": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.319, 0.33, 0.653, 0.66 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.79,
+						"y": 0,
+						"curve": [ 0.289, 0.43, 0.622, 0.73 ]
+					},
+					{
+						"time": 1.5,
+						"x": -2.75,
+						"y": 0,
+						"curve": [ 0.487, 0.33, 0.657, 0.5 ]
+					},
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"Root_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.255, 0.35, 0.6, 0.7 ]
+					},
+					{
+						"time": 0.5,
+						"x": 0,
+						"y": -9.82,
+						"curve": [ 0.3, 0.39, 0.641, 0.74 ]
+					},
+					{
+						"time": 1,
+						"x": 0,
+						"y": -15.66,
+						"curve": [ 0.322, 0.37, 0.652, 0.7 ]
+					},
+					{
+						"time": 1.5,
+						"x": 0,
+						"y": -7.79,
+						"curve": [ 0.314, 0.36, 0.644, 0.68 ]
+					},
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"Ship_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"Face": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.286, 0.34, 0.623, 0.67 ]
+					},
+					{
+						"time": 0.5,
+						"x": 0.64,
+						"y": 0,
+						"curve": [ 0.282, 0.37, 0.624, 0.71 ]
+					},
+					{
+						"time": 1.5,
+						"x": -1.28,
+						"y": 0,
+						"curve": [ 0.321, 0.37, 0.656, 0.71 ]
+					},
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0666, "name": "Antiaircraft" }
+		]
+	},
+	"attack": {
+		"slots": {
+			"Light_Body": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": null },
+					{ "time": 0.1, "name": "Body_Change_Light" },
+					{ "time": 0.5, "name": "Body_Change_Light" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "fffffffb" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				]
+			},
+			"Light_Ship": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": "Ship_light_change" },
+					{ "time": 0.5, "name": "Ship_light_change" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "fffffffc" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				]
+			},
+			"Rodney_body_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Body_Change" },
+					{ "time": 0.9, "name": "Body_Change" }
+				]
+			},
+			"Rodney_ship_armor_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Ship_armor_normal" },
+					{ "time": 0.9, "name": "Ship_armor_normal" },
+					{ "time": 1.6666, "name": "Ship_armor_normal" }
+				]
+			}
+		},
+		"bones": {
+			"Root_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.6666, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.255, 0.35, 0.6, 0.7 ]
+					},
+					{ "time": 0.0666, "x": 8.69, "y": 0 },
+					{ "time": 0.1666, "x": -87.44, "y": 0 },
+					{ "time": 0.3333, "x": -61.04, "y": 0 },
+					{ "time": 0.5333, "x": -69.84, "y": 0 },
+					{ "time": 1, "x": -85.6, "y": 0 },
+					{ "time": 1.4, "x": 15.07, "y": 0 },
+					{ "time": 1.6666, "x": 0, "y": 0 }
+				]
+			},
+			"Ship": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.219, 0.41, 0.591, 0.77 ]
+					},
+					{ "time": 0.0666, "angle": -357.51 },
+					{ "time": 0.1666, "angle": -363.25 },
+					{ "time": 0.3333, "angle": -362.08 },
+					{ "time": 1.4, "angle": -358.29 },
+					{ "time": 1.6666, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.319, 0.33, 0.653, 0.66 ]
+					},
+					{ "time": 0.0666, "x": 0.81, "y": 0.6 },
+					{ "time": 0.1666, "x": 6.07, "y": -0.21 },
+					{ "time": 0.3333, "x": 4.52, "y": -2.2 },
+					{ "time": 1, "x": 2.26, "y": -1.7 },
+					{ "time": 1.4, "x": -0.3, "y": -1.89 },
+					{ "time": 1.6666, "x": 0, "y": 0 }
+				]
+			},
+			"Face": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.6666, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.286, 0.34, 0.623, 0.67 ]
+					},
+					{ "time": 0.1666, "x": 0, "y": 3.4 },
+					{ "time": 0.3333, "x": 0, "y": -0.66 },
+					{ "time": 0.9, "x": 0, "y": -1.2 },
+					{ "time": 1, "x": 0, "y": -0.44 },
+					{ "time": 1.4, "x": 0, "y": -5.01 },
+					{ "time": 1.6666, "x": 0, "y": 0 }
+				]
+			},
+			"Ship_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6666, "x": 0, "y": 0 }
+				]
+			},
+			"Body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6666, "x": 0, "y": 0 }
+				]
+			},
+			"Attack_Point": {
+				"rotate": [
+					{ "time": 0.0666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.0666, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0666, "name": "attack_point" }
+		]
+	},
+	"damage": {
+		"slots": {
+			"Light_Body": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "Body_Change_Light" },
+					{ "time": 0.7666, "name": null }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "fffffffc" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			},
+			"Light_Ship": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "Ship_light_change" },
+					{ "time": 0.7666, "name": null }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "fffffffc" },
+					{ "time": 0.7666, "color": "ffffff00" }
+				]
+			},
+			"Rodney_body_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Body_Change" },
+					{ "time": 0.8666, "name": "Body_Change" }
+				],
+				"color": [
+					{ "time": 0.0666, "color": "8c4c51ff", "curve": "stepped" },
+					{ "time": 0.7666, "color": "8c4c51ff" },
+					{ "time": 1.1333, "color": "ffffffff" }
+				]
+			},
+			"Rodney_eyes_normal": {
+				"attachment": [
+					{ "time": 0.0666, "name": "Rodney_eyes_damage" },
+					{ "time": 1.1333, "name": "Rodney_eyes_normal" }
+				],
+				"color": [
+					{ "time": 0.0666, "color": "8c4c51ff", "curve": "stepped" },
+					{ "time": 0.7666, "color": "8c4c51ff" },
+					{ "time": 1.1333, "color": "ffffffff" }
+				]
+			},
+			"Rodney_ship_armor_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Ship_armor_normal" },
+					{ "time": 0.8666, "name": "Ship_armor_normal" },
+					{ "time": 1.1666, "name": "Ship_armor_normal" }
+				],
+				"color": [
+					{ "time": 0.0666, "color": "8c4c51ff", "curve": "stepped" },
+					{ "time": 0.7666, "color": "8c4c51ff" },
+					{ "time": 1.1333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"Root_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1666, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.255, 0.35, 0.6, 0.7 ]
+					},
+					{ "time": 0.0666, "x": -27.67, "y": -23.16 },
+					{ "time": 0.1333, "x": 20.98, "y": 15.35 },
+					{ "time": 0.2333, "x": -19.78, "y": -15.62 },
+					{ "time": 0.3666, "x": 14.36, "y": 8.59 },
+					{ "time": 0.5666, "x": -3.37, "y": -4.5 },
+					{ "time": 0.8666, "x": 5.63, "y": 2.25 },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				]
+			},
+			"Ship": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.219, 0.41, 0.591, 0.77 ]
+					},
+					{ "time": 0.0666, "angle": -354.41 },
+					{ "time": 0.1333, "angle": -364.42 },
+					{ "time": 0.2333, "angle": -358.04 },
+					{ "time": 0.3666, "angle": -361.36 },
+					{ "time": 1.1666, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.319, 0.33, 0.653, 0.66 ]
+					},
+					{ "time": 0.0666, "x": -3.15, "y": -2.52 },
+					{ "time": 0.1333, "x": 5.59, "y": 0.55 },
+					{ "time": 0.2333, "x": -3.77, "y": -1.39 },
+					{ "time": 0.3666, "x": 1.18, "y": 0.69 },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				]
+			},
+			"Face": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1666, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.286, 0.34, 0.623, 0.67 ]
+					},
+					{ "time": 0.0666, "x": -5.44, "y": 0 },
+					{ "time": 0.1333, "x": -0.44, "y": 0 },
+					{ "time": 0.2333, "x": -5.06, "y": 0 },
+					{ "time": 0.3666, "x": -2.01, "y": 0 },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				]
+			},
+			"Ship_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				]
+			},
+			"Body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				]
+			},
+			"Damage_Point": {
+				"rotate": [
+					{ "time": 0.0666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.0666, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0666, "name": "damage_point" }
+		]
+	},
+	"normal": {
+		"slots": {
+			"Light_Body": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"Light_Ship": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Rodney_body_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Body_Change" }
+				]
+			}
+		},
+		"bones": {
+			"Root_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.255, 0.35, 0.6, 0.7 ]
+					},
+					{
+						"time": 0.5,
+						"x": 0,
+						"y": -9.82,
+						"curve": [ 0.3, 0.39, 0.641, 0.74 ]
+					},
+					{
+						"time": 1,
+						"x": 0,
+						"y": -15.66,
+						"curve": [ 0.322, 0.37, 0.652, 0.7 ]
+					},
+					{
+						"time": 1.5,
+						"x": 0,
+						"y": -7.79,
+						"curve": [ 0.314, 0.36, 0.644, 0.68 ]
+					},
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"Ship_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"Body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"Face": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.286, 0.34, 0.623, 0.67 ]
+					},
+					{
+						"time": 0.5,
+						"x": 0.64,
+						"y": 0,
+						"curve": [ 0.282, 0.37, 0.624, 0.71 ]
+					},
+					{
+						"time": 1.5,
+						"x": -1.28,
+						"y": 0,
+						"curve": [ 0.321, 0.37, 0.656, 0.71 ]
+					},
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"Ship": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.319, 0.33, 0.653, 0.66 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.79,
+						"y": 0,
+						"curve": [ 0.289, 0.43, 0.622, 0.73 ]
+					},
+					{
+						"time": 1.5,
+						"x": -2.75,
+						"y": 0,
+						"curve": [ 0.487, 0.33, 0.657, 0.5 ]
+					},
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"throw": {
+		"slots": {
+			"Light_Body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Rodney_body_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Body_Change" }
+				]
+			},
+			"Rodney_ship_armor_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Ship_armor_normal" },
+					{ "time": 1.3333, "name": "Ship_armor_normal" }
+				]
+			}
+		},
+		"bones": {
+			"Face": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.286, 0.34, 0.623, 0.67 ]
+					},
+					{ "time": 0.3333, "x": 0, "y": -0.7 },
+					{ "time": 0.5666, "x": 0, "y": 0.14 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"Root_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.255, 0.35, 0.6, 0.7 ]
+					},
+					{ "time": 0.6333, "x": -66.66, "y": 0 },
+					{ "time": 0.9666, "x": -10.42, "y": -12.42 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"Ship": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.219, 0.41, 0.591, 0.77 ]
+					},
+					{ "time": 0.3333, "angle": -358.17 },
+					{ "time": 0.5666, "angle": -359.21 },
+					{ "time": 0.6333, "angle": -363.41 },
+					{ "time": 0.7333, "angle": -366.44 },
+					{ "time": 0.9666, "angle": -356.42 },
+					{ "time": 1.1666, "angle": -361.45 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.319, 0.33, 0.653, 0.66 ]
+					},
+					{ "time": 0.3333, "x": -0.7, "y": -1.37 },
+					{ "time": 0.5666, "x": 0, "y": 0.77 },
+					{ "time": 0.6333, "x": 1.43, "y": 1.35 },
+					{ "time": 0.7333, "x": -0.38, "y": 0.95 },
+					{ "time": 0.9666, "x": -0.19, "y": -2.63 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"Body": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.219, 0.41, 0.591, 0.77 ]
+					},
+					{
+						"time": 0.6333,
+						"angle": -3.17,
+						"curve": [ 0.32, 0.36, 0.653, 0.69 ]
+					},
+					{
+						"time": 0.7333,
+						"angle": 0.61,
+						"curve": [ 0.319, 0.37, 0.652, 0.7 ]
+					},
+					{
+						"time": 0.9666,
+						"angle": -1.72,
+						"curve": [ 0.32, 0.38, 0.654, 0.71 ]
+					},
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.219, 0.41, 0.591, 0.77 ]
+					},
+					{
+						"time": 0.3333,
+						"x": -15.86,
+						"y": 0,
+						"curve": [ 0.193, 0.39, 0.58, 0.9 ]
+					},
+					{
+						"time": 0.5666,
+						"x": -19.36,
+						"y": 0,
+						"curve": [ 0.142, 0.42, 0.647, 0.94 ]
+					},
+					{ "time": 0.6333, "x": 92.18, "y": -6.3 },
+					{ "time": 0.7333, "x": 111.33, "y": 0 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"Ship_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"Throw_Point": {
+				"rotate": [
+					{ "time": 0.6333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.6333, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.6333, "name": "throw_point" }
+		]
+	},
+	"wreck": {
+		"slots": {
+			"Light_Body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Light_Ship": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Rodney_body_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Body_Change" }
+				]
+			},
+			"Rodney_eyes_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Rodney_eyes_damage" }
+				]
+			}
+		},
+		"bones": {
+			"Root_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.255, 0.35, 0.6, 0.7 ]
+					},
+					{
+						"time": 0.5,
+						"x": 0,
+						"y": -9.82,
+						"curve": [ 0.3, 0.39, 0.641, 0.74 ]
+					},
+					{
+						"time": 1,
+						"x": 0,
+						"y": -15.66,
+						"curve": [ 0.322, 0.37, 0.652, 0.7 ]
+					},
+					{
+						"time": 1.5,
+						"x": 0,
+						"y": -7.79,
+						"curve": [ 0.314, 0.36, 0.644, 0.68 ]
+					},
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"Ship_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"Body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"Face": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.286, 0.34, 0.623, 0.67 ]
+					},
+					{
+						"time": 0.5,
+						"x": 0.64,
+						"y": 0,
+						"curve": [ 0.282, 0.37, 0.624, 0.71 ]
+					},
+					{
+						"time": 1.5,
+						"x": -1.28,
+						"y": 0,
+						"curve": [ 0.321, 0.37, 0.656, 0.71 ]
+					},
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"Ship": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.319, 0.33, 0.653, 0.66 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.79,
+						"y": 0,
+						"curve": [ 0.289, 0.43, 0.622, 0.73 ]
+					},
+					{
+						"time": 1.5,
+						"x": -2.75,
+						"y": 0,
+						"curve": [ 0.487, 0.33, 0.657, 0.5 ]
+					},
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

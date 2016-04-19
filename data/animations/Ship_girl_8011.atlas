@@ -1,0 +1,139 @@
+
+Ship_girl_8011.png
+size: 1005,393
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+JB
+  rotate: false
+  xy: 910, 94
+  size: 64, 62
+  orig: 300, 300
+  offset: 13, 29
+  index: -1
+JB_light
+  rotate: true
+  xy: 428, 6
+  size: 113, 93
+  orig: 300, 300
+  offset: 3, 10
+  index: -1
+Rodney_armor_damage_light
+  rotate: true
+  xy: 604, 15
+  size: 108, 85
+  orig: 300, 300
+  offset: 172, 116
+  index: -1
+Rodney_armor_normal_light
+  rotate: true
+  xy: 523, 5
+  size: 118, 79
+  orig: 300, 300
+  offset: 158, 142
+  index: -1
+Rodney_body_damage
+  rotate: false
+  xy: 2, 121
+  size: 231, 270
+  orig: 300, 300
+  offset: 6, 19
+  index: -1
+Rodney_body_normal
+  rotate: false
+  xy: 235, 121
+  size: 200, 270
+  orig: 300, 300
+  offset: 37, 19
+  index: -1
+Rodney_eyes_damage
+  rotate: true
+  xy: 910, 36
+  size: 56, 38
+  orig: 300, 300
+  offset: 135, 154
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 932, 192
+  size: 57, 41
+  orig: 300, 300
+  offset: 135, 154
+  index: -1
+Rodney_fornt_damage
+  rotate: false
+  xy: 2, 10
+  size: 270, 109
+  orig: 300, 300
+  offset: 29, 25
+  index: -1
+Rodney_fornt_damage_light
+  rotate: false
+  xy: 691, 4
+  size: 217, 132
+  orig: 300, 300
+  offset: 83, 27
+  index: -1
+Rodney_fornt_normal
+  rotate: true
+  xy: 626, 138
+  size: 253, 176
+  orig: 300, 300
+  offset: 29, 30
+  index: -1
+Rodney_fornt_normal_light
+  rotate: true
+  xy: 804, 235
+  size: 156, 199
+  orig: 300, 300
+  offset: 144, 19
+  index: -1
+Rodney_ship_armor_damage
+  rotate: true
+  xy: 274, 21
+  size: 98, 152
+  orig: 300, 300
+  offset: 180, 129
+  index: -1
+Rodney_ship_armor_normal
+  rotate: true
+  xy: 872, 158
+  size: 75, 58
+  orig: 300, 300
+  offset: 183, 145
+  index: -1
+Rodney_ship_body_damage_light
+  rotate: false
+  xy: 437, 125
+  size: 187, 266
+  orig: 300, 300
+  offset: 95, 34
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 437, 125
+  size: 187, 266
+  orig: 300, 300
+  offset: 95, 34
+  index: -1
+Shadow_Black
+  rotate: false
+  xy: 274, 2
+  size: 59, 17
+  orig: 150, 150
+  offset: 46, 63
+  index: -1
+beer
+  rotate: true
+  xy: 932, 169
+  size: 21, 35
+  orig: 300, 300
+  offset: 181, 99
+  index: -1
+beer_light
+  rotate: true
+  xy: 804, 144
+  size: 89, 66
+  orig: 300, 300
+  offset: 151, 85
+  index: -1

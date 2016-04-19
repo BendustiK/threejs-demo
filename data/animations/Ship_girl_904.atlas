@@ -1,0 +1,118 @@
+
+Ship_girl_904.png
+size: 512,256
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_body_normal
+  rotate: true
+  xy: 258, 118
+  size: 138, 241
+  orig: 300, 300
+  offset: 77, 23
+  index: -1
+Rodney_body_normal_fluorescence
+  rotate: false
+  xy: 425, 34
+  size: 33, 32
+  orig: 300, 300
+  offset: 147, 182
+  index: -1
+Rodney_body_obai
+  rotate: true
+  xy: 280, 27
+  size: 35, 22
+  orig: 35, 22
+  offset: 0, 0
+  index: -1
+Rodney_fornt_normal
+  rotate: false
+  xy: 304, 0
+  size: 44, 62
+  orig: 300, 300
+  offset: 92, 67
+  index: -1
+Rodney_fornt_normal_light
+  rotate: true
+  xy: 0, 0
+  size: 102, 98
+  orig: 300, 300
+  offset: 72, 48
+  index: -1
+Rodney_head_L
+  rotate: true
+  xy: 348, 9
+  size: 53, 38
+  orig: 300, 300
+  offset: 177, 226
+  index: -1
+Rodney_head_L_light
+  rotate: false
+  xy: 280, 62
+  size: 73, 56
+  orig: 300, 300
+  offset: 176, 216
+  index: -1
+Rodney_head_R
+  rotate: false
+  xy: 425, 66
+  size: 69, 52
+  orig: 300, 300
+  offset: 91, 236
+  index: -1
+Rodney_ship_armor_down
+  rotate: true
+  xy: 386, 18
+  size: 45, 38
+  orig: 300, 300
+  offset: 177, 69
+  index: -1
+Rodney_ship_armor_down_light
+  rotate: false
+  xy: 353, 63
+  size: 72, 55
+  orig: 300, 300
+  offset: 176, 57
+  index: -1
+Rodney_ship_armor_gun
+  rotate: false
+  xy: 222, 0
+  size: 82, 25
+  orig: 300, 300
+  offset: 146, 93
+  index: -1
+Rodney_ship_armor_gun_light
+  rotate: false
+  xy: 458, 45
+  size: 23, 21
+  orig: 300, 300
+  offset: 211, 92
+  index: -1
+Rodney_ship_armor_normal
+  rotate: true
+  xy: 222, 25
+  size: 77, 58
+  orig: 300, 300
+  offset: 156, 99
+  index: -1
+Rodney_ship_armor_normal_light
+  rotate: false
+  xy: 98, 17
+  size: 124, 85
+  orig: 300, 300
+  offset: 143, 84
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: true
+  xy: 0, 102
+  size: 154, 258
+  orig: 300, 300
+  offset: 104, 21
+  index: -1
+Rodney_tail_path_1
+  rotate: true
+  xy: 494, 44
+  size: 74, 18
+  orig: 74, 18
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+Ship_girl_172.png
+size: 552,525
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Rodney_body_damage
+  rotate: false
+  xy: 2, 2
+  size: 202, 296
+  orig: 300, 300
+  offset: 48, 4
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 206, 4
+  size: 202, 289
+  orig: 300, 300
+  offset: 48, 4
+  index: -1
+Rodney_eyes_damage
+  rotate: true
+  xy: 497, 14
+  size: 60, 35
+  orig: 300, 300
+  offset: 131, 148
+  index: -1
+Rodney_eyes_normal
+  rotate: true
+  xy: 497, 76
+  size: 56, 44
+  orig: 300, 300
+  offset: 134, 148
+  index: -1
+Rodney_ship_armor_damage
+  rotate: false
+  xy: 206, 208
+  size: 80, 90
+  orig: 300, 300
+  offset: 69, 66
+  index: -1
+Rodney_ship_armor_normal
+  rotate: false
+  xy: 497, 134
+  size: 53, 87
+  orig: 300, 300
+  offset: 96, 66
+  index: -1
+Rodney_ship_body_damage_light
+  rotate: true
+  xy: 2, 300
+  size: 223, 300
+  orig: 300, 300
+  offset: 66, 0
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 304, 223
+  size: 223, 300
+  orig: 300, 300
+  offset: 66, 0
+  index: -1

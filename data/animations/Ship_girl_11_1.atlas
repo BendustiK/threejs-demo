@@ -1,0 +1,132 @@
+
+Ship_girl_11_1.png
+size: 962,404
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+JB
+  rotate: false
+  xy: 737, 85
+  size: 64, 62
+  orig: 300, 300
+  offset: 13, 29
+  index: -1
+JB_light
+  rotate: true
+  xy: 83, 17
+  size: 113, 93
+  orig: 300, 300
+  offset: 3, 10
+  index: -1
+Rodney_armor_damage_light
+  rotate: false
+  xy: 803, 16
+  size: 108, 85
+  orig: 300, 300
+  offset: 172, 116
+  index: -1
+Rodney_armor_normal_light
+  rotate: true
+  xy: 2, 12
+  size: 118, 79
+  orig: 300, 300
+  offset: 158, 142
+  index: -1
+Rodney_body_damage
+  rotate: false
+  xy: 2, 132
+  size: 231, 270
+  orig: 300, 300
+  offset: 6, 19
+  index: -1
+Rodney_body_normal
+  rotate: false
+  xy: 235, 132
+  size: 200, 270
+  orig: 300, 300
+  offset: 37, 19
+  index: -1
+Rodney_eyes_damage
+  rotate: true
+  xy: 913, 45
+  size: 56, 38
+  orig: 300, 300
+  offset: 135, 154
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 669, 106
+  size: 57, 41
+  orig: 300, 300
+  offset: 135, 154
+  index: -1
+Rodney_fornt_damage
+  rotate: false
+  xy: 178, 21
+  size: 270, 109
+  orig: 300, 300
+  offset: 29, 25
+  index: -1
+Rodney_fornt_damage_light
+  rotate: false
+  xy: 450, 2
+  size: 217, 132
+  orig: 300, 300
+  offset: 83, 27
+  index: -1
+Rodney_fornt_normal
+  rotate: true
+  xy: 626, 149
+  size: 253, 176
+  orig: 300, 300
+  offset: 29, 30
+  index: -1
+Rodney_fornt_normal_light
+  rotate: false
+  xy: 804, 203
+  size: 156, 199
+  orig: 300, 300
+  offset: 144, 19
+  index: -1
+Rodney_ship_armor_damage
+  rotate: true
+  xy: 804, 103
+  size: 98, 152
+  orig: 300, 300
+  offset: 180, 129
+  index: -1
+Rodney_ship_armor_normal
+  rotate: true
+  xy: 737, 8
+  size: 75, 58
+  orig: 300, 300
+  offset: 183, 145
+  index: -1
+Rodney_ship_body_damage_light
+  rotate: false
+  xy: 437, 136
+  size: 187, 266
+  orig: 300, 300
+  offset: 95, 34
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 437, 136
+  size: 187, 266
+  orig: 300, 300
+  offset: 95, 34
+  index: -1
+beer
+  rotate: false
+  xy: 913, 8
+  size: 21, 35
+  orig: 300, 300
+  offset: 181, 99
+  index: -1
+beer_light
+  rotate: true
+  xy: 669, 12
+  size: 89, 66
+  orig: 300, 300
+  offset: 151, 85
+  index: -1

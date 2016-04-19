@@ -1,0 +1,48 @@
+
+Ship_girl_66.png
+size: 512,512
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_body_damage
+  rotate: false
+  xy: 2, 181
+  size: 251, 280
+  orig: 300, 300
+  offset: 11, 20
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 255, 288
+  size: 173, 253
+  orig: 300, 300
+  offset: 61, 20
+  index: -1
+Rodney_eyes_damage
+  rotate: false
+  xy: 255, 198
+  size: 59, 35
+  orig: 300, 300
+  offset: 138, 142
+  index: -1
+Rodney_eyes_normal
+  rotate: true
+  xy: 255, 235
+  size: 51, 43
+  orig: 300, 300
+  offset: 143, 141
+  index: -1
+Rodney_ship_body_damage_light
+  rotate: true
+  xy: 2, 13
+  size: 166, 284
+  orig: 300, 300
+  offset: 108, 9
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 316, 2
+  size: 166, 284
+  orig: 300, 300
+  offset: 108, 9
+  index: -1

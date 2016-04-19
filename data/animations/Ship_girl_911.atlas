@@ -1,0 +1,76 @@
+
+Ship_girl_911.png
+size: 1024,512
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_armor_normal_light
+  rotate: false
+  xy: 763, 291
+  size: 90, 68
+  orig: 300, 300
+  offset: 141, 85
+  index: -1
+Rodney_body_back_normal
+  rotate: false
+  xy: 263, 255
+  size: 241, 247
+  orig: 300, 300
+  offset: 32, 25
+  index: -1
+Rodney_body_back_normal_fluorescence
+  rotate: true
+  xy: 2, 2
+  size: 230, 244
+  orig: 300, 300
+  offset: 33, 27
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 763, 361
+  size: 141, 247
+  orig: 300, 300
+  offset: 66, 48
+  index: -1
+Rodney_body_normal_fluorescence
+  rotate: true
+  xy: 506, 231
+  size: 98, 244
+  orig: 300, 300
+  offset: 92, 48
+  index: -1
+Rodney_fornt_normal
+  rotate: true
+  xy: 938, 285
+  size: 74, 57
+  orig: 300, 300
+  offset: 48, 86
+  index: -1
+Rodney_fornt_normal_fluorescence
+  rotate: true
+  xy: 855, 285
+  size: 74, 81
+  orig: 300, 300
+  offset: 56, 87
+  index: -1
+Rodney_ship_armor_normal
+  rotate: false
+  xy: 752, 253
+  size: 57, 36
+  orig: 300, 300
+  offset: 144, 102
+  index: -1
+Rodney_ship_body_normal_back_light
+  rotate: false
+  xy: 2, 234
+  size: 259, 268
+  orig: 300, 300
+  offset: 41, 14
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: true
+  xy: 506, 331
+  size: 171, 255
+  orig: 300, 300
+  offset: 80, 45
+  index: -1

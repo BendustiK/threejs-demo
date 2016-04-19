@@ -1,0 +1,90 @@
+
+Ship_girl_996.png
+size: 1024,1024
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_armor_normal_light
+  rotate: false
+  xy: 443, 811
+  size: 291, 183
+  orig: 450, 397
+  offset: 154, 200
+  index: -1
+Rodney_body_back_normal
+  rotate: true
+  xy: 2, 98
+  size: 215, 211
+  orig: 450, 450
+  offset: 79, 37
+  index: -1
+Rodney_body_item_normal_Lfluorescence
+  rotate: false
+  xy: 2, 753
+  size: 439, 241
+  orig: 450, 397
+  offset: 0, 136
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 443, 647
+  size: 162, 214
+  orig: 450, 450
+  offset: 138, 175
+  index: -1
+Rodney_body_normal_fluorescence
+  rotate: true
+  xy: 218, 348
+  size: 221, 154
+  orig: 450, 397
+  offset: 36, 17
+  index: -1
+Rodney_body_up_normal
+  rotate: false
+  xy: 820, 715
+  size: 88, 82
+  orig: 450, 397
+  offset: 126, 128
+  index: -1
+Rodney_body_up_normal_light
+  rotate: false
+  xy: 659, 643
+  size: 159, 154
+  orig: 450, 397
+  offset: 125, 95
+  index: -1
+Rodney_hair_red
+  rotate: false
+  xy: 2, 2
+  size: 165, 94
+  orig: 165, 94
+  offset: 0, 0
+  index: -1
+Rodney_obai_red
+  rotate: false
+  xy: 955, 967
+  size: 47, 27
+  orig: 47, 27
+  offset: 0, 0
+  index: -1
+Rodney_ship_armor_normal
+  rotate: false
+  xy: 2, 571
+  size: 363, 180
+  orig: 450, 450
+  offset: 53, 234
+  index: -1
+Rodney_ship_body_normal_back_light
+  rotate: false
+  xy: 736, 799
+  size: 217, 195
+  orig: 450, 397
+  offset: 80, 6
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 2, 315
+  size: 214, 254
+  orig: 450, 450
+  offset: 139, 153
+  index: -1

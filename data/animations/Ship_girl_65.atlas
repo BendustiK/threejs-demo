@@ -1,0 +1,41 @@
+
+Ship_girl_65.png
+size: 1024,256
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_body_damage
+  rotate: true
+  xy: 2, 2
+  size: 221, 269
+  orig: 300, 300
+  offset: 37, 31
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 531, 73
+  size: 150, 252
+  orig: 300, 300
+  offset: 67, 37
+  index: -1
+Rodney_eyes_damage
+  rotate: false
+  xy: 273, 35
+  size: 61, 34
+  orig: 300, 300
+  offset: 126, 157
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 785, 184
+  size: 50, 39
+  orig: 300, 300
+  offset: 132, 156
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: true
+  xy: 273, 71
+  size: 152, 256
+  orig: 300, 300
+  offset: 102, 44
+  index: -1

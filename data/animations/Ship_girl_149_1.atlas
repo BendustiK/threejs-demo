@@ -1,0 +1,76 @@
+
+Ship_girl_149_1.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Rodney_body_damage
+  rotate: true
+  xy: 287, 115
+  size: 126, 260
+  orig: 300, 300
+  offset: 88, 22
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 549, 115
+  size: 126, 260
+  orig: 300, 300
+  offset: 88, 22
+  index: -1
+Rodney_eyes_damage
+  rotate: false
+  xy: 132, 15
+  size: 69, 47
+  orig: 300, 300
+  offset: 125, 158
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 505, 71
+  size: 69, 42
+  orig: 300, 300
+  offset: 125, 165
+  index: -1
+Rodney_fornt_normal
+  rotate: false
+  xy: 2, 2
+  size: 128, 60
+  orig: 300, 300
+  offset: 89, 79
+  index: -1
+Rodney_fornt_normal_light
+  rotate: false
+  xy: 287, 23
+  size: 116, 90
+  orig: 300, 300
+  offset: 145, 53
+  index: -1
+Rodney_ship_armor_damage
+  rotate: false
+  xy: 405, 19
+  size: 98, 94
+  orig: 300, 300
+  offset: 13, 73
+  index: -1
+Rodney_ship_armor_normal
+  rotate: true
+  xy: 203, 30
+  size: 32, 59
+  orig: 300, 300
+  offset: 79, 73
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: true
+  xy: 2, 64
+  size: 177, 283
+  orig: 300, 300
+  offset: 84, 6
+  index: -1
+hair
+  rotate: true
+  xy: 811, 115
+  size: 126, 178
+  orig: 126, 178
+  offset: 0, 0
+  index: -1

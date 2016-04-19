@@ -1,0 +1,230 @@
+
+Ship_girl_29_1.png
+size: 867,270
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Blue_normal_light
+  rotate: false
+  xy: 166, 104
+  size: 178, 164
+  orig: 178, 164
+  offset: 0, 0
+  index: -1
+Rodney_Butterfly_D_00
+  rotate: true
+  xy: 801, 151
+  size: 28, 23
+  orig: 300, 300
+  offset: 77, 54
+  index: -1
+Rodney_Butterfly_D_01
+  rotate: false
+  xy: 826, 40
+  size: 22, 24
+  orig: 300, 300
+  offset: 80, 55
+  index: -1
+Rodney_Butterfly_U_00
+  rotate: false
+  xy: 166, 2
+  size: 35, 29
+  orig: 300, 300
+  offset: 55, 81
+  index: -1
+Rodney_Butterfly_U_01
+  rotate: false
+  xy: 300, 74
+  size: 31, 28
+  orig: 300, 300
+  offset: 56, 83
+  index: -1
+Rodney_Flower_damage
+  rotate: true
+  xy: 826, 146
+  size: 33, 39
+  orig: 300, 300
+  offset: 145, 80
+  index: -1
+Rodney_Flower_damage_light
+  rotate: true
+  xy: 801, 181
+  size: 87, 64
+  orig: 300, 300
+  offset: 123, 72
+  index: -1
+Rodney_Flower_normal
+  rotate: true
+  xy: 814, 66
+  size: 35, 34
+  orig: 300, 300
+  offset: 145, 85
+  index: -1
+Rodney_Flower_normal_light
+  rotate: false
+  xy: 705, 102
+  size: 91, 65
+  orig: 300, 300
+  offset: 122, 73
+  index: -1
+Rodney_Ribbon_damage
+  rotate: false
+  xy: 203, 2
+  size: 25, 29
+  orig: 25, 29
+  offset: 0, 0
+  index: -1
+Rodney_Ribbon_normal
+  rotate: false
+  xy: 230, 2
+  size: 25, 29
+  orig: 25, 29
+  offset: 0, 0
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 346, 153
+  size: 115, 191
+  orig: 300, 300
+  offset: 99, 91
+  index: -1
+Rodney_eyes_damage
+  rotate: true
+  xy: 779, 48
+  size: 52, 33
+  orig: 300, 300
+  offset: 135, 159
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 114, 19
+  size: 50, 37
+  orig: 300, 300
+  offset: 136, 158
+  index: -1
+Rodney_hair_normal
+  rotate: true
+  xy: 539, 169
+  size: 99, 135
+  orig: 99, 135
+  offset: 0, 0
+  index: -1
+Rodney_leg_damage
+  rotate: false
+  xy: 731, 18
+  size: 46, 82
+  orig: 300, 300
+  offset: 133, 17
+  index: -1
+Rodney_leg_damage_light
+  rotate: false
+  xy: 486, 74
+  size: 105, 77
+  orig: 300, 300
+  offset: 116, 2
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 2, 58
+  size: 162, 210
+  orig: 300, 300
+  offset: 96, 90
+  index: -1
+Rodney_wedding_dress_D_normal
+  rotate: false
+  xy: 618, 23
+  size: 111, 58
+  orig: 300, 300
+  offset: 93, 14
+  index: -1
+Rodney_wedding_dress_D_normal_light
+  rotate: false
+  xy: 346, 74
+  size: 138, 77
+  orig: 300, 300
+  offset: 108, 0
+  index: -1
+Rodney_wedding_dress_M_damage
+  rotate: false
+  xy: 531, 9
+  size: 85, 63
+  orig: 300, 300
+  offset: 112, 49
+  index: -1
+Rodney_wedding_dress_M_damage_light
+  rotate: false
+  xy: 593, 83
+  size: 110, 84
+  orig: 300, 300
+  offset: 127, 33
+  index: -1
+Rodney_wedding_dress_M_normal
+  rotate: false
+  xy: 300, 2
+  size: 95, 70
+  orig: 300, 300
+  offset: 103, 42
+  index: -1
+Rodney_wedding_dress_M_normal_light
+  rotate: false
+  xy: 676, 169
+  size: 123, 99
+  orig: 300, 300
+  offset: 116, 20
+  index: -1
+Rodney_wedding_dress_Obai_damage
+  rotate: false
+  xy: 257, 13
+  size: 34, 18
+  orig: 34, 18
+  offset: 0, 0
+  index: -1
+Rodney_wedding_dress_Obai_normal
+  rotate: true
+  xy: 845, 110
+  size: 34, 18
+  orig: 34, 18
+  offset: 0, 0
+  index: -1
+Rodney_wedding_dress_R_D_damage
+  rotate: true
+  xy: 798, 103
+  size: 41, 45
+  orig: 41, 45
+  offset: 0, 0
+  index: -1
+Rodney_wedding_dress_R_D_normal
+  rotate: true
+  xy: 779, 2
+  size: 44, 45
+  orig: 44, 45
+  offset: 0, 0
+  index: -1
+Rodney_wedding_dress_R_damage
+  rotate: false
+  xy: 397, 2
+  size: 65, 70
+  orig: 65, 70
+  offset: 0, 0
+  index: -1
+Rodney_wedding_dress_R_normal
+  rotate: false
+  xy: 464, 2
+  size: 65, 70
+  orig: 65, 70
+  offset: 0, 0
+  index: -1
+Rodney_wedding_dress_U_normal
+  rotate: false
+  xy: 2, 14
+  size: 110, 42
+  orig: 300, 300
+  offset: 84, 234
+  index: -1
+Rodney_wedding_dress_U_normal_light
+  rotate: false
+  xy: 166, 33
+  size: 132, 69
+  orig: 300, 300
+  offset: 86, 231
+  index: -1

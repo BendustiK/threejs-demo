@@ -1,0 +1,48 @@
+
+Ship_girl_81.png
+size: 512,512
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_body_damage
+  rotate: false
+  xy: 2, 201
+  size: 225, 286
+  orig: 300, 300
+  offset: 27, 13
+  index: -1
+Rodney_body_normal
+  rotate: false
+  xy: 280, 33
+  size: 199, 262
+  orig: 300, 300
+  offset: 27, 13
+  index: -1
+Rodney_eyes_damage
+  rotate: false
+  xy: 229, 256
+  size: 42, 39
+  orig: 300, 300
+  offset: 125, 156
+  index: -1
+Rodney_eyes_normal
+  rotate: true
+  xy: 229, 226
+  size: 28, 42
+  orig: 300, 300
+  offset: 133, 155
+  index: -1
+Rodney_ship_body_damage_light
+  rotate: true
+  xy: 229, 297
+  size: 190, 276
+  orig: 300, 300
+  offset: 69, 17
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: true
+  xy: 2, 2
+  size: 197, 276
+  orig: 300, 300
+  offset: 62, 17
+  index: -1

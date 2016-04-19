@@ -1,0 +1,146 @@
+
+Ship_girl_28_1.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Rodney_body_damage
+  rotate: false
+  xy: 682, 105
+  size: 125, 147
+  orig: 300, 300
+  offset: 57, 11
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 809, 127
+  size: 125, 147
+  orig: 300, 300
+  offset: 57, 11
+  index: -1
+Rodney_eyes_damage
+  rotate: true
+  xy: 163, 8
+  size: 47, 39
+  orig: 300, 300
+  offset: 132, 149
+  index: -1
+Rodney_eyes_normal
+  rotate: true
+  xy: 204, 7
+  size: 48, 38
+  orig: 300, 300
+  offset: 132, 152
+  index: -1
+Rodney_fornt_damage
+  rotate: true
+  xy: 142, 57
+  size: 195, 138
+  orig: 195, 138
+  offset: 0, 0
+  index: -1
+Rodney_fornt_normal
+  rotate: true
+  xy: 2, 56
+  size: 196, 138
+  orig: 196, 138
+  offset: 0, 0
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 414, 92
+  size: 135, 160
+  orig: 300, 300
+  offset: 87, 0
+  index: -1
+back_L
+  rotate: false
+  xy: 122, 2
+  size: 39, 52
+  orig: 300, 300
+  offset: 98, 66
+  index: -1
+back_L_damage
+  rotate: true
+  xy: 318, 2
+  size: 66, 77
+  orig: 300, 300
+  offset: 71, 66
+  index: -1
+back_R_UP
+  rotate: false
+  xy: 2, 26
+  size: 76, 28
+  orig: 76, 28
+  offset: 0, 0
+  index: -1
+back_R_down
+  rotate: true
+  xy: 397, 22
+  size: 46, 35
+  orig: 300, 300
+  offset: 157, 50
+  index: -1
+bird
+  rotate: true
+  xy: 434, 57
+  size: 33, 30
+  orig: 300, 300
+  offset: 220, 168
+  index: -1
+bird_L
+  rotate: true
+  xy: 80, 34
+  size: 20, 13
+  orig: 300, 300
+  offset: 213, 184
+  index: -1
+bird_R
+  rotate: true
+  xy: 95, 40
+  size: 14, 8
+  orig: 300, 300
+  offset: 246, 177
+  index: -1
+ear_L
+  rotate: true
+  xy: 2, 2
+  size: 22, 58
+  orig: 22, 58
+  offset: 0, 0
+  index: -1
+ear_L_damage
+  rotate: true
+  xy: 62, 2
+  size: 22, 58
+  orig: 22, 58
+  offset: 0, 0
+  index: -1
+ear_R
+  rotate: false
+  xy: 244, 7
+  size: 35, 48
+  orig: 35, 48
+  offset: 0, 0
+  index: -1
+ear_R_damage
+  rotate: false
+  xy: 281, 7
+  size: 35, 48
+  orig: 35, 48
+  offset: 0, 0
+  index: -1
+hand
+  rotate: true
+  xy: 551, 107
+  size: 145, 129
+  orig: 300, 300
+  offset: 62, 135
+  index: -1
+hand_light
+  rotate: false
+  xy: 282, 70
+  size: 130, 182
+  orig: 300, 300
+  offset: 122, 86
+  index: -1

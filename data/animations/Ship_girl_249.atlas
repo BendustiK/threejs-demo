@@ -1,0 +1,118 @@
+
+Ship_girl_249.png
+size: 1024,256
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_armor_damage_light
+  rotate: true
+  xy: 268, 18
+  size: 107, 165
+  orig: 300, 300
+  offset: 141, 87
+  index: -1
+Rodney_armor_normal_light
+  rotate: true
+  xy: 701, 140
+  size: 111, 170
+  orig: 300, 300
+  offset: 140, 82
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 265, 127
+  size: 124, 250
+  orig: 300, 300
+  offset: 84, 13
+  index: -1
+Rodney_eyes_damage
+  rotate: true
+  xy: 631, 2
+  size: 56, 43
+  orig: 300, 300
+  offset: 129, 158
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 676, 21
+  size: 50, 39
+  orig: 300, 300
+  offset: 136, 165
+  index: -1
+Rodney_fornt_damage
+  rotate: false
+  xy: 804, 76
+  size: 39, 62
+  orig: 300, 300
+  offset: 96, 59
+  index: -1
+Rodney_fornt_damage_light
+  rotate: false
+  xy: 667, 62
+  size: 93, 76
+  orig: 300, 300
+  offset: 70, 46
+  index: -1
+Rodney_fornt_normal
+  rotate: false
+  xy: 762, 76
+  size: 40, 62
+  orig: 300, 300
+  offset: 97, 59
+  index: -1
+Rodney_fornt_normal_light
+  rotate: false
+  xy: 568, 60
+  size: 97, 83
+  orig: 300, 300
+  offset: 69, 43
+  index: -1
+Rodney_ship_armor_damage
+  rotate: false
+  xy: 517, 145
+  size: 182, 106
+  orig: 300, 300
+  offset: 54, 82
+  index: -1
+Rodney_ship_armor_normal
+  rotate: false
+  xy: 568, 6
+  size: 61, 52
+  orig: 300, 300
+  offset: 159, 82
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: true
+  xy: 2, 87
+  size: 164, 261
+  orig: 300, 300
+  offset: 88, 15
+  index: -1
+Rodney_top_damage
+  rotate: false
+  xy: 2, 3
+  size: 131, 82
+  orig: 300, 300
+  offset: 88, 196
+  index: -1
+Rodney_top_damage_light
+  rotate: false
+  xy: 873, 128
+  size: 131, 123
+  orig: 300, 300
+  offset: 125, 174
+  index: -1
+Rodney_top_normal
+  rotate: false
+  xy: 135, 3
+  size: 131, 82
+  orig: 300, 300
+  offset: 88, 196
+  index: -1
+Rodney_top_normal_light
+  rotate: false
+  xy: 435, 2
+  size: 131, 123
+  orig: 300, 300
+  offset: 125, 174
+  index: -1

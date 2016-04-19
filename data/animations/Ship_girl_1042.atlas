@@ -1,0 +1,111 @@
+
+Ship_girl_1042.png
+size: 887,333
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_body_damage
+  rotate: true
+  xy: 526, 24
+  size: 144, 257
+  orig: 300, 300
+  offset: 70, 17
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 526, 170
+  size: 161, 257
+  orig: 300, 300
+  offset: 70, 17
+  index: -1
+Rodney_eyes_damage
+  rotate: false
+  xy: 247, 16
+  size: 54, 38
+  orig: 300, 300
+  offset: 135, 170
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 191, 15
+  size: 54, 39
+  orig: 300, 300
+  offset: 135, 170
+  index: -1
+Rodney_fornt_damage
+  rotate: false
+  xy: 2, 2
+  size: 187, 147
+  orig: 300, 300
+  offset: 38, 46
+  index: -1
+Rodney_fornt_damage_light
+  rotate: false
+  xy: 191, 56
+  size: 115, 93
+  orig: 300, 300
+  offset: 61, 85
+  index: -1
+Rodney_fornt_normal
+  rotate: false
+  xy: 308, 4
+  size: 72, 65
+  orig: 300, 300
+  offset: 70, 101
+  index: -1
+Rodney_fornt_normal_light
+  rotate: false
+  xy: 308, 71
+  size: 111, 78
+  orig: 300, 300
+  offset: 61, 85
+  index: -1
+Rodney_ship_body_damage_light
+  rotate: true
+  xy: 267, 151
+  size: 180, 257
+  orig: 300, 300
+  offset: 79, 25
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: true
+  xy: 2, 151
+  size: 180, 263
+  orig: 300, 300
+  offset: 79, 19
+  index: -1
+glass
+  rotate: true
+  xy: 382, 12
+  size: 57, 21
+  orig: 300, 300
+  offset: 132, 178
+  index: -1
+hair
+  rotate: true
+  xy: 785, 7
+  size: 91, 96
+  orig: 300, 300
+  offset: 31, 100
+  index: -1
+hair2
+  rotate: false
+  xy: 421, 66
+  size: 73, 83
+  orig: 300, 300
+  offset: 174, 99
+  index: -1
+hair2_light
+  rotate: false
+  xy: 785, 227
+  size: 100, 104
+  orig: 300, 300
+  offset: 168, 84
+  index: -1
+hair_light
+  rotate: true
+  xy: 785, 100
+  size: 125, 97
+  orig: 300, 300
+  offset: 16, 93
+  index: -1

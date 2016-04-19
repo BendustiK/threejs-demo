@@ -1,0 +1,139 @@
+
+Ship_girl_934.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Rodney_body_back_normal
+  rotate: true
+  xy: 812, 163
+  size: 87, 127
+  orig: 300, 300
+  offset: 43, 90
+  index: -1
+Rodney_body_down_normal
+  rotate: false
+  xy: 378, 119
+  size: 144, 131
+  orig: 300, 300
+  offset: 96, 65
+  index: -1
+Rodney_body_down_normal_light
+  rotate: false
+  xy: 2, 31
+  size: 187, 106
+  orig: 300, 300
+  offset: 95, 60
+  index: -1
+Rodney_body_normal
+  rotate: false
+  xy: 524, 134
+  size: 135, 116
+  orig: 300, 300
+  offset: 119, 109
+  index: -1
+Rodney_body_normal_fluorescence
+  rotate: false
+  xy: 661, 86
+  size: 76, 69
+  orig: 300, 300
+  offset: 129, 141
+  index: -1
+Rodney_body_up_normal
+  rotate: false
+  xy: 661, 157
+  size: 149, 93
+  orig: 300, 300
+  offset: 100, 183
+  index: -1
+Rodney_body_up_normal_light
+  rotate: false
+  xy: 2, 139
+  size: 226, 111
+  orig: 300, 300
+  offset: 67, 189
+  index: -1
+Rodney_fornt_gun_normal
+  rotate: false
+  xy: 374, 12
+  size: 59, 42
+  orig: 300, 300
+  offset: 127, 239
+  index: -1
+Rodney_fornt_gun_normal_fluorescence
+  rotate: true
+  xy: 301, 14
+  size: 113, 71
+  orig: 300, 300
+  offset: 99, 225
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 230, 129
+  size: 146, 121
+  orig: 300, 300
+  offset: 153, 111
+  index: -1
+boom_down
+  rotate: true
+  xy: 57, 10
+  size: 19, 42
+  orig: 300, 300
+  offset: 106, 35
+  index: -1
+boom_up
+  rotate: false
+  xy: 739, 96
+  size: 49, 18
+  orig: 300, 300
+  offset: 146, 62
+  index: -1
+down_bahand
+  rotate: true
+  xy: 941, 141
+  size: 109, 78
+  orig: 300, 300
+  offset: 130, 105
+  index: -1
+fish
+  rotate: false
+  xy: 191, 38
+  size: 108, 89
+  orig: 300, 300
+  offset: 45, 50
+  index: -1
+fish_last
+  rotate: true
+  xy: 488, 75
+  size: 42, 39
+  orig: 300, 300
+  offset: 136, 18
+  index: -1
+flay_R
+  rotate: false
+  xy: 739, 116
+  size: 60, 39
+  orig: 300, 300
+  offset: 44, 109
+  index: -1
+flay_up
+  rotate: true
+  xy: 435, 20
+  size: 34, 48
+  orig: 300, 300
+  offset: 42, 198
+  index: -1
+tongue
+  rotate: false
+  xy: 2, 2
+  size: 53, 27
+  orig: 53, 27
+  offset: 0, 0
+  index: -1
+up_behand
+  rotate: false
+  xy: 374, 56
+  size: 112, 61
+  orig: 300, 300
+  offset: 138, 181
+  index: -1

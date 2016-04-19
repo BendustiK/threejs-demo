@@ -1,0 +1,118 @@
+
+Ship_girl_233.png
+size: 1024,512
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_Arrow_damage
+  rotate: false
+  xy: 460, 141
+  size: 27, 80
+  orig: 300, 300
+  offset: 112, 31
+  index: -1
+Rodney_Arrow_damage_light
+  rotate: false
+  xy: 358, 109
+  size: 100, 100
+  orig: 300, 300
+  offset: 81, 21
+  index: -1
+Rodney_armor_damage_light
+  rotate: false
+  xy: 2, 2
+  size: 135, 105
+  orig: 300, 300
+  offset: 153, 21
+  index: -1
+Rodney_armor_normal_light
+  rotate: false
+  xy: 2, 109
+  size: 142, 100
+  orig: 300, 300
+  offset: 157, 43
+  index: -1
+Rodney_body_damage
+  rotate: false
+  xy: 430, 223
+  size: 217, 283
+  orig: 300, 300
+  offset: 49, 12
+  index: -1
+Rodney_body_normal
+  rotate: false
+  xy: 649, 223
+  size: 217, 283
+  orig: 300, 300
+  offset: 49, 12
+  index: -1
+Rodney_eyes_damage
+  rotate: false
+  xy: 489, 186
+  size: 59, 35
+  orig: 300, 300
+  offset: 138, 154
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 954, 254
+  size: 55, 40
+  orig: 300, 300
+  offset: 140, 156
+  index: -1
+Rodney_ship_armor_damage
+  rotate: false
+  xy: 868, 394
+  size: 154, 112
+  orig: 300, 300
+  offset: 111, 38
+  index: -1
+Rodney_ship_armor_normal
+  rotate: true
+  xy: 868, 235
+  size: 157, 84
+  orig: 300, 300
+  offset: 111, 65
+  index: -1
+Rodney_ship_body_damage_light
+  rotate: false
+  xy: 2, 211
+  size: 212, 295
+  orig: 300, 300
+  offset: 85, 2
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 216, 211
+  size: 212, 295
+  orig: 300, 300
+  offset: 85, 2
+  index: -1
+Rodney_top_damage
+  rotate: true
+  xy: 146, 109
+  size: 100, 105
+  orig: 300, 300
+  offset: 35, 13
+  index: -1
+Rodney_top_damage_light
+  rotate: true
+  xy: 253, 110
+  size: 99, 103
+  orig: 300, 300
+  offset: 71, 3
+  index: -1
+Rodney_top_normal
+  rotate: false
+  xy: 954, 296
+  size: 59, 96
+  orig: 300, 300
+  offset: 71, 53
+  index: -1
+Rodney_top_normal_light
+  rotate: false
+  xy: 139, 14
+  size: 111, 93
+  orig: 300, 300
+  offset: 60, 43
+  index: -1

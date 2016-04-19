@@ -1,0 +1,132 @@
+
+Ship_girl_196.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Rodney_armor_normal_light
+  rotate: false
+  xy: 318, 18
+  size: 99, 89
+  orig: 300, 300
+  offset: 141, 79
+  index: -1
+Rodney_armor_normal_light2
+  rotate: false
+  xy: 419, 18
+  size: 99, 89
+  orig: 300, 300
+  offset: 141, 79
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 702, 142
+  size: 107, 243
+  orig: 300, 300
+  offset: 109, 33
+  index: -1
+Rodney_eyes_damage
+  rotate: false
+  xy: 520, 21
+  size: 93, 86
+  orig: 300, 300
+  offset: 134, 163
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 672, 53
+  size: 48, 40
+  orig: 300, 300
+  offset: 143, 163
+  index: -1
+Rodney_fornt_damage
+  rotate: false
+  xy: 853, 110
+  size: 72, 30
+  orig: 300, 300
+  offset: 111, 103
+  index: -1
+Rodney_fornt_damage_light
+  rotate: true
+  xy: 947, 152
+  size: 97, 56
+  orig: 300, 300
+  offset: 106, 101
+  index: -1
+Rodney_fornt_damage_light2
+  rotate: false
+  xy: 2, 2
+  size: 97, 56
+  orig: 300, 300
+  offset: 106, 101
+  index: -1
+Rodney_fornt_normal
+  rotate: false
+  xy: 780, 105
+  size: 71, 35
+  orig: 300, 300
+  offset: 111, 103
+  index: -1
+Rodney_fornt_normal_light
+  rotate: false
+  xy: 101, 3
+  size: 93, 55
+  orig: 300, 300
+  offset: 106, 103
+  index: -1
+Rodney_fornt_normal_light2
+  rotate: true
+  xy: 615, 14
+  size: 93, 55
+  orig: 300, 300
+  offset: 106, 103
+  index: -1
+Rodney_ship_armor_normal
+  rotate: false
+  xy: 208, 2
+  size: 108, 105
+  orig: 300, 300
+  offset: 90, 46
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: true
+  xy: 208, 109
+  size: 140, 245
+  orig: 300, 300
+  offset: 122, 25
+  index: -1
+Rodney_ship_body_normal_light2
+  rotate: true
+  xy: 455, 109
+  size: 140, 245
+  orig: 300, 300
+  offset: 122, 25
+  index: -1
+hair
+  rotate: false
+  xy: 2, 60
+  size: 204, 189
+  orig: 204, 189
+  offset: 0, 0
+  index: -1
+hand_L
+  rotate: true
+  xy: 672, 20
+  size: 31, 38
+  orig: 300, 300
+  offset: 114, 116
+  index: -1
+hand_R
+  rotate: false
+  xy: 722, 52
+  size: 44, 41
+  orig: 300, 300
+  offset: 131, 113
+  index: -1
+leg
+  rotate: true
+  xy: 702, 95
+  size: 45, 76
+  orig: 300, 300
+  offset: 107, 29
+  index: -1

@@ -1,0 +1,69 @@
+
+Ship_girl_253.png
+size: 1024,512
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_armor_damage_light
+  rotate: false
+  xy: 2, 98
+  size: 227, 94
+  orig: 360, 360
+  offset: 81, 36
+  index: -1
+Rodney_armor_normal_light
+  rotate: false
+  xy: 2, 2
+  size: 231, 94
+  orig: 360, 360
+  offset: 78, 36
+  index: -1
+Rodney_body_damage
+  rotate: true
+  xy: 710, 345
+  size: 147, 287
+  orig: 360, 360
+  offset: 111, 9
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 406, 169
+  size: 147, 287
+  orig: 360, 360
+  offset: 111, 9
+  index: -1
+Rodney_eyes_damage
+  rotate: false
+  xy: 231, 146
+  size: 63, 48
+  orig: 360, 360
+  offset: 159, 168
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 296, 146
+  size: 63, 48
+  orig: 360, 360
+  offset: 159, 168
+  index: -1
+Rodney_ship_armor_damage
+  rotate: false
+  xy: 2, 194
+  size: 220, 298
+  orig: 360, 360
+  offset: 75, 61
+  index: -1
+Rodney_ship_armor_normal
+  rotate: false
+  xy: 224, 196
+  size: 180, 296
+  orig: 360, 360
+  offset: 95, 61
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: true
+  xy: 406, 318
+  size: 174, 302
+  orig: 360, 360
+  offset: 128, 1
+  index: -1

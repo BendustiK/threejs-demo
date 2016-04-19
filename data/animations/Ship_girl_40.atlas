@@ -1,0 +1,62 @@
+
+Ship_girl_40.png
+size: 1024,256
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_body_damage
+  rotate: true
+  xy: 2, 11
+  size: 211, 263
+  orig: 300, 300
+  offset: 59, 25
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 545, 65
+  size: 157, 263
+  orig: 300, 300
+  offset: 59, 25
+  index: -1
+Rodney_eyes_damage
+  rotate: false
+  xy: 407, 2
+  size: 80, 65
+  orig: 300, 300
+  offset: 118, 157
+  index: -1
+Rodney_eyes_normal
+  rotate: true
+  xy: 966, 65
+  size: 71, 51
+  orig: 300, 300
+  offset: 123, 158
+  index: -1
+Rodney_fornt_normal
+  rotate: false
+  xy: 966, 138
+  size: 51, 84
+  orig: 300, 300
+  offset: 94, 95
+  index: -1
+Rodney_fornt_normal_second
+  rotate: true
+  xy: 267, 27
+  size: 40, 138
+  orig: 300, 300
+  offset: 65, 144
+  index: -1
+Rodney_ship_armor_normal
+  rotate: false
+  xy: 810, 6
+  size: 154, 216
+  orig: 154, 216
+  offset: 0, 0
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: true
+  xy: 267, 69
+  size: 153, 276
+  orig: 300, 300
+  offset: 108, 15
+  index: -1

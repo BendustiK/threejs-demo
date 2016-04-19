@@ -1,0 +1,76 @@
+
+Ship_girl_158.png
+size: 1024,512
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_body_damage
+  rotate: false
+  xy: 2, 131
+  size: 178, 300
+  orig: 300, 300
+  offset: 58, 0
+  index: -1
+Rodney_body_normal
+  rotate: false
+  xy: 560, 163
+  size: 178, 268
+  orig: 300, 300
+  offset: 61, 16
+  index: -1
+Rodney_eyes_damage
+  rotate: false
+  xy: 69, 92
+  size: 63, 37
+  orig: 300, 300
+  offset: 126, 136
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 2, 2
+  size: 57, 45
+  orig: 300, 300
+  offset: 129, 134
+  index: -1
+Rodney_head_L
+  rotate: false
+  xy: 2, 49
+  size: 65, 80
+  orig: 300, 300
+  offset: 200, 187
+  index: -1
+Rodney_head_R
+  rotate: false
+  xy: 740, 355
+  size: 50, 76
+  orig: 300, 300
+  offset: 63, 209
+  index: -1
+Rodney_ship_body_damage_light
+  rotate: false
+  xy: 182, 147
+  size: 187, 284
+  orig: 300, 300
+  offset: 89, 0
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 371, 147
+  size: 187, 284
+  orig: 300, 300
+  offset: 89, 0
+  index: -1
+Rodney_tail_path_1
+  rotate: true
+  xy: 740, 279
+  size: 74, 15
+  orig: 74, 18
+  offset: 0, 0
+  index: -1
+Rodney_tail_path_2
+  rotate: false
+  xy: 792, 385
+  size: 40, 46
+  orig: 300, 300
+  offset: 18, 19
+  index: -1

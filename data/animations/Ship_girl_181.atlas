@@ -1,0 +1,83 @@
+
+Ship_girl_181.png
+size: 357,528
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rodney_body_damage
+  rotate: false
+  xy: 2, 256
+  size: 155, 270
+  orig: 300, 300
+  offset: 62, 29
+  index: -1
+Rodney_body_normal
+  rotate: false
+  xy: 159, 266
+  size: 155, 260
+  orig: 300, 300
+  offset: 62, 29
+  index: -1
+Rodney_eyes_damage
+  rotate: true
+  xy: 316, 321
+  size: 50, 39
+  orig: 300, 300
+  offset: 123, 156
+  index: -1
+Rodney_eyes_normal
+  rotate: true
+  xy: 316, 269
+  size: 50, 37
+  orig: 300, 300
+  offset: 124, 158
+  index: -1
+Rodney_fornt_damage
+  rotate: true
+  xy: 161, 100
+  size: 164, 108
+  orig: 300, 300
+  offset: 60, 70
+  index: -1
+Rodney_fornt_damage_light
+  rotate: true
+  xy: 278, 2
+  size: 127, 61
+  orig: 300, 300
+  offset: 68, 72
+  index: -1
+Rodney_fornt_normal
+  rotate: false
+  xy: 161, 3
+  size: 115, 95
+  orig: 300, 300
+  offset: 79, 70
+  index: -1
+Rodney_fornt_normal_light
+  rotate: true
+  xy: 271, 131
+  size: 133, 61
+  orig: 300, 300
+  offset: 69, 72
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 2, 6
+  size: 157, 248
+  orig: 300, 300
+  offset: 98, 22
+  index: -1
+glass
+  rotate: true
+  xy: 316, 450
+  size: 76, 38
+  orig: 300, 300
+  offset: 110, 163
+  index: -1
+glass_damage
+  rotate: true
+  xy: 316, 373
+  size: 75, 36
+  orig: 300, 300
+  offset: 111, 163
+  index: -1

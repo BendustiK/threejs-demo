@@ -1,1 +1,3 @@
-# warshipgirl-animation
+# Warshipgirl-Animation
+
+使用Three.js制作
