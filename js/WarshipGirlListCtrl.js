@@ -1,6 +1,6 @@
 angular.module('warshipgirls', []).controller('WarshipGirlListCtrl', ["$http", function ($http) {
 	var ctrl = this;
-	var skeletonNamePrefix = "Ship_Girl_";
+	var skeletonNamePrefix = "Ship_girl_";
 	var scene, camera, renderer;
 	var geometry, material, mesh;
 	var anim;
