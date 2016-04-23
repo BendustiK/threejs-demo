@@ -43,9 +43,6 @@ angular.module('warshipgirls', []).controller('WarshipGirlListCtrl', ["$http", "
 
 
 	ctrl.init = function() {
-		console.log($(window).width());
-		console.log($(document).width());
-		console.log($(document.body).width());
 		scene = new THREE.Scene();
 		camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 1000);
 
