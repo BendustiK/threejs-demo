@@ -1,4 +1,4 @@
-angular.module('warshipgirls', []).controller('WarshipGirlListCtrl', ["$http", function ($http) {
+angular.module('warshipgirls', []).controller('WarshipGirlListCtrl', ["$http", "$scope", function ($http, $scope) {
 	var ctrl = this;
 	var skeletonNamePrefix = "Ship_girl_";
 	var scene, camera, renderer;
@@ -106,14 +106,16 @@ angular.module('warshipgirls', []).controller('WarshipGirlListCtrl', ["$http", f
 					ctrl.data.skins.push(skin);
 				}
 			});
-			ctrl.data.selectedSkin = ctrl.data.skins[0];
-
 			_.each(anim.skeleton.data.animations, function(anim){
 				if (anim.name != "Antiaircraft") {
 					ctrl.data.animations.push(anim);
 				}
 			});
-			ctrl.data.selectedAnimation = ctrl.data.skins[0];
+
+			$scope.$apply(function(){
+				ctrl.data.selectedAnimation = ctrl.data.animations[0];
+				ctrl.data.selectedSkin = ctrl.data.skins[0];
+			});
 
 			var canvas = renderer.domElement;
 

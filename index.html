@@ -13,7 +13,8 @@
 <body ng-controller="WarshipGirlListCtrl as ctrl">
 
 <div class="controls">
-  <select ng-model="ctrl.data.shipCard" ng-options="shipCard as ctrl.getShipTitle(shipCard) for shipCard in ctrl.meta.warshipgirls.shipCard" ng-change="ctrl.selectShip()"></select>
+  <select ng-model="ctrl.data.shipCard" ng-options="shipCard as ctrl.getShipTitle(shipCard) for shipCard in ctrl.meta.warshipgirls.shipCard" ng-change="ctrl.selectShip()">
+  </select>
   <select ng-model="ctrl.data.selectedSkin" ng-options="skinType.name for skinType in ctrl.data.skins" ng-change="ctrl.selectSkin()"></select>
   <select ng-model="ctrl.data.selectedAnimation" ng-options="aniType.name for aniType in ctrl.data.animations" ng-change="ctrl.selectAnimation()"></select>
 </div>
