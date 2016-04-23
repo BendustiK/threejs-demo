@@ -43,8 +43,11 @@ angular.module('warshipgirls', []).controller('WarshipGirlListCtrl', ["$http", "
 
 
 	ctrl.init = function() {
+		console.log($(window).width());
+		console.log($(document).width());
+		console.log($(document.body).width());
 		scene = new THREE.Scene();
-		camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 3000);
+		camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 1000);
 
 		camera.position.y = 150;
 		camera.position.z = 400;
@@ -56,9 +59,12 @@ angular.module('warshipgirls', []).controller('WarshipGirlListCtrl', ["$http", "
 		scene.add(mesh);
 
 		renderer = new THREE.WebGLRenderer();
-		renderer.setSize(window.innerWidth / 1.5, window.innerHeight / 1.5);
+		renderer.setSize(window.innerWidth, window.innerHeight - $("#control-div").height());
 		renderer.setClearColor( 0x000000, 0);
 		document.body.appendChild(renderer.domElement);
+
+		ctrl.render();
+
 	}
 
 	ctrl.animate = function() {
@@ -125,6 +131,12 @@ angular.module('warshipgirls', []).controller('WarshipGirlListCtrl', ["$http", "
 		});
 
 		mesh.add(anim);
+	}
+
+	ctrl.render = function() {
+		requestAnimationFrame( ctrl.render );
+		renderer.setSize(window.innerWidth, window.innerHeight - $("#control-div").height());
+		renderer.render( scene, camera );
 	}
 
 	ctrl.initData();
