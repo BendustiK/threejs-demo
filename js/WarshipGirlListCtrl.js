@@ -56,7 +56,7 @@ angular.module('warshipgirls', []).controller('WarshipGirlListCtrl', ["$http", "
 		scene.add(mesh);
 
 		renderer = new THREE.WebGLRenderer();
-		renderer.setSize(window.innerWidth, window.innerHeight - $("#control-div").height());
+		renderer.setSize(window.innerWidth, window.innerHeight - document.getElementById("control-div").clientHeight);
 		renderer.setClearColor( 0x000000, 0);
 		document.body.appendChild(renderer.domElement);
 
@@ -132,7 +132,7 @@ angular.module('warshipgirls', []).controller('WarshipGirlListCtrl', ["$http", "
 
 	ctrl.render = function() {
 		requestAnimationFrame( ctrl.render );
-		renderer.setSize(window.innerWidth, window.innerHeight - $("#control-div").height());
+		renderer.setSize(window.innerWidth, window.innerHeight - document.getElementById("control-div").clientHeight);
 		renderer.render( scene, camera );
 	}
 
