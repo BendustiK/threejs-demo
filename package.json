@@ -1,0 +1,10 @@
+{
+  "name": "WarshipGirls-Animations",
+  "version": "1.0.1",
+  "description": "Animations for WarshipGirls",
+  "main": "main.js",
+  "author": "No.Mercury",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.0"
+  }
+}

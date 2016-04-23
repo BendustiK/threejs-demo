@@ -104,11 +104,18 @@ angular.module('warshipgirls', []).controller('WarshipGirlListCtrl', ["$http", "
 			ctrl.data.skins = [];
 			ctrl.data.animations = [];
 
-			_.each(anim.skeleton.data.skins, function(skin){
-				if (skin.name != "default") {
+			if (anim.skeleton.data.skins.length > 1) {
+				_.each(anim.skeleton.data.skins, function(skin){
+					if (skin.name != "default") {
+						ctrl.data.skins.push(skin);
+					}
+				});
+
+			} else {
+				_.each(anim.skeleton.data.skins, function(skin){
 					ctrl.data.skins.push(skin);
-				}
-			});
+				});
+			}
 			_.each(anim.skeleton.data.animations, function(anim){
 				if (anim.name != "Antiaircraft") {
 					ctrl.data.animations.push(anim);
