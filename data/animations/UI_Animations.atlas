@@ -1,0 +1,307 @@
+
+UI_Animations.png
+size: 1024,512
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Bone_point_L
+  rotate: false
+  xy: 261, 195
+  size: 18, 18
+  orig: 20, 20
+  offset: 1, 1
+  index: -1
+Bone_point_R
+  rotate: false
+  xy: 131, 95
+  size: 18, 18
+  orig: 20, 20
+  offset: 1, 1
+  index: -1
+Bottom_bracket_L
+  rotate: true
+  xy: 939, 387
+  size: 69, 48
+  orig: 71, 50
+  offset: 1, 1
+  index: -1
+Bottom_bracket_R
+  rotate: true
+  xy: 231, 107
+  size: 71, 48
+  orig: 73, 50
+  offset: 1, 1
+  index: -1
+Buff/Buff_picture_00
+  rotate: false
+  xy: 579, 320
+  size: 72, 32
+  orig: 74, 34
+  offset: 1, 1
+  index: -1
+Buff/Buff_picture_01
+  rotate: true
+  xy: 447, 232
+  size: 80, 35
+  orig: 82, 37
+  offset: 1, 1
+  index: -1
+Buff/Buff_picture_02
+  rotate: true
+  xy: 131, 115
+  size: 92, 34
+  orig: 94, 36
+  offset: 1, 1
+  index: -1
+Buff/Buff_picture_03
+  rotate: false
+  xy: 690, 369
+  size: 91, 33
+  orig: 93, 35
+  offset: 1, 1
+  index: -1
+Buff/Buff_picture_04
+  rotate: false
+  xy: 783, 365
+  size: 92, 33
+  orig: 94, 35
+  offset: 1, 1
+  index: -1
+Buff/Buff_picture_05
+  rotate: false
+  xy: 167, 180
+  size: 92, 33
+  orig: 94, 35
+  offset: 1, 1
+  index: -1
+Buff/Buff_picture_06
+  rotate: false
+  xy: 294, 196
+  size: 79, 35
+  orig: 81, 37
+  offset: 1, 1
+  index: -1
+Buff/Buff_picture_07
+  rotate: false
+  xy: 375, 201
+  size: 64, 35
+  orig: 66, 37
+  offset: 1, 1
+  index: -1
+Buff/Buff_picture_08
+  rotate: true
+  xy: 989, 370
+  size: 86, 33
+  orig: 98, 41
+  offset: 5, 3
+  index: -1
+Chute
+  rotate: false
+  xy: 2, 469
+  size: 498, 34
+  orig: 500, 36
+  offset: 1, 1
+  index: -1
+Complex_structure_D_L
+  rotate: false
+  xy: 484, 270
+  size: 77, 43
+  orig: 79, 45
+  offset: 1, 1
+  index: -1
+Complex_structure_D_R
+  rotate: false
+  xy: 484, 225
+  size: 77, 43
+  orig: 79, 45
+  offset: 1, 1
+  index: -1
+Complex_structure_L_L
+  rotate: false
+  xy: 380, 314
+  size: 99, 153
+  orig: 101, 155
+  offset: 1, 1
+  index: -1
+Complex_structure_L_R
+  rotate: true
+  xy: 481, 354
+  size: 98, 153
+  orig: 100, 155
+  offset: 1, 1
+  index: -1
+Connect_tripod_L
+  rotate: false
+  xy: 600, 271
+  size: 47, 47
+  orig: 49, 49
+  offset: 1, 1
+  index: -1
+Connect_tripod_R
+  rotate: false
+  xy: 600, 222
+  size: 47, 47
+  orig: 49, 49
+  offset: 1, 1
+  index: -1
+Floor
+  rotate: false
+  xy: 502, 454
+  size: 170, 49
+  orig: 172, 51
+  offset: 1, 1
+  index: -1
+Formation_disc_L
+  rotate: false
+  xy: 2, 339
+  size: 161, 128
+  orig: 163, 130
+  offset: 1, 1
+  index: -1
+Formation_disc_R
+  rotate: false
+  xy: 2, 209
+  size: 161, 128
+  orig: 163, 130
+  offset: 1, 1
+  index: -1
+Formation_explain_floor_L
+  rotate: false
+  xy: 2, 2
+  size: 110, 75
+  orig: 112, 77
+  offset: 1, 1
+  index: -1
+Formation_explain_floor_R
+  rotate: true
+  xy: 294, 233
+  size: 110, 75
+  orig: 112, 77
+  offset: 1, 1
+  index: -1
+Formation_frame_L
+  rotate: true
+  xy: 636, 361
+  size: 91, 52
+  orig: 93, 54
+  offset: 1, 1
+  index: -1
+Formation_frame_R
+  rotate: false
+  xy: 690, 404
+  size: 91, 52
+  orig: 93, 54
+  offset: 1, 1
+  index: -1
+Gear_L
+  rotate: false
+  xy: 371, 238
+  size: 74, 74
+  orig: 76, 76
+  offset: 1, 1
+  index: -1
+Gear_shadow_L
+  rotate: false
+  xy: 167, 116
+  size: 62, 62
+  orig: 64, 64
+  offset: 1, 1
+  index: -1
+Panel_L
+  rotate: false
+  xy: 674, 458
+  size: 159, 45
+  orig: 161, 47
+  offset: 1, 1
+  index: -1
+Panel_R
+  rotate: false
+  xy: 835, 458
+  size: 159, 45
+  orig: 161, 47
+  offset: 1, 1
+  index: -1
+Panel_shadow_L
+  rotate: true
+  xy: 563, 233
+  size: 80, 35
+  orig: 82, 37
+  offset: 1, 1
+  index: -1
+Panel_shadow_R
+  rotate: true
+  xy: 114, 2
+  size: 75, 35
+  orig: 77, 37
+  offset: 1, 1
+  index: -1
+Roof
+  rotate: false
+  xy: 481, 315
+  size: 96, 37
+  orig: 98, 39
+  offset: 1, 1
+  index: -1
+Shadow_F
+  rotate: true
+  xy: 690, 359
+  size: 8, 84
+  orig: 8, 148
+  offset: 0, 64
+  index: -1
+Shadow_U_L
+  rotate: false
+  xy: 2, 79
+  size: 127, 128
+  orig: 129, 130
+  offset: 1, 1
+  index: -1
+Shadow_U_R
+  rotate: false
+  xy: 165, 215
+  size: 127, 128
+  orig: 129, 130
+  offset: 1, 1
+  index: -1
+Shell_L
+  rotate: false
+  xy: 165, 407
+  size: 213, 60
+  orig: 215, 62
+  offset: 1, 1
+  index: -1
+Shell_R
+  rotate: false
+  xy: 165, 345
+  size: 213, 60
+  orig: 215, 62
+  offset: 1, 1
+  index: -1
+Slide_component_L
+  rotate: false
+  xy: 877, 380
+  size: 25, 18
+  orig: 27, 20
+  offset: 1, 1
+  index: -1
+Slide_component_R
+  rotate: false
+  xy: 996, 485
+  size: 25, 18
+  orig: 27, 20
+  offset: 1, 1
+  index: -1
+Tripod_L
+  rotate: false
+  xy: 783, 400
+  size: 76, 56
+  orig: 78, 58
+  offset: 1, 1
+  index: -1
+Tripod_R
+  rotate: false
+  xy: 861, 400
+  size: 76, 56
+  orig: 78, 58
+  offset: 1, 1
+  index: -1

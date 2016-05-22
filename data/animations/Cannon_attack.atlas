@@ -1,0 +1,943 @@
+
+Cannon_attack.png
+size: 1024,1024
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Battery_01
+  rotate: true
+  xy: 2, 275
+  size: 560, 282
+  orig: 560, 282
+  offset: 0, 0
+  index: -1
+Battery_03
+  rotate: false
+  xy: 667, 3
+  size: 291, 108
+  orig: 560, 282
+  offset: 49, 0
+  index: -1
+Bird_new_0002
+  rotate: false
+  xy: 993, 510
+  size: 27, 28
+  orig: 40, 40
+  offset: 3, 10
+  index: -1
+Bird_new_0003
+  rotate: false
+  xy: 993, 396
+  size: 26, 21
+  orig: 40, 40
+  offset: 8, 10
+  index: -1
+Bird_new_0004
+  rotate: false
+  xy: 124, 5
+  size: 28, 20
+  orig: 40, 40
+  offset: 9, 8
+  index: -1
+Bird_new_0006
+  rotate: true
+  xy: 993, 419
+  size: 29, 25
+  orig: 40, 40
+  offset: 9, 1
+  index: -1
+Bird_new_0008
+  rotate: true
+  xy: 453, 5
+  size: 30, 22
+  orig: 40, 40
+  offset: 4, 10
+  index: -1
+Bird_new_0009
+  rotate: false
+  xy: 993, 480
+  size: 27, 28
+  orig: 40, 40
+  offset: 3, 10
+  index: -1
+Booom_00
+  rotate: true
+  xy: 922, 793
+  size: 229, 97
+  orig: 229, 97
+  offset: 0, 0
+  index: -1
+Cannon_00
+  rotate: false
+  xy: 285, 15
+  size: 166, 20
+  orig: 600, 400
+  offset: 271, 181
+  index: -1
+Cannon_02
+  rotate: false
+  xy: 477, 8
+  size: 47, 103
+  orig: 47, 103
+  offset: 0, 0
+  index: -1
+Creak_00
+  rotate: false
+  xy: 203, 8
+  size: 58, 17
+  orig: 59, 19
+  offset: 0, 0
+  index: -1
+Forest_00
+  rotate: false
+  xy: 527, 125
+  size: 424, 76
+  orig: 600, 400
+  offset: 89, 143
+  index: -1
+Gunfire
+  rotate: false
+  xy: 821, 299
+  size: 128, 95
+  orig: 300, 300
+  offset: 98, 105
+  index: -1
+Line_0001
+  rotate: true
+  xy: 355, 113
+  size: 300, 170
+  orig: 300, 170
+  offset: 0, 0
+  index: -1
+Line_0002
+  rotate: true
+  xy: 821, 396
+  size: 300, 170
+  orig: 300, 170
+  offset: 0, 0
+  index: -1
+Mountain_00
+  rotate: false
+  xy: 527, 203
+  size: 424, 87
+  orig: 600, 400
+  offset: 91, 151
+  index: -1
+Shadow_Black
+  rotate: true
+  xy: 999, 36
+  size: 75, 23
+  orig: 75, 23
+  offset: 0, 0
+  index: -1
+Ship_fire_0027
+  rotate: false
+  xy: 355, 37
+  size: 120, 74
+  orig: 200, 130
+  offset: 31, 34
+  index: -1
+Sky_00
+  rotate: true
+  xy: 286, 415
+  size: 420, 256
+  orig: 600, 400
+  offset: 85, 62
+  index: -1
+Smoke_01
+  rotate: true
+  xy: 286, 37
+  size: 376, 67
+  orig: 397, 163
+  offset: 21, 54
+  index: -1
+Soldiers_picture_00
+  rotate: false
+  xy: 993, 634
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+Soldiers_picture_01
+  rotate: false
+  xy: 181, 6
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+Soldiers_picture_03
+  rotate: false
+  xy: 993, 666
+  size: 29, 31
+  orig: 29, 31
+  offset: 0, 0
+  index: -1
+Soldiers_picture_05
+  rotate: false
+  xy: 1007, 699
+  size: 14, 12
+  orig: 14, 12
+  offset: 0, 0
+  index: -1
+Soldiers_picture_07
+  rotate: false
+  xy: 344, 5
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+Soldiers_picture_11
+  rotate: false
+  xy: 358, 5
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+Soldiers_picture_12
+  rotate: false
+  xy: 272, 13
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+Soldiers_picture_13
+  rotate: false
+  xy: 993, 603
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+Soldiers_picture_14
+  rotate: true
+  xy: 988, 699
+  size: 12, 17
+  orig: 12, 17
+  offset: 0, 0
+  index: -1
+Soldiers_picture_15
+  rotate: true
+  xy: 408, 7
+  size: 6, 11
+  orig: 6, 11
+  offset: 0, 0
+  index: -1
+Soldiers_picture_17
+  rotate: true
+  xy: 329, 5
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+Soldiers_picture_18
+  rotate: false
+  xy: 372, 6
+  size: 10, 7
+  orig: 10, 7
+  offset: 0, 0
+  index: -1
+Soldiers_picture_20
+  rotate: false
+  xy: 993, 571
+  size: 27, 30
+  orig: 27, 30
+  offset: 0, 0
+  index: -1
+Soldiers_picture_21
+  rotate: true
+  xy: 945, 698
+  size: 13, 17
+  orig: 13, 17
+  offset: 0, 0
+  index: -1
+Soldiers_picture_22
+  rotate: false
+  xy: 434, 7
+  size: 10, 6
+  orig: 10, 6
+  offset: 0, 0
+  index: -1
+Soldiers_picture_23
+  rotate: true
+  xy: 421, 7
+  size: 6, 11
+  orig: 6, 11
+  offset: 0, 0
+  index: -1
+Soldiers_picture_24
+  rotate: true
+  xy: 384, 6
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+Soldiers_picture_25
+  rotate: false
+  xy: 527, 332
+  size: 15, 19
+  orig: 15, 19
+  offset: 0, 0
+  index: -1
+Soldiers_picture_26
+  rotate: true
+  xy: 298, 4
+  size: 9, 14
+  orig: 9, 14
+  offset: 0, 0
+  index: -1
+Soldiers_picture_27
+  rotate: false
+  xy: 285, 3
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+Soldiers_picture_28
+  rotate: true
+  xy: 993, 540
+  size: 29, 27
+  orig: 29, 27
+  offset: 0, 0
+  index: -1
+Soldiers_picture_29
+  rotate: true
+  xy: 993, 450
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+Soldiers_picture_30
+  rotate: false
+  xy: 527, 311
+  size: 15, 19
+  orig: 15, 19
+  offset: 0, 0
+  index: -1
+Trees_L_00
+  rotate: false
+  xy: 2, 121
+  size: 275, 152
+  orig: 600, 400
+  offset: 11, 11
+  index: -1
+new_003
+  rotate: true
+  xy: 922, 698
+  size: 13, 21
+  orig: 13, 21
+  offset: 0, 0
+  index: -1
+new_004
+  rotate: false
+  xy: 314, 4
+  size: 13, 9
+  orig: 14, 11
+  offset: 1, 1
+  index: -1
+new_005
+  rotate: false
+  xy: 2, 837
+  size: 608, 185
+  orig: 608, 185
+  offset: 0, 0
+  index: -1
+new_008
+  rotate: true
+  xy: 527, 379
+  size: 34, 15
+  orig: 34, 15
+  offset: 0, 0
+  index: -1
+new_011
+  rotate: true
+  xy: 37, 2
+  size: 23, 29
+  orig: 23, 29
+  offset: 0, 0
+  index: -1
+new_012
+  rotate: true
+  xy: 527, 353
+  size: 24, 15
+  orig: 24, 15
+  offset: 0, 0
+  index: -1
+new_013
+  rotate: false
+  xy: 964, 699
+  size: 22, 12
+  orig: 22, 12
+  offset: 0, 0
+  index: -1
+new_014
+  rotate: true
+  xy: 527, 292
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+new_016
+  rotate: false
+  xy: 527, 5
+  size: 138, 118
+  orig: 138, 118
+  offset: 0, 0
+  index: -1
+new_019
+  rotate: true
+  xy: 999, 2
+  size: 32, 21
+  orig: 32, 21
+  offset: 0, 0
+  index: -1
+new_021
+  rotate: true
+  xy: 263, 2
+  size: 23, 7
+  orig: 23, 7
+  offset: 0, 0
+  index: -1
+new_022
+  rotate: true
+  xy: 279, 253
+  size: 20, 5
+  orig: 20, 5
+  offset: 0, 0
+  index: -1
+new_023
+  rotate: true
+  xy: 154, 6
+  size: 19, 25
+  orig: 19, 25
+  offset: 0, 0
+  index: -1
+new_024
+  rotate: true
+  xy: 544, 298
+  size: 398, 275
+  orig: 398, 276
+  offset: 0, 1
+  index: -1
+new_025
+  rotate: false
+  xy: 544, 737
+  size: 60, 98
+  orig: 398, 276
+  offset: 228, 39
+  index: -1
+new_028
+  rotate: false
+  xy: 396, 6
+  size: 10, 7
+  orig: 10, 7
+  offset: 0, 0
+  index: -1
+new_031
+  rotate: true
+  xy: 2, 2
+  size: 23, 33
+  orig: 23, 33
+  offset: 0, 0
+  index: -1
+new_032
+  rotate: false
+  xy: 544, 698
+  size: 61, 37
+  orig: 61, 37
+  offset: 0, 0
+  index: -1
+new_033
+  rotate: true
+  xy: 953, 113
+  size: 281, 64
+  orig: 281, 64
+  offset: 0, 0
+  index: -1
+new_035
+  rotate: true
+  xy: 960, 4
+  size: 107, 37
+  orig: 107, 37
+  offset: 0, 0
+  index: -1
+new_036
+  rotate: false
+  xy: 2, 27
+  size: 281, 92
+  orig: 281, 92
+  offset: 0, 0
+  index: -1
+new_038
+  rotate: true
+  xy: 922, 713
+  size: 78, 100
+  orig: 78, 100
+  offset: 0, 0
+  index: -1
+new_039
+  rotate: false
+  xy: 272, 3
+  size: 11, 8
+  orig: 11, 8
+  offset: 0, 0
+  index: -1
+new_041
+  rotate: false
+  xy: 612, 698
+  size: 308, 324
+  orig: 308, 324
+  offset: 0, 0
+  index: -1
+new_042
+  rotate: true
+  xy: 68, 4
+  size: 21, 54
+  orig: 21, 54
+  offset: 0, 0
+  index: -1
+
+Cannon_attack2.png
+size: 1024,1024
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Battery_00
+  rotate: false
+  xy: 418, 693
+  size: 191, 60
+  orig: 600, 400
+  offset: 199, 143
+  index: -1
+Bird_new_0001
+  rotate: false
+  xy: 388, 55
+  size: 24, 29
+  orig: 40, 40
+  offset: 6, 10
+  index: -1
+Bird_new_0005
+  rotate: false
+  xy: 517, 416
+  size: 29, 24
+  orig: 40, 40
+  offset: 9, 2
+  index: -1
+Bird_new_0007
+  rotate: false
+  xy: 579, 416
+  size: 27, 24
+  orig: 40, 40
+  offset: 9, 4
+  index: -1
+Forest_02
+  rotate: false
+  xy: 526, 442
+  size: 87, 26
+  orig: 87, 27
+  offset: 0, 0
+  index: -1
+Forest_03
+  rotate: false
+  xy: 397, 637
+  size: 194, 54
+  orig: 194, 54
+  offset: 0, 0
+  index: -1
+Ground_00
+  rotate: false
+  xy: 2, 923
+  size: 415, 99
+  orig: 600, 400
+  offset: 93, 63
+  index: -1
+Light_00
+  rotate: true
+  xy: 304, 698
+  size: 223, 112
+  orig: 1000, 1000
+  offset: 265, 168
+  index: -1
+Light_01
+  rotate: false
+  xy: 638, 454
+  size: 79, 85
+  orig: 1000, 1000
+  offset: 279, 164
+  index: -1
+Light_picture
+  rotate: false
+  xy: 344, 86
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Line_0003
+  rotate: false
+  xy: 2, 751
+  size: 300, 170
+  orig: 300, 170
+  offset: 0, 0
+  index: -1
+Line_0004
+  rotate: false
+  xy: 2, 579
+  size: 300, 170
+  orig: 300, 170
+  offset: 0, 0
+  index: -1
+Ship_fire_0003
+  rotate: true
+  xy: 347, 163
+  size: 96, 58
+  orig: 200, 130
+  offset: 4, 41
+  index: -1
+Ship_fire_0005
+  rotate: false
+  xy: 611, 685
+  size: 105, 68
+  orig: 200, 130
+  offset: 7, 37
+  index: -1
+Ship_fire_0007
+  rotate: false
+  xy: 839, 674
+  size: 110, 70
+  orig: 200, 130
+  offset: 6, 35
+  index: -1
+Ship_fire_0009
+  rotate: false
+  xy: 389, 271
+  size: 115, 72
+  orig: 200, 130
+  offset: 6, 34
+  index: -1
+Ship_fire_0011
+  rotate: false
+  xy: 718, 692
+  size: 119, 78
+  orig: 200, 130
+  offset: 6, 31
+  index: -1
+Ship_fire_0013
+  rotate: false
+  xy: 207, 19
+  size: 120, 78
+  orig: 200, 130
+  offset: 9, 31
+  index: -1
+Ship_fire_0015
+  rotate: false
+  xy: 221, 99
+  size: 121, 78
+  orig: 200, 130
+  offset: 12, 31
+  index: -1
+Ship_fire_0017
+  rotate: false
+  xy: 593, 612
+  size: 118, 71
+  orig: 200, 130
+  offset: 18, 35
+  index: -1
+Ship_fire_0019
+  rotate: false
+  xy: 526, 470
+  size: 110, 69
+  orig: 200, 130
+  offset: 29, 36
+  index: -1
+Ship_fire_0021
+  rotate: false
+  xy: 584, 541
+  size: 112, 69
+  orig: 200, 130
+  offset: 30, 37
+  index: -1
+Ship_fire_0023
+  rotate: true
+  xy: 951, 688
+  size: 116, 71
+  orig: 200, 130
+  offset: 30, 36
+  index: -1
+Ship_fire_0025
+  rotate: false
+  xy: 391, 345
+  size: 117, 72
+  orig: 200, 130
+  offset: 31, 36
+  index: -1
+Ship_fire_0029
+  rotate: true
+  xy: 945, 806
+  size: 122, 77
+  orig: 200, 130
+  offset: 31, 32
+  index: -1
+Ship_fire_0031
+  rotate: false
+  xy: 221, 179
+  size: 124, 80
+  orig: 200, 130
+  offset: 31, 29
+  index: -1
+Ship_fire_0033
+  rotate: false
+  xy: 262, 261
+  size: 125, 82
+  orig: 200, 130
+  offset: 32, 27
+  index: -1
+Ship_fire_0035
+  rotate: true
+  xy: 612, 755
+  size: 126, 85
+  orig: 200, 130
+  offset: 32, 25
+  index: -1
+Ship_fire_0037
+  rotate: false
+  xy: 262, 345
+  size: 127, 86
+  orig: 200, 130
+  offset: 32, 23
+  index: -1
+Ship_fire_0039
+  rotate: true
+  xy: 302, 433
+  size: 128, 89
+  orig: 200, 130
+  offset: 33, 20
+  index: -1
+Ship_fire_0041
+  rotate: false
+  xy: 393, 456
+  size: 131, 89
+  orig: 200, 130
+  offset: 35, 19
+  index: -1
+Ship_fire_0043
+  rotate: true
+  xy: 304, 563
+  size: 133, 91
+  orig: 200, 130
+  offset: 38, 16
+  index: -1
+Ship_fire_0045
+  rotate: false
+  xy: 397, 547
+  size: 136, 88
+  orig: 200, 130
+  offset: 40, 15
+  index: -1
+Smoke_00
+  rotate: false
+  xy: 419, 883
+  size: 275, 47
+  orig: 360, 133
+  offset: 85, 45
+  index: -1
+Smoke_02
+  rotate: true
+  xy: 861, 746
+  size: 182, 82
+  orig: 209, 154
+  offset: 27, 43
+  index: -1
+Smoke_03
+  rotate: false
+  xy: 730, 930
+  size: 239, 92
+  orig: 282, 124
+  offset: 21, 14
+  index: -1
+Smoke_04
+  rotate: false
+  xy: 2, 455
+  size: 298, 122
+  orig: 298, 136
+  offset: 0, 14
+  index: -1
+Soldiers_picture_02
+  rotate: true
+  xy: 699, 755
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+Soldiers_picture_04
+  rotate: true
+  xy: 1006, 1005
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1
+Soldiers_picture_06
+  rotate: false
+  xy: 221, 261
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+Soldiers_picture_08
+  rotate: true
+  xy: 207, 103
+  size: 13, 12
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+Soldiers_picture_09
+  rotate: false
+  xy: 548, 416
+  size: 29, 24
+  orig: 29, 24
+  offset: 0, 0
+  index: -1
+Soldiers_picture_10
+  rotate: true
+  xy: 1006, 988
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+Soldiers_picture_16
+  rotate: false
+  xy: 262, 435
+  size: 14, 18
+  orig: 14, 18
+  offset: 0, 0
+  index: -1
+Soldiers_picture_19
+  rotate: true
+  xy: 207, 118
+  size: 14, 12
+  orig: 14, 12
+  offset: 0, 0
+  index: -1
+Trees_L_01
+  rotate: false
+  xy: 418, 755
+  size: 192, 126
+  orig: 600, 400
+  offset: 43, 42
+  index: -1
+Trees_R_00
+  rotate: false
+  xy: 2, 134
+  size: 217, 158
+  orig: 600, 400
+  offset: 375, 13
+  index: -1
+Trees_R_01
+  rotate: false
+  xy: 2, 8
+  size: 203, 124
+  orig: 600, 400
+  offset: 358, 29
+  index: -1
+new_001
+  rotate: false
+  xy: 419, 932
+  size: 309, 90
+  orig: 309, 90
+  offset: 0, 0
+  index: -1
+new_002
+  rotate: false
+  xy: 407, 173
+  size: 88, 96
+  orig: 88, 96
+  offset: 0, 0
+  index: -1
+new_006
+  rotate: true
+  xy: 367, 9
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+new_007
+  rotate: true
+  xy: 719, 463
+  size: 76, 26
+  orig: 76, 26
+  offset: 0, 0
+  index: -1
+new_009
+  rotate: false
+  xy: 393, 419
+  size: 122, 35
+  orig: 122, 35
+  offset: 0, 0
+  index: -1
+new_015
+  rotate: false
+  xy: 698, 541
+  size: 35, 69
+  orig: 35, 69
+  offset: 0, 0
+  index: -1
+new_017
+  rotate: true
+  xy: 971, 930
+  size: 92, 33
+  orig: 92, 33
+  offset: 0, 0
+  index: -1
+new_018
+  rotate: false
+  xy: 951, 587
+  size: 71, 99
+  orig: 71, 99
+  offset: 0, 0
+  index: -1
+new_020
+  rotate: false
+  xy: 421, 70
+  size: 70, 101
+  orig: 71, 103
+  offset: 0, 2
+  index: -1
+new_027
+  rotate: false
+  xy: 535, 550
+  size: 47, 85
+  orig: 47, 85
+  offset: 0, 0
+  index: -1
+new_029
+  rotate: false
+  xy: 329, 2
+  size: 36, 45
+  orig: 36, 45
+  offset: 0, 0
+  index: -1
+new_030
+  rotate: false
+  xy: 699, 772
+  size: 160, 156
+  orig: 160, 156
+  offset: 0, 0
+  index: -1
+new_034
+  rotate: false
+  xy: 207, 5
+  size: 118, 12
+  orig: 118, 12
+  offset: 0, 0
+  index: -1
+new_037
+  rotate: false
+  xy: 2, 294
+  size: 258, 159
+  orig: 258, 159
+  offset: 0, 0
+  index: -1
+new_040
+  rotate: false
+  xy: 329, 49
+  size: 57, 35
+  orig: 57, 35
+  offset: 0, 0
+  index: -1

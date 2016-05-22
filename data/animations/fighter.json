@@ -1,0 +1,1020 @@
+{
+"skeleton": { "hash": "C4sus4eyxAVgQP17+J/AQjKJ1eU", "spine": "2.1.27", "width": 303, "height": 478.74, "images": "" },
+"bones": [
+	{ "name": "Root_All", "scaleX": 1.01, "scaleY": 1.01 },
+	{ "name": "Ship_All", "parent": "Root_All" },
+	{ "name": "Body", "parent": "Ship_All", "length": 255.84, "rotation": 90 },
+	{ "name": "Attack_Point", "parent": "Body", "length": 25.69, "x": 130.99, "y": -3.42, "rotation": -88.64 },
+	{ "name": "Damage_Point", "parent": "Body", "length": 22.56, "x": 139.2, "y": 0.53, "rotation": -90 },
+	{ "name": "Face", "parent": "Body", "length": 66.94, "x": 180, "y": 30, "rotation": 270 },
+	{ "name": "Light", "parent": "Body", "length": 31.68, "x": 147.64, "y": 0.56, "rotation": -90 },
+	{ "name": "Smoke_all", "parent": "Body", "length": 116.83, "x": 129.37, "y": 0.5, "scaleX": 3, "scaleY": 3 },
+	{ "name": "Throw_Point", "parent": "Body", "length": 24.71, "x": 114.57, "y": 7.18, "rotation": -142.06 }
+],
+"slots": [
+	{ "name": "Rodney_body_normal", "bone": "Body", "attachment": "Rodney_body_normal" },
+	{ "name": "Rodney_body_normal_light", "bone": "Body", "attachment": "Rodney_body_normal_light", "blend": "screen" },
+	{ "name": "Rodney_eyes_normal", "bone": "Face", "attachment": "Rodney_eyes_normal" },
+	{ "name": "Rodney_Light_normal", "bone": "Light", "attachment": "Rodney_ship_armor_damage", "blend": "additive" },
+	{ "name": "Picture_all", "bone": "Smoke_all", "attachment": "Smoke_0036" }
+],
+"skins": {
+	"default": {
+		"Picture_all": {
+			"Smoke_0001": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0002": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0003": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0004": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0005": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0006": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0007": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0008": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0009": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0010": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0011": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0012": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0013": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0014": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0015": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0016": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0017": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0018": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0019": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0020": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0021": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0022": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0023": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0024": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0025": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0026": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0027": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0028": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0029": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0030": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0031": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0032": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0033": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0034": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0035": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			},
+			"Smoke_0036": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -77.69999, -29.99, -77.69999, 30, 80.29, 30, 80.29, -29.99 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 60,
+				"height": 158
+			}
+		},
+		"Rodney_Light_normal": {
+			"Rodney_ship_armor_damage": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 140.62, -166.89, -159.37, -166.89, -159.37, 133.1, 140.62, 133.1 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 150,
+				"height": 150
+			}
+		},
+		"Rodney_body_normal": {
+			"Rodney_body_normal": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -19.25, -140.06, -19.25, 159.93, 280.74, 159.93, 280.74, -140.06 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 150,
+				"height": 150
+			}
+		},
+		"Rodney_body_normal_light": {
+			"Rodney_body_normal_light": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -19.25, -140.06, -19.25, 159.93, 280.74, 159.93, 280.74, -140.06 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 150,
+				"height": 150
+			}
+		},
+		"Rodney_eyes_normal": {
+			"Rodney_eyes_damage": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 170.06, -199.25, -129.93, -199.25, -129.93, 100.74, 170.06, 100.74 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 150,
+				"height": 150
+			},
+			"Rodney_eyes_normal": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 170.06, -199.24, -129.93, -199.24, -129.93, 100.75, 170.06, 100.75 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 150,
+				"height": 150
+			}
+		}
+	}
+},
+"events": {
+	"attack_point": {},
+	"crash_point": {},
+	"damage_point": {}
+},
+"animations": {
+	"attack": {
+		"slots": {
+			"Picture_all": {
+				"attachment": [
+					{ "time": 0, "name": "Smoke_0036" }
+				],
+				"color": [
+					{ "time": 0.0333, "color": "fffffffd" },
+					{ "time": 0.1, "color": "ffffff00" }
+				]
+			},
+			"Rodney_Light_normal": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "Rodney_ship_armor_damage" },
+					{ "time": 0.1, "name": null },
+					{ "time": 0.1333, "name": "Rodney_ship_armor_damage" },
+					{ "time": 0.2, "name": null },
+					{ "time": 0.2666, "name": "Rodney_ship_armor_damage" },
+					{ "time": 0.3, "name": null },
+					{ "time": 0.3333, "name": "Rodney_ship_armor_damage" },
+					{ "time": 0.3666, "name": null },
+					{ "time": 0.4, "name": "Rodney_ship_armor_damage" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 0.5, "name": "Rodney_ship_armor_damage" },
+					{ "time": 0.5666, "name": null },
+					{ "time": 0.6333, "name": "Rodney_ship_armor_damage" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.7, "name": "Rodney_ship_armor_damage" },
+					{ "time": 0.7333, "name": null },
+					{ "time": 0.7666, "name": "Rodney_ship_armor_damage" },
+					{ "time": 0.8, "name": null },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"Rodney_body_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Rodney_body_normal" },
+					{ "time": 0.1, "name": "Rodney_body_normal" },
+					{ "time": 0.2, "name": "Rodney_body_normal" },
+					{ "time": 0.3, "name": "Rodney_body_normal" },
+					{ "time": 0.3666, "name": "Rodney_body_normal" },
+					{ "time": 0.4666, "name": "Rodney_body_normal" },
+					{ "time": 0.5666, "name": "Rodney_body_normal" },
+					{ "time": 0.6666, "name": "Rodney_body_normal" },
+					{ "time": 0.7333, "name": "Rodney_body_normal" },
+					{ "time": 0.8, "name": "Rodney_body_normal" },
+					{ "time": 0.8333, "name": "Rodney_body_normal" }
+				]
+			},
+			"Rodney_body_normal_light": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "Rodney_body_normal_light" },
+					{ "time": 0.8333, "name": null }
+				],
+				"color": [
+					{ "time": 0.0333, "color": "fffffffb" },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "fffffffd" },
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.2666, "color": "ffffffff" },
+					{ "time": 0.3, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.3666, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.4666, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.5666, "color": "ffffff00" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.6666, "color": "ffffff00" },
+					{ "time": 0.7, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" },
+					{ "time": 0.7666, "color": "ffffffff" },
+					{ "time": 0.8, "color": "ffffff00" }
+				]
+			},
+			"Rodney_eyes_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Rodney_eyes_normal" },
+					{ "time": 0.0333, "name": "Rodney_eyes_damage" },
+					{ "time": 0.0666, "name": "Rodney_eyes_normal" },
+					{ "time": 0.1, "name": "Rodney_eyes_damage" },
+					{ "time": 0.1333, "name": "Rodney_eyes_normal" },
+					{ "time": 0.1666, "name": "Rodney_eyes_damage" },
+					{ "time": 0.2, "name": "Rodney_eyes_normal" },
+					{ "time": 0.2333, "name": "Rodney_eyes_damage" },
+					{ "time": 0.2666, "name": "Rodney_eyes_normal" },
+					{ "time": 0.3, "name": "Rodney_eyes_damage" },
+					{ "time": 0.3333, "name": "Rodney_eyes_normal" },
+					{ "time": 0.3666, "name": "Rodney_eyes_damage" },
+					{ "time": 0.4, "name": "Rodney_eyes_normal" },
+					{ "time": 0.4333, "name": "Rodney_eyes_damage" },
+					{ "time": 0.4666, "name": "Rodney_eyes_normal" },
+					{ "time": 0.5, "name": "Rodney_eyes_damage" },
+					{ "time": 0.5333, "name": "Rodney_eyes_normal" },
+					{ "time": 0.5666, "name": "Rodney_eyes_damage" },
+					{ "time": 0.6, "name": "Rodney_eyes_normal" },
+					{ "time": 0.6333, "name": "Rodney_eyes_damage" },
+					{ "time": 0.6666, "name": "Rodney_eyes_normal" },
+					{ "time": 0.7, "name": "Rodney_eyes_damage" },
+					{ "time": 0.7333, "name": "Rodney_eyes_normal" },
+					{ "time": 0.7666, "name": "Rodney_eyes_damage" },
+					{ "time": 0.8, "name": "Rodney_eyes_normal" }
+				]
+			}
+		},
+		"bones": {
+			"Face": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				]
+			},
+			"Root_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"Body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": -126.57,
+						"curve": [ 0.167, 0.49, 0.75, 1 ]
+					},
+					{
+						"time": 0.4333,
+						"x": 0,
+						"y": -133.47,
+						"curve": [ 0.332, 0.56, 0.56, 0.74 ]
+					},
+					{ "time": 0.8333, "x": 0, "y": -126.57 }
+				]
+			},
+			"Ship_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"Attack_Point": {
+				"rotate": [
+					{ "time": 0.0333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.0333, "x": 0, "y": 0 }
+				]
+			},
+			"Light": {
+				"translate": [
+					{ "time": 0, "x": -9.5, "y": 5.7 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"Rodney_Light_normal": {
+					"Rodney_ship_armor_damage": [
+						{ "time": 0.1333 }
+					]
+				}
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "attack_point" }
+		]
+	},
+	"crash": {
+		"slots": {
+			"Picture_all": {
+				"attachment": [
+					{ "time": 0, "name": "Smoke_0001" },
+					{ "time": 0.0333, "name": "Smoke_0002" },
+					{ "time": 0.0666, "name": "Smoke_0003" },
+					{ "time": 0.1, "name": "Smoke_0004" },
+					{ "time": 0.1333, "name": "Smoke_0005" },
+					{ "time": 0.1666, "name": "Smoke_0006" },
+					{ "time": 0.2, "name": "Smoke_0007" },
+					{ "time": 0.2333, "name": "Smoke_0008" },
+					{ "time": 0.2666, "name": "Smoke_0009" },
+					{ "time": 0.3, "name": "Smoke_0010" },
+					{ "time": 0.3333, "name": "Smoke_0011" },
+					{ "time": 0.3666, "name": "Smoke_0012" },
+					{ "time": 0.4, "name": "Smoke_0013" },
+					{ "time": 0.4333, "name": "Smoke_0014" },
+					{ "time": 0.4666, "name": "Smoke_0015" },
+					{ "time": 0.5, "name": "Smoke_0016" },
+					{ "time": 0.5333, "name": "Smoke_0017" },
+					{ "time": 0.5666, "name": "Smoke_0018" },
+					{ "time": 0.6, "name": "Smoke_0019" },
+					{ "time": 0.6333, "name": "Smoke_0020" },
+					{ "time": 0.6666, "name": "Smoke_0021" },
+					{ "time": 0.7, "name": "Smoke_0022" },
+					{ "time": 0.7333, "name": "Smoke_0023" },
+					{ "time": 0.7666, "name": "Smoke_0024" },
+					{ "time": 0.8, "name": "Smoke_0025" },
+					{ "time": 0.8333, "name": "Smoke_0026" },
+					{ "time": 0.8666, "name": "Smoke_0027" },
+					{ "time": 0.9, "name": "Smoke_0028" },
+					{ "time": 0.9333, "name": "Smoke_0029" },
+					{ "time": 0.9666, "name": "Smoke_0030" },
+					{ "time": 1, "name": "Smoke_0031" },
+					{ "time": 1.0333, "name": "Smoke_0032" },
+					{ "time": 1.0666, "name": "Smoke_0033" },
+					{ "time": 1.1, "name": "Smoke_0034" },
+					{ "time": 1.1333, "name": "Smoke_0035" },
+					{ "time": 1.1666, "name": "Smoke_0036" }
+				]
+			},
+			"Rodney_Light_normal": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"Rodney_body_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Rodney_body_normal" }
+				]
+			},
+			"Rodney_eyes_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Rodney_eyes_normal" },
+					{ "time": 0.0333, "name": "Rodney_eyes_damage" },
+					{ "time": 0.0666, "name": "Rodney_eyes_normal" },
+					{ "time": 0.1, "name": "Rodney_eyes_damage" },
+					{ "time": 0.1333, "name": "Rodney_eyes_normal" },
+					{ "time": 0.1666, "name": "Rodney_eyes_damage" },
+					{ "time": 0.2, "name": "Rodney_eyes_normal" },
+					{ "time": 0.2333, "name": "Rodney_eyes_damage" },
+					{ "time": 0.2666, "name": "Rodney_eyes_normal" },
+					{ "time": 0.3, "name": "Rodney_eyes_damage" },
+					{ "time": 0.3333, "name": "Rodney_eyes_normal" },
+					{ "time": 0.3666, "name": "Rodney_eyes_damage" },
+					{ "time": 0.4, "name": "Rodney_eyes_normal" },
+					{ "time": 0.4333, "name": "Rodney_eyes_damage" },
+					{ "time": 0.4666, "name": "Rodney_eyes_normal" },
+					{ "time": 0.5, "name": "Rodney_eyes_damage" },
+					{ "time": 0.5333, "name": "Rodney_eyes_normal" },
+					{ "time": 0.5666, "name": "Rodney_eyes_damage" },
+					{ "time": 0.6, "name": "Rodney_eyes_normal" },
+					{ "time": 0.6333, "name": "Rodney_eyes_damage" },
+					{ "time": 0.6666, "name": "Rodney_eyes_normal" },
+					{ "time": 0.7, "name": "Rodney_eyes_damage" },
+					{ "time": 0.7333, "name": "Rodney_eyes_normal" },
+					{ "time": 0.7666, "name": "Rodney_eyes_damage" },
+					{ "time": 0.8, "name": "Rodney_eyes_normal" },
+					{ "time": 0.8333, "name": "Rodney_eyes_damage" },
+					{ "time": 0.8666, "name": "Rodney_eyes_normal" },
+					{ "time": 0.9, "name": "Rodney_eyes_damage" },
+					{ "time": 0.9333, "name": "Rodney_eyes_normal" },
+					{ "time": 0.9666, "name": "Rodney_eyes_damage" },
+					{ "time": 1, "name": "Rodney_eyes_normal" },
+					{ "time": 1.0333, "name": "Rodney_eyes_damage" },
+					{ "time": 1.0666, "name": "Rodney_eyes_normal" },
+					{ "time": 1.1, "name": "Rodney_eyes_damage" },
+					{ "time": 1.1333, "name": "Rodney_eyes_normal" },
+					{ "time": 1.1666, "name": "Rodney_eyes_damage" }
+				]
+			}
+		},
+		"bones": {
+			"Face": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				]
+			},
+			"Root_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"Body": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.139, 1, 0.475, 0.97 ]
+					},
+					{ "time": 1.2, "angle": -45.46 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": -126.57,
+						"curve": [ 0.349, 0.14, 0.536, 0.25 ]
+					},
+					{ "time": 1.2, "x": 316.43, "y": -308.06 }
+				]
+			},
+			"Ship_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"Throw_Point": {
+				"rotate": [
+					{ "time": 0.2333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.2333, "x": 0, "y": 0 }
+				]
+			},
+			"Smoke_all": {
+				"rotate": [
+					{ "time": 0, "angle": 85.96 },
+					{ "time": 1.0333, "angle": 100.54 },
+					{ "time": 1.1666, "angle": 101.35 }
+				],
+				"translate": [
+					{ "time": 0, "x": -9.34, "y": -139.19 },
+					{ "time": 0.1, "x": 9.4, "y": -104.38 },
+					{ "time": 0.3333, "x": 12.49, "y": -22.89 },
+					{ "time": 0.6333, "x": -5.33, "y": 98.07 },
+					{ "time": 0.8333, "x": -19.81, "y": 172.73 },
+					{ "time": 1.0333, "x": -33.67, "y": 234.7 },
+					{ "time": 1.1666, "x": -51.13, "y": 312.62 }
+				]
+			}
+		}
+	},
+	"damage": {
+		"slots": {
+			"Picture_all": {
+				"attachment": [
+					{ "time": 0, "name": "Smoke_0036" }
+				]
+			},
+			"Rodney_Light_normal": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": null }
+				]
+			},
+			"Rodney_body_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Rodney_body_normal" },
+					{ "time": 0.3666, "name": "Rodney_body_normal" },
+					{ "time": 0.5, "name": "Rodney_body_normal" }
+				],
+				"color": [
+					{ "time": 0.0333, "color": "8c4c51ff", "curve": "stepped" },
+					{ "time": 0.3666, "color": "8c4c51ff" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"Rodney_body_normal_light": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": null }
+				]
+			},
+			"Rodney_eyes_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Rodney_eyes_normal" },
+					{ "time": 0.0333, "name": "Rodney_eyes_damage" },
+					{ "time": 0.0666, "name": "Rodney_eyes_normal" },
+					{ "time": 0.1, "name": "Rodney_eyes_damage" },
+					{ "time": 0.1333, "name": "Rodney_eyes_normal" },
+					{ "time": 0.1666, "name": "Rodney_eyes_damage" },
+					{ "time": 0.2, "name": "Rodney_eyes_normal" },
+					{ "time": 0.2333, "name": "Rodney_eyes_damage" },
+					{ "time": 0.2666, "name": "Rodney_eyes_normal" },
+					{ "time": 0.3, "name": "Rodney_eyes_damage" },
+					{ "time": 0.3333, "name": "Rodney_eyes_normal" },
+					{ "time": 0.3666, "name": "Rodney_eyes_normal" },
+					{ "time": 0.4, "name": "Rodney_eyes_damage" },
+					{ "time": 0.4333, "name": "Rodney_eyes_normal" },
+					{ "time": 0.4666, "name": "Rodney_eyes_damage" },
+					{ "time": 0.5, "name": "Rodney_eyes_normal" }
+				]
+			}
+		},
+		"bones": {
+			"Root_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0333, "x": -27.67, "y": -23.16 },
+					{ "time": 0.0666, "x": 20.98, "y": 15.35 },
+					{ "time": 0.1333, "x": -19.78, "y": -15.62 },
+					{ "time": 0.2, "x": 14.36, "y": 8.59 },
+					{ "time": 0.2666, "x": -3.37, "y": -4.5 },
+					{ "time": 0.3666, "x": 5.63, "y": 2.25 },
+					{ "time": 0.5, "x": 0, "y": 0 }
+				]
+			},
+			"Face": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0333, "x": -5.44, "y": 0 },
+					{ "time": 0.0666, "x": -0.44, "y": 0 },
+					{ "time": 0.1333, "x": -5.06, "y": 0 },
+					{ "time": 0.2, "x": -2.01, "y": 0 },
+					{ "time": 0.5, "x": 0, "y": 0 }
+				]
+			},
+			"Ship_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0 }
+				]
+			},
+			"Body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -126.57, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": -126.57 }
+				]
+			},
+			"Damage_Point": {
+				"rotate": [
+					{ "time": 0.0333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.0333, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "damage_point" }
+		]
+	},
+	"normal": {
+		"slots": {
+			"Picture_all": {
+				"attachment": [
+					{ "time": 0, "name": "Smoke_0036" }
+				]
+			},
+			"Rodney_Light_normal": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"Rodney_body_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Rodney_body_normal" },
+					{ "time": 0.8333, "name": "Rodney_body_normal" }
+				]
+			},
+			"Rodney_body_normal_light": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Rodney_eyes_normal": {
+				"attachment": [
+					{ "time": 0, "name": "Rodney_eyes_normal" },
+					{ "time": 0.0333, "name": "Rodney_eyes_damage" },
+					{ "time": 0.0666, "name": "Rodney_eyes_normal" },
+					{ "time": 0.1, "name": "Rodney_eyes_damage" },
+					{ "time": 0.1333, "name": "Rodney_eyes_normal" },
+					{ "time": 0.1666, "name": "Rodney_eyes_damage" },
+					{ "time": 0.2, "name": "Rodney_eyes_normal" },
+					{ "time": 0.2333, "name": "Rodney_eyes_damage" },
+					{ "time": 0.2666, "name": "Rodney_eyes_normal" },
+					{ "time": 0.3, "name": "Rodney_eyes_damage" },
+					{ "time": 0.3333, "name": "Rodney_eyes_normal" },
+					{ "time": 0.3666, "name": "Rodney_eyes_damage" },
+					{ "time": 0.4, "name": "Rodney_eyes_normal" },
+					{ "time": 0.4333, "name": "Rodney_eyes_damage" },
+					{ "time": 0.4666, "name": "Rodney_eyes_normal" },
+					{ "time": 0.5, "name": "Rodney_eyes_damage" },
+					{ "time": 0.5333, "name": "Rodney_eyes_normal" },
+					{ "time": 0.5666, "name": "Rodney_eyes_damage" },
+					{ "time": 0.6, "name": "Rodney_eyes_normal" },
+					{ "time": 0.6333, "name": "Rodney_eyes_damage" },
+					{ "time": 0.6666, "name": "Rodney_eyes_normal" },
+					{ "time": 0.7, "name": "Rodney_eyes_damage" },
+					{ "time": 0.7333, "name": "Rodney_eyes_normal" },
+					{ "time": 0.7666, "name": "Rodney_eyes_damage" },
+					{ "time": 0.8, "name": "Rodney_eyes_normal" }
+				]
+			}
+		},
+		"bones": {
+			"Root_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"Face": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				]
+			},
+			"Ship_All": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"Body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": -126.57,
+						"curve": [ 0.167, 0.49, 0.75, 1 ]
+					},
+					{
+						"time": 0.4333,
+						"x": 0,
+						"y": -133.47,
+						"curve": [ 0.332, 0.56, 0.56, 0.74 ]
+					},
+					{ "time": 0.8333, "x": 0, "y": -126.57 }
+				]
+			}
+		}
+	}
+}
+}

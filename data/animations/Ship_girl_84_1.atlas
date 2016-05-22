@@ -1,0 +1,160 @@
+
+Ship_girl_84_1.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+JZ_L
+  rotate: false
+  xy: 396, 181
+  size: 46, 126
+  orig: 300, 300
+  offset: 101, 24
+  index: -1
+JZ_L_damage
+  rotate: true
+  xy: 306, 309
+  size: 49, 126
+  orig: 300, 300
+  offset: 99, 25
+  index: -1
+JZ_L_damage_light
+  rotate: false
+  xy: 693, 374
+  size: 102, 118
+  orig: 300, 300
+  offset: 78, 17
+  index: -1
+JZ_L_light
+  rotate: false
+  xy: 590, 371
+  size: 101, 121
+  orig: 300, 300
+  offset: 80, 17
+  index: -1
+JZ_R
+  rotate: true
+  xy: 168, 301
+  size: 63, 136
+  orig: 300, 300
+  offset: 175, 25
+  index: -1
+JZ_R_damage
+  rotate: false
+  xy: 248, 165
+  size: 59, 134
+  orig: 300, 300
+  offset: 175, 26
+  index: -1
+JZ_R_damage_light
+  rotate: true
+  xy: 909, 391
+  size: 101, 109
+  orig: 300, 300
+  offset: 166, 20
+  index: -1
+JZ_R_light
+  rotate: false
+  xy: 486, 366
+  size: 102, 126
+  orig: 300, 300
+  offset: 169, 16
+  index: -1
+Rodney_body_damage
+  rotate: false
+  xy: 136, 51
+  size: 76, 104
+  orig: 300, 300
+  offset: 124, 63
+  index: -1
+Rodney_body_normal
+  rotate: false
+  xy: 214, 59
+  size: 76, 104
+  orig: 300, 300
+  offset: 124, 63
+  index: -1
+Rodney_eyes_damage
+  rotate: false
+  xy: 444, 268
+  size: 50, 41
+  orig: 300, 300
+  offset: 148, 146
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 444, 226
+  size: 50, 40
+  orig: 300, 300
+  offset: 148, 147
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 797, 389
+  size: 110, 103
+  orig: 300, 300
+  offset: 123, 59
+  index: -1
+behand
+  rotate: false
+  xy: 309, 185
+  size: 85, 122
+  orig: 300, 300
+  offset: 81, 46
+  index: -1
+behand_damage
+  rotate: false
+  xy: 155, 177
+  size: 91, 122
+  orig: 300, 300
+  offset: 75, 46
+  index: -1
+hair
+  rotate: false
+  xy: 168, 366
+  size: 162, 126
+  orig: 300, 300
+  offset: 74, 91
+  index: -1
+head
+  rotate: false
+  xy: 2, 2
+  size: 132, 153
+  orig: 300, 300
+  offset: 97, 124
+  index: -1
+head_damage
+  rotate: true
+  xy: 332, 360
+  size: 132, 152
+  orig: 300, 300
+  offset: 97, 124
+  index: -1
+head_damage_light
+  rotate: false
+  xy: 2, 328
+  size: 164, 164
+  orig: 300, 300
+  offset: 110, 129
+  index: -1
+head_light
+  rotate: false
+  xy: 2, 157
+  size: 151, 169
+  orig: 300, 300
+  offset: 123, 125
+  index: -1
+leg
+  rotate: true
+  xy: 136, 2
+  size: 47, 75
+  orig: 300, 300
+  offset: 141, 19
+  index: -1
+leg_damage
+  rotate: true
+  xy: 434, 311
+  size: 47, 75
+  orig: 300, 300
+  offset: 141, 19
+  index: -1

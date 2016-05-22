@@ -1,0 +1,41 @@
+
+Fighter_b25.png
+size: 370,284
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+03_b25_a
+  rotate: true
+  xy: 2, 2
+  size: 280, 118
+  orig: 300, 300
+  offset: 12, 97
+  index: -1
+03_b25_b
+  rotate: true
+  xy: 308, 163
+  size: 119, 60
+  orig: 300, 300
+  offset: 166, 154
+  index: -1
+03_light
+  rotate: false
+  xy: 122, 131
+  size: 184, 151
+  orig: 300, 300
+  offset: 116, 72
+  index: -1
+Item_00
+  rotate: false
+  xy: 122, 17
+  size: 98, 112
+  orig: 98, 112
+  offset: 0, 0
+  index: -1
+Item_01
+  rotate: false
+  xy: 222, 23
+  size: 99, 106
+  orig: 99, 106
+  offset: 0, 0
+  index: -1

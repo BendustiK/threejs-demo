@@ -1,0 +1,53 @@
+{
+"skeleton": { "hash": "JADXDsFmrYNqC3fbDt5Z9IZXxlA", "spine": "2.1.27", "width": 5427.68, "height": 328.5, "images": "" },
+"bones": [
+	{ "name": "BG_picture" },
+	{ "name": "Sky", "parent": "BG_picture" },
+	{ "name": "Cloud_N", "parent": "Sky" },
+	{ "name": "Moon", "parent": "Sky", "x": -602.07, "y": 5.31, "scaleX": 3, "scaleY": 3 },
+	{ "name": "Sky_picture", "parent": "Sky" }
+],
+"slots": [
+	{ "name": "Sky", "bone": "Sky_picture", "attachment": "Sky_night" },
+	{ "name": "Moon", "bone": "Moon", "attachment": "Moon" },
+	{ "name": "Mountain", "bone": "Sky_picture", "attachment": "Mountain_night" },
+	{ "name": "Cloud_Night2", "bone": "Cloud_N", "attachment": "Cloud_Night" },
+	{ "name": "Cloud_Night", "bone": "Cloud_N", "attachment": "Cloud_Night" }
+],
+"skins": {
+	"default": {
+		"Cloud_Night": {
+			"Cloud_Night": { "x": -1228, "y": -116.58, "scaleX": 5, "scaleY": 5, "width": 470, "height": 46 }
+		},
+		"Cloud_Night2": {
+			"Cloud_Night": { "x": -3640.68, "y": -116.58, "scaleX": 5, "scaleY": 5, "width": 470, "height": 46 }
+		},
+		"Moon": {
+			"Moon": { "x": 234.04, "y": -53.97, "scaleX": 1.5, "scaleY": 1.5, "width": 180, "height": 73 }
+		},
+		"Mountain": {
+			"Mountain_night": { "y": -83.5, "scaleX": 2, "scaleY": 2, "width": 612, "height": 84 }
+		},
+		"Sky": {
+			"Sky_night": { "y": -83.5, "scaleX": 2, "scaleY": 2, "width": 612, "height": 84 }
+		}
+	}
+},
+"animations": {
+	"BG_Arabian_Sea_night": {
+		"bones": {
+			"Moon": {
+				"translate": [
+					{ "time": 0, "x": 54.51, "y": 0 }
+				]
+			},
+			"Cloud_N": {
+				"translate": [
+					{ "time": 0, "x": 589.18, "y": 0 },
+					{ "time": 160, "x": 3001.85, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

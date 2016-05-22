@@ -1,0 +1,83 @@
+
+BG_Bad_weather_Sea_front.png
+size: 910,818
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Rain_0001
+  rotate: false
+  xy: 2, 618
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Rain_0002
+  rotate: true
+  xy: 310, 510
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Rain_0003
+  rotate: true
+  xy: 2, 310
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Rain_0004
+  rotate: false
+  xy: 202, 310
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Rain_0005
+  rotate: true
+  xy: 510, 510
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Rain_0006
+  rotate: true
+  xy: 510, 202
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Rain_0007
+  rotate: false
+  xy: 2, 110
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Rain_0008
+  rotate: true
+  xy: 310, 2
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Rain_0009
+  rotate: false
+  xy: 510, 2
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Rain_0010
+  rotate: true
+  xy: 710, 510
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Sky_light_00
+  rotate: true
+  xy: 710, 202
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1

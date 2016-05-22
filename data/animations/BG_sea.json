@@ -1,0 +1,1453 @@
+{
+"skeleton": { "hash": "J1ZB0qEVT+v7ZurRboXF7875ysI", "spine": "2.1.27", "width": 1232.19, "height": 824.89, "images": "" },
+"bones": [
+	{ "name": "BG_picture" },
+	{ "name": "Sea", "parent": "BG_picture" },
+	{ "name": "Sea_Ice", "parent": "Sea" },
+	{ "name": "Sea_Rain", "parent": "Sea", "y": -25.6 },
+	{ "name": "Sea_blue_picture", "parent": "Sea", "y": 4.81 },
+	{ "name": "Sea_picture_day", "parent": "Sea", "y": -313, "scaleX": 4, "scaleY": 4 },
+	{ "name": "Sea_rad_picture", "parent": "Sea", "y": -145.55, "scaleX": 1.01, "scaleY": 1.02 }
+],
+"slots": [
+	{ "name": "Sea_day", "bone": "Sea_picture_day", "attachment": "Sea_0001" },
+	{ "name": "Sea_Red", "bone": "Sea_rad_picture", "attachment": "Sea_Red" },
+	{ "name": "Blue_day", "bone": "Sea_blue_picture", "attachment": "Blue_day" },
+	{ "name": "Blue_night", "bone": "Sea_blue_picture", "attachment": "Blue_night" },
+	{ "name": "Ice_change_day", "bone": "Sea_Ice", "attachment": "Sea_Ice_day" },
+	{ "name": "Sea_rain_day", "bone": "Sea_Rain", "attachment": "Sea_rain_day" },
+	{ "name": "Sea_rain_night", "bone": "Sea_Rain", "attachment": "Sea_rain_night" },
+	{ "name": "Ice_change_night", "bone": "Sea_Ice", "attachment": "Sea_Ice_night" }
+],
+"skins": {
+	"default": {
+		"Blue_day": {
+			"Blue_day": { "y": -101.13, "scaleX": 5, "scaleY": 5, "width": 245, "height": 62 }
+		},
+		"Blue_night": {
+			"Blue_night": { "y": -101.13, "scaleX": 5, "scaleY": 5, "width": 245, "height": 62 }
+		},
+		"Ice_change_day": {
+			"Sea_Ice_day": { "y": -143.48, "scaleX": 5, "scaleY": 5, "width": 244, "height": 74 }
+		},
+		"Ice_change_night": {
+			"Sea_Ice_night": { "y": -143.48, "scaleX": 5, "scaleY": 5, "width": 244, "height": 74 }
+		},
+		"Sea_Red": {
+			"Sea_Red": { "scaleX": 5, "scaleY": 5, "width": 244, "height": 74 }
+		},
+		"Sea_day": {
+			"Sea_0001": { "width": 306, "height": 170 },
+			"Sea_0002": { "width": 306, "height": 170 },
+			"Sea_0003": { "width": 306, "height": 170 },
+			"Sea_0004": { "width": 306, "height": 170 },
+			"Sea_0005": { "width": 306, "height": 170 },
+			"Sea_0006": { "width": 306, "height": 170 },
+			"Sea_0007": { "width": 306, "height": 170 },
+			"Sea_0008": { "width": 306, "height": 170 },
+			"Sea_0009": { "width": 306, "height": 170 },
+			"Sea_0010": { "width": 306, "height": 170 },
+			"Sea_0011": { "width": 306, "height": 170 },
+			"Sea_0012": { "width": 306, "height": 170 },
+			"Sea_0013": { "width": 306, "height": 170 },
+			"Sea_0014": { "width": 306, "height": 170 },
+			"Sea_0015": { "width": 306, "height": 170 },
+			"Sea_0016": { "width": 306, "height": 170 },
+			"Sea_0017": { "width": 306, "height": 170 },
+			"Sea_0018": { "width": 306, "height": 170 },
+			"Sea_0019": { "width": 306, "height": 170 },
+			"Sea_0020": { "width": 306, "height": 170 }
+		},
+		"Sea_rain_day": {
+			"Sea_rain_day": { "scaleX": 5, "scaleY": 5, "width": 245, "height": 79 }
+		},
+		"Sea_rain_night": {
+			"Sea_rain_night": { "scaleX": 5, "scaleY": 5, "width": 245, "height": 79 }
+		}
+	}
+},
+"animations": {
+	"BG_Arabian_Sea_day": {
+		"slots": {
+			"Blue_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Blue_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "dbffdeff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "dbffdeff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"BG_Arabian_Sea_night": {
+		"slots": {
+			"Blue_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Blue_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "475c51ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "475c51ff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"BG_Bad_weather_Sea_day": {
+		"slots": {
+			"Blue_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Blue_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "6b4e68ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "6b4e68ff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_rain_day" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff6c" },
+					{ "time": 0.1666, "color": "ffffff88" },
+					{ "time": 0.3333, "color": "ffffff6c" },
+					{ "time": 0.5, "color": "ffffff88" },
+					{ "time": 0.6666, "color": "ffffff6c" },
+					{ "time": 0.8333, "color": "ffffff88" },
+					{ "time": 1, "color": "ffffff6c" },
+					{ "time": 1.1666, "color": "ffffff88" },
+					{ "time": 1.3333, "color": "ffffff6c" },
+					{ "time": 1.5, "color": "ffffff88" },
+					{ "time": 1.6666, "color": "ffffff6c" },
+					{ "time": 1.8333, "color": "ffffff88" },
+					{ "time": 2, "color": "ffffff6c" },
+					{ "time": 2.1666, "color": "ffffff88" },
+					{ "time": 2.3333, "color": "ffffff6c" },
+					{ "time": 2.5, "color": "ffffff88" },
+					{ "time": 2.6666, "color": "ffffff6c" }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"BG_Bad_weather_Sea_night": {
+		"slots": {
+			"Blue_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Blue_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "34213bff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "34213bff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_rain_night" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff69" },
+					{ "time": 0.1666, "color": "ffffff8d" },
+					{ "time": 0.3333, "color": "ffffff69" },
+					{ "time": 0.5, "color": "ffffff8d" },
+					{ "time": 0.6666, "color": "ffffff69" },
+					{ "time": 0.8333, "color": "ffffff8d" },
+					{ "time": 1, "color": "ffffff69" },
+					{ "time": 1.1666, "color": "ffffff8d" },
+					{ "time": 1.3333, "color": "ffffff69" },
+					{ "time": 1.5, "color": "ffffff8d" },
+					{ "time": 1.6666, "color": "ffffff69" },
+					{ "time": 1.8333, "color": "ffffff8d" },
+					{ "time": 2, "color": "ffffff69" },
+					{ "time": 2.1666, "color": "ffffff8d" },
+					{ "time": 2.3333, "color": "ffffff69" },
+					{ "time": 2.5, "color": "ffffff8d" },
+					{ "time": 2.6666, "color": "ffffff69" }
+				]
+			}
+		}
+	},
+	"BG_Boss_Battle_day": {
+		"slots": {
+			"Blue_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Blue_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff7592ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ff7592ff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"BG_Boss_Battle_night": {
+		"slots": {
+			"Blue_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Blue_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_Red" }
+				],
+				"color": [
+					{ "time": 0, "color": "de42ff83" },
+					{ "time": 0.3333, "color": "de42ff9a" },
+					{ "time": 0.7666, "color": "de42ff83" },
+					{ "time": 1.2, "color": "de42ff9a" },
+					{ "time": 1.7, "color": "de42ff83" },
+					{ "time": 2.3, "color": "de42ff9a" },
+					{ "time": 2.6666, "color": "de42ff83" }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff3533ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ff3533ff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"BG_East_China_Sea_day": {
+		"slots": {
+			"Blue_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Blue_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "afc7e3ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "afc7e3ff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"BG_East_China_Sea_night": {
+		"slots": {
+			"Blue_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Blue_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "5c394fff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "5c394fff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"BG_Ice_day": {
+		"slots": {
+			"Blue_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_Ice_day" }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "65d1d6ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "65d1d6ff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"BG_Ice_night": {
+		"slots": {
+			"Blue_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "4e505eff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "4e505eff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"BG_Japan_day": {
+		"slots": {
+			"Blue_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Blue_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "b19cf2ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "b19cf2ff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"BG_Japan_night": {
+		"slots": {
+			"Blue_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Blue_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "524e73ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "524e73ff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"BG_Mediterranean_day": {
+		"slots": {
+			"Blue_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Blue_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "fcbcc1ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "fcbcc1ff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"BG_Mediterranean_night": {
+		"slots": {
+			"Blue_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Blue_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "44395cff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "44395cff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"BG_Pacific_Ocean_day": {
+		"slots": {
+			"Blue_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "64a2b5ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "64a2b5ff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"BG_Pacific_Ocean_night": {
+		"slots": {
+			"Blue_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "3a3c52ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "3a3c52ff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"BG_Philippine_Sea_day": {
+		"slots": {
+			"Blue_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Blue_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "c0c2cfff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "c0c2cfff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"BG_Philippine_Sea_night": {
+		"slots": {
+			"Blue_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Blue_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "4d5661ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "4d5661ff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"BG_sea_Normal_day": {
+		"slots": {
+			"Blue_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Blue_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "fff6e3ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "fff6e3ff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"BG_sea_Normal_night": {
+		"slots": {
+			"Blue_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Blue_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Ice_change_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_Red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_day": {
+				"attachment": [
+					{ "time": 0, "name": "Sea_0001" },
+					{ "time": 0.0666, "name": "Sea_0002" },
+					{ "time": 0.1333, "name": "Sea_0003" },
+					{ "time": 0.2, "name": "Sea_0004" },
+					{ "time": 0.2666, "name": "Sea_0005" },
+					{ "time": 0.3333, "name": "Sea_0006" },
+					{ "time": 0.4, "name": "Sea_0007" },
+					{ "time": 0.4666, "name": "Sea_0008" },
+					{ "time": 0.5333, "name": "Sea_0009" },
+					{ "time": 0.6, "name": "Sea_0010" },
+					{ "time": 0.6666, "name": "Sea_0011" },
+					{ "time": 0.7333, "name": "Sea_0012" },
+					{ "time": 0.8, "name": "Sea_0013" },
+					{ "time": 0.8666, "name": "Sea_0014" },
+					{ "time": 0.9333, "name": "Sea_0015" },
+					{ "time": 1, "name": "Sea_0016" },
+					{ "time": 1.0666, "name": "Sea_0017" },
+					{ "time": 1.1333, "name": "Sea_0018" },
+					{ "time": 1.2, "name": "Sea_0019" },
+					{ "time": 1.2666, "name": "Sea_0020" },
+					{ "time": 1.3333, "name": "Sea_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "37706fff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "37706fff" }
+				]
+			},
+			"Sea_rain_day": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Sea_rain_night": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	}
+}
+}

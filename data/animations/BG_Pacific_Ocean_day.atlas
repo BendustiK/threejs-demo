@@ -1,0 +1,20 @@
+
+BG_Pacific_Ocean_day.png
+size: 1024,256
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Light_00
+  rotate: false
+  xy: 2, 2
+  size: 500, 70
+  orig: 500, 70
+  offset: 0, 0
+  index: -1
+Sky
+  rotate: false
+  xy: 2, 74
+  size: 612, 84
+  orig: 612, 84
+  offset: 0, 0
+  index: -1

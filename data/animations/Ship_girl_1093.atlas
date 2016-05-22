@@ -1,0 +1,118 @@
+
+Ship_girl_1093.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+JZ_L
+  rotate: false
+  xy: 277, 20
+  size: 111, 81
+  orig: 300, 300
+  offset: 102, 44
+  index: -1
+JZ_L_damage
+  rotate: false
+  xy: 236, 18
+  size: 39, 83
+  orig: 300, 300
+  offset: 168, 37
+  index: -1
+JZ_L_damage_light
+  rotate: true
+  xy: 2, 5
+  size: 91, 76
+  orig: 300, 300
+  offset: 153, 35
+  index: -1
+JZ_L_light
+  rotate: true
+  xy: 153, 2
+  size: 99, 81
+  orig: 300, 300
+  offset: 152, 43
+  index: -1
+QQ
+  rotate: true
+  xy: 277, 2
+  size: 16, 24
+  orig: 300, 300
+  offset: 195, 140
+  index: -1
+Rodney_body_damage
+  rotate: true
+  xy: 390, 178
+  size: 75, 109
+  orig: 300, 300
+  offset: 113, 61
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 390, 28
+  size: 75, 109
+  orig: 300, 300
+  offset: 113, 61
+  index: -1
+Rodney_eyes_damage
+  rotate: true
+  xy: 408, 125
+  size: 51, 42
+  orig: 300, 300
+  offset: 138, 142
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 357, 105
+  size: 49, 45
+  orig: 300, 300
+  offset: 138, 144
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: true
+  xy: 286, 152
+  size: 101, 102
+  orig: 300, 300
+  offset: 124, 47
+  index: -1
+hair
+  rotate: true
+  xy: 452, 145
+  size: 31, 50
+  orig: 31, 50
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 452, 109
+  size: 39, 34
+  orig: 300, 300
+  offset: 169, 112
+  index: -1
+head
+  rotate: false
+  xy: 2, 98
+  size: 147, 155
+  orig: 300, 300
+  offset: 76, 128
+  index: -1
+head_light
+  rotate: false
+  xy: 151, 103
+  size: 133, 150
+  orig: 300, 300
+  offset: 126, 116
+  index: -1
+leg
+  rotate: true
+  xy: 286, 104
+  size: 46, 69
+  orig: 300, 300
+  offset: 138, 18
+  index: -1
+leg_light
+  rotate: true
+  xy: 80, 6
+  size: 90, 71
+  orig: 300, 300
+  offset: 125, 15
+  index: -1

@@ -1,0 +1,27 @@
+
+BG_Ice_night.png
+size: 1024,512
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Light_00
+  rotate: false
+  xy: 2, 142
+  size: 631, 204
+  orig: 631, 249
+  offset: 0, 0
+  index: -1
+Mountain
+  rotate: false
+  xy: 2, 2
+  size: 443, 52
+  orig: 612, 84
+  offset: 0, 0
+  index: -1
+Sky
+  rotate: false
+  xy: 2, 56
+  size: 612, 84
+  orig: 612, 84
+  offset: 0, 0
+  index: -1

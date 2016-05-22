@@ -1,0 +1,34 @@
+
+BG_Pacific_Ocean_night.png
+size: 1024,256
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Cloud_Night
+  rotate: false
+  xy: 2, 98
+  size: 466, 40
+  orig: 470, 46
+  offset: 1, 6
+  index: -1
+Moon
+  rotate: false
+  xy: 616, 151
+  size: 172, 73
+  orig: 180, 73
+  offset: 8, 0
+  index: -1
+Sky_night
+  rotate: false
+  xy: 2, 140
+  size: 612, 84
+  orig: 612, 84
+  offset: 0, 0
+  index: -1
+Star_light_00
+  rotate: false
+  xy: 2, 2
+  size: 397, 94
+  orig: 400, 94
+  offset: 3, 0
+  index: -1

@@ -1,0 +1,201 @@
+
+BG_sea.png
+size: 1024,1024
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Blue_day
+  rotate: true
+  xy: 926, 25
+  size: 245, 57
+  orig: 245, 62
+  offset: 0, 2
+  index: -1
+Blue_night
+  rotate: true
+  xy: 926, 272
+  size: 245, 58
+  orig: 245, 62
+  offset: 0, 0
+  index: -1
+Sea_0001
+  rotate: false
+  xy: 2, 846
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_0002
+  rotate: false
+  xy: 2, 679
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_0003
+  rotate: false
+  xy: 310, 846
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_0004
+  rotate: false
+  xy: 2, 512
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_0005
+  rotate: false
+  xy: 310, 679
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_0006
+  rotate: false
+  xy: 618, 846
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_0007
+  rotate: false
+  xy: 2, 345
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_0008
+  rotate: false
+  xy: 310, 512
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_0009
+  rotate: false
+  xy: 618, 679
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_0010
+  rotate: false
+  xy: 2, 178
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_0011
+  rotate: false
+  xy: 310, 345
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_0012
+  rotate: false
+  xy: 618, 512
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_0013
+  rotate: false
+  xy: 2, 11
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_0014
+  rotate: false
+  xy: 310, 178
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_0015
+  rotate: false
+  xy: 618, 345
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_0016
+  rotate: false
+  xy: 310, 11
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_0017
+  rotate: false
+  xy: 618, 178
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_0018
+  rotate: false
+  xy: 618, 11
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_Ice_day
+  rotate: false
+  xy: 2, 2
+  size: 151, 7
+  orig: 244, 74
+  offset: 50, 58
+  index: -1
+Sea_Ice_night
+  rotate: true
+  xy: 996, 614
+  size: 151, 7
+  orig: 244, 74
+  offset: 50, 58
+  index: -1
+Sea_Red
+  rotate: true
+  xy: 996, 767
+  size: 244, 26
+  orig: 244, 74
+  offset: 0, 45
+  index: -1
+Sea_rain_day
+  rotate: true
+  xy: 926, 766
+  size: 245, 68
+  orig: 245, 79
+  offset: 0, 0
+  index: -1
+Sea_rain_night
+  rotate: true
+  xy: 926, 519
+  size: 245, 68
+  orig: 245, 79
+  offset: 0, 0
+  index: -1
+
+BG_sea2.png
+size: 1024,256
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Sea_0019
+  rotate: false
+  xy: 2, 2
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1
+Sea_0020
+  rotate: false
+  xy: 310, 2
+  size: 306, 165
+  orig: 306, 170
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+BG_East_China_Sea_night.png
+size: 1024,256
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Cloud_Night
+  rotate: false
+  xy: 2, 51
+  size: 466, 40
+  orig: 470, 46
+  offset: 1, 6
+  index: -1
+Moon
+  rotate: false
+  xy: 2, 2
+  size: 45, 47
+  orig: 66, 66
+  offset: 10, 10
+  index: -1
+Mountain_night
+  rotate: false
+  xy: 2, 93
+  size: 529, 63
+  orig: 612, 84
+  offset: 83, 0
+  index: -1
+Sky_night
+  rotate: false
+  xy: 2, 158
+  size: 612, 84
+  orig: 612, 84
+  offset: 0, 0
+  index: -1
+Star_light_00
+  rotate: false
+  xy: 616, 148
+  size: 397, 94
+  orig: 400, 94
+  offset: 3, 0
+  index: -1

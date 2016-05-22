@@ -1,0 +1,132 @@
+
+Ship_girl_41_1.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BB
+  rotate: false
+  xy: 601, 89
+  size: 39, 21
+  orig: 39, 21
+  offset: 0, 0
+  index: -1
+QZ
+  rotate: false
+  xy: 681, 113
+  size: 90, 58
+  orig: 90, 58
+  offset: 0, 0
+  index: -1
+QZ_damage
+  rotate: false
+  xy: 921, 194
+  size: 90, 58
+  orig: 90, 58
+  offset: 0, 0
+  index: -1
+Rodney_body_normal
+  rotate: false
+  xy: 850, 111
+  size: 48, 70
+  orig: 300, 300
+  offset: 127, 94
+  index: -1
+Rodney_eyes_damage
+  rotate: false
+  xy: 402, 80
+  size: 50, 38
+  orig: 300, 300
+  offset: 138, 161
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 454, 80
+  size: 50, 38
+  orig: 300, 300
+  offset: 138, 163
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 773, 93
+  size: 75, 78
+  orig: 300, 300
+  offset: 129, 81
+  index: -1
+TB
+  rotate: true
+  xy: 681, 173
+  size: 79, 147
+  orig: 300, 300
+  offset: 72, 15
+  index: -1
+behand
+  rotate: true
+  xy: 2, 8
+  size: 53, 105
+  orig: 300, 300
+  offset: 94, 57
+  index: -1
+hair
+  rotate: false
+  xy: 2, 63
+  size: 189, 189
+  orig: 189, 189
+  offset: 0, 0
+  index: -1
+hand
+  rotate: true
+  xy: 559, 77
+  size: 33, 40
+  orig: 300, 300
+  offset: 160, 101
+  index: -1
+hand_L
+  rotate: true
+  xy: 506, 77
+  size: 33, 51
+  orig: 300, 300
+  offset: 102, 96
+  index: -1
+hand_light
+  rotate: false
+  xy: 109, 2
+  size: 78, 59
+  orig: 300, 300
+  offset: 142, 84
+  index: -1
+head
+  rotate: true
+  xy: 338, 120
+  size: 132, 175
+  orig: 300, 300
+  offset: 89, 109
+  index: -1
+head_damage
+  rotate: true
+  xy: 515, 112
+  size: 140, 164
+  orig: 300, 300
+  offset: 81, 109
+  index: -1
+head_light
+  rotate: false
+  xy: 193, 85
+  size: 143, 167
+  orig: 300, 300
+  offset: 116, 112
+  index: -1
+leg
+  rotate: true
+  xy: 338, 77
+  size: 41, 62
+  orig: 300, 300
+  offset: 131, 15
+  index: -1
+leg_light
+  rotate: false
+  xy: 830, 183
+  size: 89, 69
+  orig: 300, 300
+  offset: 118, 3
+  index: -1

@@ -1,15 +1,15 @@
 {
-"skeleton": { "hash": "VEYceKlph0KYxYsUS7FXWTAG6ww", "spine": "2.1.27", "width": 303.11, "height": 304.14, "images": "" },
+"skeleton": { "hash": "n/10IVm1eYgoKI0lPGe9fsQrreA", "spine": "2.1.27", "width": 323.31, "height": 324.34, "images": "" },
 "bones": [
 	{ "name": "Root_All", "x": 9.22, "y": 11.06, "scaleX": 1.01, "scaleY": 1.01 },
 	{ "name": "Ship_All", "parent": "Root_All" },
-	{ "name": "Body", "parent": "Ship_All", "length": 255.84, "x": 6.59, "y": -23.48, "rotation": 90 },
-	{ "name": "Antiaircraft", "parent": "Body", "length": 44.62, "x": 203.65, "y": -40.34, "rotation": -90 },
+	{ "name": "Body", "parent": "Ship_All", "length": 255.84, "x": 10.77, "y": -14.18, "rotation": 90 },
+	{ "name": "Antiaircraft", "parent": "Body", "length": 44.62, "x": 195.29, "y": -42.67, "rotation": -90 },
 	{ "name": "Attack_Point", "parent": "Body", "length": 25.69, "x": 91.69, "y": -24.37, "rotation": -88.64 },
 	{ "name": "Body_Front", "parent": "Body", "length": 37.11, "x": 51.84, "y": 60, "rotation": -92.25 },
-	{ "name": "Damage_Point", "parent": "Body", "length": 22.56, "x": 107.75, "y": 14.1, "rotation": -90 },
-	{ "name": "Dialogue", "parent": "Body", "length": 57.85, "x": 197.95, "y": -40.05, "rotation": -90 },
-	{ "name": "Expression", "parent": "Body", "length": 46.33, "x": 199.01, "y": -38.07, "rotation": -42.65 },
+	{ "name": "Damage_Point", "parent": "Body", "length": 22.56, "x": 101.7, "y": 25.72, "rotation": -90 },
+	{ "name": "Dialogue", "parent": "Body", "length": 57.85, "x": 173.78, "y": -35.87, "rotation": -90 },
+	{ "name": "Expression", "parent": "Body", "length": 46.33, "x": 210.46, "y": -34.37, "rotation": -42.65 },
 	{ "name": "Face", "parent": "Body", "length": 66.94, "x": 180, "y": 30, "rotation": 270 },
 	{ "name": "Ship", "parent": "Body", "length": 127.17, "x": 100, "y": 60, "rotation": 270 },
 	{ "name": "Smoke_L1", "parent": "Body", "length": 20.04, "x": 90.69, "y": -24.06, "rotation": -42.57 },
@@ -27,36 +27,36 @@
 "skins": {
 	"default": {
 		"Light_Body": {
-			"Rodney_ship_body_normal_light": { "x": 131.3, "y": 10.78, "rotation": -90, "width": 300, "height": 300 }
+			"Rodney_ship_body_normal_light": { "x": 131.3, "y": 10.78, "scaleX": 1.05, "scaleY": 1.05, "rotation": -90, "width": 300, "height": 300 }
 		},
 		"Rodney_body_normal": {
-			"Rodney_body_normal": { "x": 130.22, "y": 10.75, "rotation": -90, "width": 300, "height": 300 }
+			"Rodney_body_normal": { "x": 130.22, "y": 10.75, "rotation": -90, "width": 320, "height": 320 }
 		},
 		"Rodney_eyes_normal": {
-			"Rodney_eyes_damage": { "x": 19.21, "y": -48.69, "width": 300, "height": 300 },
-			"Rodney_eyes_normal": { "x": 19.21, "y": -48.69, "width": 300, "height": 300 }
+			"Rodney_eyes_damage": { "x": 19.21, "y": -48.69, "width": 320, "height": 320 },
+			"Rodney_eyes_normal": { "x": 19.21, "y": -48.69, "width": 320, "height": 320 }
 		}
 	},
 	"damage": {
 		"Body_Hand": {
-			"Front_Picture": { "name": "Rodney_fornt_damage", "x": 46.09, "y": 81.31, "rotation": 2.25, "width": 300, "height": 300 }
+			"Front_Picture": { "name": "Rodney_fornt_damage", "x": 46.09, "y": 81.31, "rotation": 2.25, "width": 320, "height": 320 }
 		},
 		"Light_Ship": {
-			"Ship_light_change": { "name": "Rodney_armor_damage_light", "x": 49.21, "y": 31.3, "width": 300, "height": 300 }
+			"Ship_light_change": { "name": "Rodney_armor_damage_light", "x": 49.21, "y": 31.3, "scaleX": 1.05, "scaleY": 1.05, "width": 300, "height": 300 }
 		},
 		"Rodney_ship_armor_normal": {
-			"Ship_armor_normal": { "name": "Rodney_ship_armor_damage", "x": 49.21, "y": 31.3, "width": 300, "height": 300 }
+			"Ship_armor_normal": { "name": "Rodney_ship_armor_damage", "x": 49.21, "y": 31.3, "width": 320, "height": 320 }
 		}
 	},
 	"normal": {
 		"Body_Hand": {
-			"Front_Picture": { "name": "Rodney_fornt_normal", "x": 46.09, "y": 81.31, "rotation": 2.25, "width": 300, "height": 300 }
+			"Front_Picture": { "name": "Rodney_fornt_normal", "x": 46.09, "y": 81.31, "rotation": 2.25, "width": 320, "height": 320 }
 		},
 		"Light_Ship": {
-			"Ship_light_change": { "name": "Rodney_armor_normal_light", "x": 49.21, "y": 31.3, "width": 300, "height": 300 }
+			"Ship_light_change": { "name": "Rodney_armor_normal_light", "x": 49.21, "y": 31.3, "scaleX": 1.05, "scaleY": 1.05, "width": 300, "height": 300 }
 		},
 		"Rodney_ship_armor_normal": {
-			"Ship_armor_normal": { "name": "Rodney_ship_armor_normal", "x": 49.21, "y": 31.3, "width": 300, "height": 300 }
+			"Ship_armor_normal": { "name": "Rodney_ship_armor_normal", "x": 49.21, "y": 31.3, "width": 320, "height": 320 }
 		}
 	}
 },

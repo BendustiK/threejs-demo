@@ -1,0 +1,139 @@
+
+Ship_girl_15.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+JZ_L
+  rotate: true
+  xy: 920, 182
+  size: 71, 82
+  orig: 300, 300
+  offset: 72, 62
+  index: -1
+JZ_L_damage
+  rotate: true
+  xy: 116, 62
+  size: 71, 82
+  orig: 300, 300
+  offset: 72, 62
+  index: -1
+JZ_R
+  rotate: false
+  xy: 200, 63
+  size: 70, 70
+  orig: 300, 300
+  offset: 158, 70
+  index: -1
+JZ_R_damge
+  rotate: false
+  xy: 272, 74
+  size: 70, 70
+  orig: 300, 300
+  offset: 158, 70
+  index: -1
+JZ_R_light
+  rotate: false
+  xy: 2, 2
+  size: 102, 99
+  orig: 300, 300
+  offset: 151, 57
+  index: -1
+Rodney_body_damage
+  rotate: true
+  xy: 508, 184
+  size: 69, 140
+  orig: 300, 300
+  offset: 118, 23
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 650, 184
+  size: 69, 140
+  orig: 300, 300
+  offset: 118, 23
+  index: -1
+Rodney_eyes_damage
+  rotate: false
+  xy: 106, 22
+  size: 48, 38
+  orig: 300, 300
+  offset: 141, 164
+  index: -1
+Rodney_eyes_normal
+  rotate: false
+  xy: 852, 145
+  size: 50, 40
+  orig: 300, 300
+  offset: 141, 164
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 2, 103
+  size: 112, 150
+  orig: 300, 300
+  offset: 112, 14
+  index: -1
+cap
+  rotate: false
+  xy: 792, 187
+  size: 126, 66
+  orig: 300, 300
+  offset: 90, 210
+  index: -1
+cap_damage
+  rotate: false
+  xy: 508, 116
+  size: 126, 66
+  orig: 300, 300
+  offset: 90, 210
+  index: -1
+cap_light
+  rotate: false
+  xy: 382, 148
+  size: 124, 105
+  orig: 300, 300
+  offset: 131, 188
+  index: -1
+hair
+  rotate: false
+  xy: 636, 133
+  size: 111, 49
+  orig: 300, 300
+  offset: 99, 145
+  index: -1
+hand
+  rotate: false
+  xy: 749, 130
+  size: 41, 52
+  orig: 300, 300
+  offset: 159, 94
+  index: -1
+hand_L
+  rotate: true
+  xy: 344, 76
+  size: 68, 33
+  orig: 300, 300
+  offset: 75, 117
+  index: -1
+head
+  rotate: false
+  xy: 251, 146
+  size: 129, 107
+  orig: 300, 300
+  offset: 84, 152
+  index: -1
+head_light
+  rotate: false
+  xy: 116, 135
+  size: 133, 118
+  orig: 300, 300
+  offset: 124, 126
+  index: -1
+ship
+  rotate: true
+  xy: 792, 150
+  size: 35, 58
+  orig: 300, 300
+  offset: 111, 117
+  index: -1

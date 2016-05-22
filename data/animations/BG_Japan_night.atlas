@@ -1,0 +1,27 @@
+
+BG_Japan_night.png
+size: 1024,256
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Mountain_night
+  rotate: false
+  xy: 2, 2
+  size: 612, 75
+  orig: 612, 84
+  offset: 0, 0
+  index: -1
+Sky_night
+  rotate: false
+  xy: 2, 79
+  size: 612, 84
+  orig: 612, 84
+  offset: 0, 0
+  index: -1
+Star_light_00
+  rotate: false
+  xy: 616, 69
+  size: 397, 94
+  orig: 400, 94
+  offset: 3, 0
+  index: -1

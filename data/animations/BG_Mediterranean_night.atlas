@@ -1,0 +1,55 @@
+
+BG_Mediterranean_night.png
+size: 1024,256
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Cloud_Day_U
+  rotate: false
+  xy: 2, 21
+  size: 466, 40
+  orig: 470, 46
+  offset: 1, 6
+  index: -1
+Item_00
+  rotate: false
+  xy: 2, 2
+  size: 10, 17
+  orig: 33, 38
+  offset: 11, 11
+  index: -1
+Light_00
+  rotate: false
+  xy: 790, 182
+  size: 147, 51
+  orig: 216, 64
+  offset: 1, 13
+  index: -1
+Light_01
+  rotate: false
+  xy: 616, 92
+  size: 161, 66
+  orig: 162, 68
+  offset: 0, 2
+  index: -1
+Moon
+  rotate: false
+  xy: 616, 160
+  size: 172, 73
+  orig: 180, 73
+  offset: 8, 0
+  index: -1
+Mountain
+  rotate: false
+  xy: 2, 149
+  size: 612, 84
+  orig: 612, 84
+  offset: 0, 0
+  index: -1
+Sky
+  rotate: false
+  xy: 2, 63
+  size: 612, 84
+  orig: 612, 84
+  offset: 0, 0
+  index: -1

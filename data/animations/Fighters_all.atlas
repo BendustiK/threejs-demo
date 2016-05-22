@@ -1,0 +1,244 @@
+
+Fighters_all.png
+size: 1008,451
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+01_97_ship_attack
+  rotate: false
+  xy: 530, 99
+  size: 135, 68
+  orig: 300, 300
+  offset: 85, 117
+  index: -1
+01_light
+  rotate: false
+  xy: 844, 225
+  size: 120, 109
+  orig: 300, 300
+  offset: 132, 98
+  index: -1
+02_99_ship_burst
+  rotate: false
+  xy: 286, 6
+  size: 126, 85
+  orig: 300, 300
+  offset: 85, 107
+  index: -1
+02_light
+  rotate: true
+  xy: 2, 83
+  size: 178, 132
+  orig: 300, 300
+  offset: 91, 91
+  index: -1
+04_BF109
+  rotate: false
+  xy: 2, 2
+  size: 145, 79
+  orig: 300, 300
+  offset: 72, 111
+  index: -1
+04_light
+  rotate: true
+  xy: 137, 299
+  size: 150, 117
+  orig: 300, 300
+  offset: 111, 92
+  index: -1
+05_F2a_buffalo
+  rotate: false
+  xy: 547, 20
+  size: 124, 77
+  orig: 300, 300
+  offset: 92, 111
+  index: -1
+05_light
+  rotate: true
+  xy: 719, 196
+  size: 124, 116
+  orig: 300, 300
+  offset: 119, 97
+  index: -1
+06_F4F_wildcat
+  rotate: false
+  xy: 389, 93
+  size: 139, 61
+  orig: 300, 300
+  offset: 77, 129
+  index: -1
+06_light
+  rotate: true
+  xy: 741, 326
+  size: 123, 101
+  orig: 300, 300
+  offset: 124, 109
+  index: -1
+07_F6F_hell_cat
+  rotate: true
+  xy: 438, 309
+  size: 140, 77
+  orig: 300, 300
+  offset: 77, 114
+  index: -1
+07_light
+  rotate: false
+  xy: 844, 336
+  size: 121, 113
+  orig: 300, 300
+  offset: 128, 97
+  index: -1
+08_ju87
+  rotate: true
+  xy: 367, 308
+  size: 141, 69
+  orig: 300, 300
+  offset: 77, 117
+  index: -1
+08_light
+  rotate: false
+  xy: 901, 18
+  size: 105, 98
+  orig: 300, 300
+  offset: 130, 100
+  index: -1
+09_SBD_fearless
+  rotate: false
+  xy: 256, 93
+  size: 131, 58
+  orig: 300, 300
+  offset: 85, 125
+  index: -1
+09_light
+  rotate: true
+  xy: 545, 174
+  size: 136, 109
+  orig: 300, 300
+  offset: 111, 100
+  index: -1
+10_TBD_torn
+  rotate: false
+  xy: 667, 116
+  size: 125, 68
+  orig: 300, 300
+  offset: 91, 114
+  index: -1
+10_light
+  rotate: false
+  xy: 673, 4
+  size: 121, 110
+  orig: 300, 300
+  offset: 126, 93
+  index: -1
+11_TBF_revenge
+  rotate: false
+  xy: 414, 14
+  size: 131, 77
+  orig: 300, 300
+  offset: 85, 120
+  index: -1
+11_light
+  rotate: false
+  xy: 837, 118
+  size: 117, 105
+  orig: 300, 300
+  offset: 131, 106
+  index: -1
+12_Sea_fire
+  rotate: false
+  xy: 149, 4
+  size: 135, 87
+  orig: 300, 300
+  offset: 82, 101
+  index: -1
+12_light
+  rotate: true
+  xy: 256, 153
+  size: 145, 108
+  orig: 300, 300
+  offset: 116, 100
+  index: -1
+13_Comet
+  rotate: true
+  xy: 609, 318
+  size: 131, 65
+  orig: 300, 300
+  offset: 88, 119
+  index: -1
+13_light
+  rotate: true
+  xy: 256, 300
+  size: 149, 109
+  orig: 300, 300
+  offset: 112, 102
+  index: -1
+14_Swordfish
+  rotate: true
+  xy: 517, 312
+  size: 137, 90
+  orig: 300, 300
+  offset: 81, 110
+  index: -1
+14_light
+  rotate: false
+  xy: 796, 11
+  size: 103, 105
+  orig: 300, 300
+  offset: 131, 97
+  index: -1
+15_Zero
+  rotate: true
+  xy: 656, 186
+  size: 130, 61
+  orig: 300, 300
+  offset: 87, 127
+  index: -1
+15_light
+  rotate: true
+  xy: 136, 93
+  size: 168, 118
+  orig: 300, 300
+  offset: 104, 104
+  index: -1
+16_Barracuda
+  rotate: true
+  xy: 476, 169
+  size: 138, 67
+  orig: 300, 300
+  offset: 78, 121
+  index: -1
+16_light
+  rotate: true
+  xy: 366, 156
+  size: 142, 108
+  orig: 300, 300
+  offset: 119, 104
+  index: -1
+23_Sunny
+  rotate: true
+  xy: 676, 322
+  size: 127, 63
+  orig: 300, 300
+  offset: 88, 121
+  index: -1
+23_light
+  rotate: true
+  xy: 2, 263
+  size: 186, 133
+  orig: 300, 300
+  offset: 85, 86
+  index: -1
+Item_02
+  rotate: true
+  xy: 137, 280
+  size: 17, 59
+  orig: 17, 59
+  offset: 0, 0
+  index: -1
+Item_03
+  rotate: true
+  xy: 137, 263
+  size: 15, 59
+  orig: 15, 59
+  offset: 0, 0
+  index: -1

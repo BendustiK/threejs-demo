@@ -6,66 +6,66 @@ filter: MipMapLinearLinear,MipMapLinearLinear
 repeat: none
 Rodney_armor_damage_light
   rotate: false
-  xy: 613, 196
+  xy: 265, 17
   size: 158, 53
   orig: 300, 300
   offset: 68, 83
   index: -1
 Rodney_armor_normal_light
   rotate: false
-  xy: 613, 143
+  xy: 704, 198
   size: 146, 51
   orig: 300, 300
   offset: 68, 84
   index: -1
 Rodney_body_normal
-  rotate: false
-  xy: 265, 8
-  size: 166, 241
-  orig: 300, 300
-  offset: 41, 30
+  rotate: true
+  xy: 265, 72
+  size: 177, 257
+  orig: 320, 320
+  offset: 44, 32
   index: -1
 Rodney_eyes_damage
-  rotate: true
-  xy: 569, 76
-  size: 47, 36
-  orig: 300, 300
-  offset: 130, 160
+  rotate: false
+  xy: 425, 31
+  size: 50, 39
+  orig: 320, 320
+  offset: 138, 170
   index: -1
 Rodney_eyes_normal
   rotate: false
-  xy: 913, 212
-  size: 46, 37
-  orig: 300, 300
-  offset: 130, 159
+  xy: 524, 72
+  size: 50, 39
+  orig: 320, 320
+  offset: 138, 170
   index: -1
 Rodney_fornt_damage
-  rotate: false
-  xy: 433, 24
-  size: 134, 99
-  orig: 300, 300
-  offset: 87, 86
+  rotate: true
+  xy: 704, 109
+  size: 87, 88
+  orig: 320, 320
+  offset: 47, 91
   index: -1
 Rodney_fornt_normal
   rotate: false
-  xy: 569, 50
-  size: 35, 24
-  orig: 300, 300
-  offset: 90, 88
+  xy: 794, 171
+  size: 38, 25
+  orig: 320, 320
+  offset: 96, 94
   index: -1
 Rodney_ship_armor_damage
   rotate: false
-  xy: 433, 125
-  size: 178, 124
-  orig: 300, 300
-  offset: 57, 88
+  xy: 524, 113
+  size: 178, 136
+  orig: 320, 320
+  offset: 72, 94
   index: -1
 Rodney_ship_armor_normal
   rotate: false
-  xy: 773, 206
-  size: 138, 43
-  orig: 300, 300
-  offset: 71, 88
+  xy: 852, 204
+  size: 148, 45
+  orig: 320, 320
+  offset: 75, 94
   index: -1
 Rodney_ship_body_normal_light
   rotate: true

@@ -1,0 +1,55 @@
+
+Gunfire.png
+size: 1408,1024
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Actor_picture
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1024, 1024
+  offset: 0, 0
+  index: -1
+BG_change/Ship_star_1
+  rotate: false
+  xy: 1024, 832
+  size: 224, 192
+  orig: 256, 192
+  offset: 0, 0
+  index: -1
+BG_change/Ship_star_2
+  rotate: false
+  xy: 1024, 640
+  size: 224, 192
+  orig: 256, 192
+  offset: 0, 0
+  index: -1
+BG_change/Ship_star_3
+  rotate: false
+  xy: 1024, 448
+  size: 224, 192
+  orig: 256, 192
+  offset: 0, 0
+  index: -1
+BG_change/Ship_star_4
+  rotate: false
+  xy: 1024, 256
+  size: 224, 192
+  orig: 256, 192
+  offset: 0, 0
+  index: -1
+BG_change/Ship_star_5
+  rotate: true
+  xy: 1024, 32
+  size: 224, 192
+  orig: 256, 192
+  offset: 0, 0
+  index: -1
+BG_change/Ship_star_6
+  rotate: true
+  xy: 1216, 32
+  size: 224, 192
+  orig: 256, 192
+  offset: 0, 0
+  index: -1

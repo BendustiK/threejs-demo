@@ -1,0 +1,125 @@
+
+Enemy_fighters.png
+size: 796,540
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+17_Enemy_bomber
+  rotate: true
+  xy: 696, 409
+  size: 129, 91
+  orig: 300, 300
+  offset: 90, 124
+  index: -1
+17_light
+  rotate: false
+  xy: 450, 177
+  size: 149, 138
+  orig: 300, 300
+  offset: 119, 98
+  index: -1
+18_Enemy_torpedo
+  rotate: false
+  xy: 450, 110
+  size: 139, 65
+  orig: 300, 300
+  offset: 77, 134
+  index: -1
+18_light
+  rotate: true
+  xy: 694, 297
+  size: 110, 100
+  orig: 300, 300
+  offset: 100, 123
+  index: -1
+19_Enemy_fighter
+  rotate: true
+  xy: 694, 168
+  size: 127, 77
+  orig: 300, 300
+  offset: 99, 127
+  index: -1
+19_light
+  rotate: true
+  xy: 680, 25
+  size: 141, 111
+  orig: 300, 300
+  offset: 102, 102
+  index: -1
+20_Enemy_bomber_elite
+  rotate: true
+  xy: 601, 188
+  size: 127, 91
+  orig: 300, 300
+  offset: 90, 123
+  index: -1
+21_Enemy_torpedo_elite
+  rotate: false
+  xy: 450, 43
+  size: 139, 65
+  orig: 300, 300
+  offset: 77, 134
+  index: -1
+22_Enemy_fighter_elite
+  rotate: true
+  xy: 601, 59
+  size: 127, 77
+  orig: 300, 300
+  offset: 99, 128
+  index: -1
+24_Enemy_Akagi
+  rotate: true
+  xy: 169, 27
+  size: 211, 111
+  orig: 300, 300
+  offset: 38, 111
+  index: -1
+24_light
+  rotate: true
+  xy: 2, 2
+  size: 236, 165
+  orig: 300, 300
+  offset: 58, 72
+  index: -1
+25_Enemy_Kaga
+  rotate: true
+  xy: 375, 327
+  size: 211, 110
+  orig: 300, 300
+  offset: 38, 111
+  index: -1
+25_light
+  rotate: true
+  xy: 282, 23
+  size: 246, 166
+  orig: 300, 300
+  offset: 54, 71
+  index: -1
+26_Enemy_Sisters
+  rotate: false
+  xy: 487, 418
+  size: 207, 120
+  orig: 300, 300
+  offset: 38, 104
+  index: -1
+26_light
+  rotate: true
+  xy: 190, 271
+  size: 267, 183
+  orig: 300, 300
+  offset: 33, 63
+  index: -1
+27_Paper_fighter
+  rotate: false
+  xy: 487, 317
+  size: 205, 99
+  orig: 300, 300
+  offset: 39, 102
+  index: -1
+27_Paper_fighter_light
+  rotate: true
+  xy: 2, 240
+  size: 298, 186
+  orig: 300, 300
+  offset: 2, 53
+  index: -1

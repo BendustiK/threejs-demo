@@ -1,0 +1,216 @@
+
+Ship_girl_1141.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BJ
+  rotate: false
+  xy: 531, 86
+  size: 48, 81
+  orig: 300, 300
+  offset: 96, 38
+  index: -1
+BJ_damage
+  rotate: true
+  xy: 306, 66
+  size: 45, 81
+  orig: 300, 300
+  offset: 96, 38
+  index: -1
+D_hair
+  rotate: false
+  xy: 713, 78
+  size: 22, 19
+  orig: 300, 300
+  offset: 154, 249
+  index: -1
+JZ_L
+  rotate: true
+  xy: 672, 167
+  size: 87, 104
+  orig: 300, 300
+  offset: 77, 195
+  index: -1
+JZ_L_damage
+  rotate: true
+  xy: 778, 167
+  size: 87, 100
+  orig: 300, 300
+  offset: 77, 195
+  index: -1
+JZ_R
+  rotate: false
+  xy: 581, 103
+  size: 79, 65
+  orig: 300, 300
+  offset: 149, 49
+  index: -1
+JZ_R_damge
+  rotate: false
+  xy: 662, 99
+  size: 76, 66
+  orig: 300, 300
+  offset: 149, 48
+  index: -1
+JZ_R_light
+  rotate: false
+  xy: 556, 170
+  size: 114, 84
+  orig: 300, 300
+  offset: 150, 26
+  index: -1
+Rodney_body_damage
+  rotate: true
+  xy: 2, 9
+  size: 61, 86
+  orig: 300, 300
+  offset: 110, 75
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 90, 9
+  size: 61, 86
+  orig: 300, 300
+  offset: 110, 75
+  index: -1
+Rodney_eyes_damage
+  rotate: false
+  xy: 658, 60
+  size: 53, 37
+  orig: 300, 300
+  offset: 126, 143
+  index: -1
+Rodney_eyes_normal
+  rotate: true
+  xy: 981, 143
+  size: 52, 41
+  orig: 300, 300
+  offset: 126, 142
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: true
+  xy: 439, 80
+  size: 87, 90
+  orig: 300, 300
+  offset: 114, 60
+  index: -1
+TS
+  rotate: true
+  xy: 273, 62
+  size: 37, 31
+  orig: 300, 300
+  offset: 74, 199
+  index: -1
+cap
+  rotate: false
+  xy: 185, 56
+  size: 86, 43
+  orig: 300, 300
+  offset: 114, 231
+  index: -1
+cap_light
+  rotate: false
+  xy: 439, 169
+  size: 115, 85
+  orig: 300, 300
+  offset: 127, 208
+  index: -1
+gun
+  rotate: false
+  xy: 581, 51
+  size: 75, 50
+  orig: 300, 300
+  offset: 93, 60
+  index: -1
+gun_damage
+  rotate: true
+  xy: 981, 197
+  size: 57, 41
+  orig: 300, 300
+  offset: 107, 64
+  index: -1
+gun_light
+  rotate: false
+  xy: 902, 114
+  size: 77, 55
+  orig: 300, 300
+  offset: 108, 66
+  index: -1
+hair
+  rotate: false
+  xy: 2, 72
+  size: 181, 182
+  orig: 181, 182
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: true
+  xy: 178, 2
+  size: 52, 73
+  orig: 300, 300
+  offset: 173, 107
+  index: -1
+hand2
+  rotate: true
+  xy: 253, 30
+  size: 24, 17
+  orig: 300, 300
+  offset: 147, 91
+  index: -1
+hand_R
+  rotate: true
+  xy: 981, 121
+  size: 20, 36
+  orig: 300, 300
+  offset: 117, 100
+  index: -1
+hand_R2
+  rotate: false
+  xy: 411, 84
+  size: 13, 27
+  orig: 300, 300
+  offset: 115, 80
+  index: -1
+hand_R_damage
+  rotate: false
+  xy: 389, 75
+  size: 20, 36
+  orig: 300, 300
+  offset: 117, 100
+  index: -1
+head
+  rotate: false
+  xy: 185, 101
+  size: 119, 153
+  orig: 300, 300
+  offset: 91, 102
+  index: -1
+head_light
+  rotate: false
+  xy: 306, 113
+  size: 131, 141
+  orig: 300, 300
+  offset: 116, 117
+  index: -1
+leg
+  rotate: true
+  xy: 740, 109
+  size: 56, 79
+  orig: 300, 300
+  offset: 116, 18
+  index: -1
+leg_damage
+  rotate: true
+  xy: 821, 109
+  size: 56, 79
+  orig: 300, 300
+  offset: 116, 18
+  index: -1
+leg_light
+  rotate: false
+  xy: 880, 171
+  size: 99, 83
+  orig: 300, 300
+  offset: 108, 16
+  index: -1

@@ -1,0 +1,27 @@
+
+BG_Mediterranean_day.png
+size: 1024,256
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Item_00
+  rotate: false
+  xy: 616, 155
+  size: 10, 17
+  orig: 33, 38
+  offset: 11, 11
+  index: -1
+Mountain
+  rotate: false
+  xy: 2, 88
+  size: 612, 84
+  orig: 612, 84
+  offset: 0, 0
+  index: -1
+Sky
+  rotate: false
+  xy: 2, 2
+  size: 612, 84
+  orig: 612, 84
+  offset: 0, 0
+  index: -1

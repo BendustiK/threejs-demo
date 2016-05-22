@@ -1,0 +1,467 @@
+
+BG_submarine.png
+size: 1018,974
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Bubble_In_0005
+  rotate: false
+  xy: 677, 615
+  size: 219, 93
+  orig: 256, 144
+  offset: 26, 7
+  index: -1
+Bubble_In_0006
+  rotate: false
+  xy: 452, 521
+  size: 220, 94
+  orig: 256, 144
+  offset: 25, 9
+  index: -1
+Bubble_In_0007
+  rotate: false
+  xy: 2, 429
+  size: 220, 95
+  orig: 256, 144
+  offset: 25, 12
+  index: -1
+Bubble_In_0008
+  rotate: false
+  xy: 451, 424
+  size: 220, 95
+  orig: 256, 144
+  offset: 25, 15
+  index: -1
+Bubble_In_0009
+  rotate: false
+  xy: 673, 422
+  size: 223, 95
+  orig: 256, 144
+  offset: 22, 18
+  index: -1
+Bubble_In_0010
+  rotate: false
+  xy: 680, 710
+  size: 224, 88
+  orig: 256, 144
+  offset: 22, 21
+  index: -1
+Bubble_In_0011
+  rotate: false
+  xy: 2, 713
+  size: 224, 87
+  orig: 256, 144
+  offset: 22, 24
+  index: -1
+Bubble_In_0012
+  rotate: false
+  xy: 453, 800
+  size: 224, 86
+  orig: 256, 144
+  offset: 22, 27
+  index: -1
+Bubble_In_0013
+  rotate: false
+  xy: 679, 800
+  size: 224, 86
+  orig: 256, 144
+  offset: 22, 29
+  index: -1
+Bubble_In_0014
+  rotate: false
+  xy: 2, 802
+  size: 224, 85
+  orig: 256, 144
+  offset: 22, 32
+  index: -1
+Bubble_In_0015
+  rotate: false
+  xy: 525, 888
+  size: 224, 84
+  orig: 256, 144
+  offset: 22, 35
+  index: -1
+Bubble_In_0016
+  rotate: false
+  xy: 73, 889
+  size: 224, 83
+  orig: 256, 144
+  offset: 23, 38
+  index: -1
+Bubble_In_0017
+  rotate: false
+  xy: 299, 889
+  size: 224, 83
+  orig: 256, 144
+  offset: 23, 40
+  index: -1
+Bubble_In_0018
+  rotate: false
+  xy: 751, 888
+  size: 223, 84
+  orig: 256, 144
+  offset: 23, 41
+  index: -1
+Bubble_In_0019
+  rotate: false
+  xy: 228, 802
+  size: 223, 85
+  orig: 256, 144
+  offset: 23, 41
+  index: -1
+Bubble_In_0020
+  rotate: false
+  xy: 228, 711
+  size: 224, 87
+  orig: 256, 144
+  offset: 22, 42
+  index: -1
+Bubble_In_0021
+  rotate: false
+  xy: 454, 711
+  size: 224, 87
+  orig: 256, 144
+  offset: 22, 43
+  index: -1
+Bubble_In_0022
+  rotate: false
+  xy: 2, 621
+  size: 223, 90
+  orig: 256, 144
+  offset: 22, 43
+  index: -1
+Bubble_In_0023
+  rotate: false
+  xy: 227, 619
+  size: 223, 90
+  orig: 256, 144
+  offset: 22, 44
+  index: -1
+Bubble_In_0024
+  rotate: false
+  xy: 452, 617
+  size: 223, 92
+  orig: 256, 144
+  offset: 22, 44
+  index: -1
+Bubble_In_0025
+  rotate: false
+  xy: 2, 526
+  size: 222, 93
+  orig: 256, 144
+  offset: 22, 45
+  index: -1
+Bubble_In_0026
+  rotate: false
+  xy: 2, 331
+  size: 222, 95
+  orig: 256, 144
+  offset: 22, 46
+  index: -1
+Bubble_In_0027
+  rotate: false
+  xy: 228, 232
+  size: 221, 97
+  orig: 256, 144
+  offset: 22, 46
+  index: -1
+Bubble_In_0030
+  rotate: true
+  xy: 900, 447
+  size: 219, 103
+  orig: 256, 144
+  offset: 24, 0
+  index: -1
+Bubble_In_0031
+  rotate: true
+  xy: 906, 668
+  size: 218, 105
+  orig: 256, 144
+  offset: 25, 0
+  index: -1
+Bubble_In_0032
+  rotate: true
+  xy: 904, 226
+  size: 219, 107
+  orig: 256, 144
+  offset: 25, 0
+  index: -1
+Bubble_In_0033
+  rotate: false
+  xy: 451, 326
+  size: 219, 96
+  orig: 256, 144
+  offset: 25, 1
+  index: -1
+Bubble_In_0034
+  rotate: false
+  xy: 226, 331
+  size: 223, 95
+  orig: 256, 144
+  offset: 22, 3
+  index: -1
+Bubble_In_0035
+  rotate: false
+  xy: 672, 325
+  size: 223, 95
+  orig: 256, 144
+  offset: 22, 5
+  index: -1
+Bubble_In_0036
+  rotate: false
+  xy: 2, 234
+  size: 224, 95
+  orig: 256, 144
+  offset: 22, 6
+  index: -1
+Bubble_In_0037
+  rotate: false
+  xy: 451, 228
+  size: 224, 95
+  orig: 256, 144
+  offset: 22, 8
+  index: -1
+Bubble_In_0038
+  rotate: false
+  xy: 674, 519
+  size: 224, 94
+  orig: 256, 144
+  offset: 22, 10
+  index: -1
+Bubble_In_0039
+  rotate: false
+  xy: 677, 228
+  size: 225, 95
+  orig: 256, 144
+  offset: 22, 11
+  index: -1
+Bubble_In_0040
+  rotate: false
+  xy: 224, 428
+  size: 225, 94
+  orig: 256, 144
+  offset: 22, 13
+  index: -1
+Bubble_In_0041
+  rotate: false
+  xy: 226, 524
+  size: 224, 93
+  orig: 256, 144
+  offset: 22, 15
+  index: -1
+Bubble_In_0042
+  rotate: false
+  xy: 2, 122
+  size: 224, 110
+  orig: 256, 144
+  offset: 22, 0
+  index: -1
+Bubble_In_0045
+  rotate: true
+  xy: 902, 2
+  size: 222, 114
+  orig: 256, 144
+  offset: 23, 0
+  index: -1
+Bubble_In_0050
+  rotate: false
+  xy: 450, 116
+  size: 223, 110
+  orig: 256, 144
+  offset: 22, 9
+  index: -1
+Bubble_In_0051
+  rotate: false
+  xy: 675, 116
+  size: 223, 110
+  orig: 256, 144
+  offset: 22, 11
+  index: -1
+Bubble_In_0052
+  rotate: false
+  xy: 2, 10
+  size: 223, 110
+  orig: 256, 144
+  offset: 22, 13
+  index: -1
+Bubble_In_0053
+  rotate: false
+  xy: 227, 4
+  size: 223, 110
+  orig: 256, 144
+  offset: 22, 15
+  index: -1
+Bubble_In_0054
+  rotate: false
+  xy: 452, 4
+  size: 223, 110
+  orig: 256, 144
+  offset: 22, 17
+  index: -1
+Bubble_In_0055
+  rotate: false
+  xy: 677, 4
+  size: 223, 110
+  orig: 256, 144
+  offset: 22, 19
+  index: -1
+Bubble_In_0057
+  rotate: false
+  xy: 228, 120
+  size: 220, 110
+  orig: 256, 144
+  offset: 24, 23
+  index: -1
+Seaweed_00
+  rotate: true
+  xy: 2, 957
+  size: 15, 69
+  orig: 15, 69
+  offset: 0, 0
+  index: -1
+
+BG_submarine2.png
+size: 960,764
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Bubble_In_0001
+  rotate: false
+  xy: 426, 170
+  size: 220, 141
+  orig: 256, 144
+  offset: 25, 0
+  index: -1
+Bubble_In_0002
+  rotate: false
+  xy: 224, 8
+  size: 220, 142
+  orig: 256, 144
+  offset: 25, 1
+  index: -1
+Bubble_In_0003
+  rotate: false
+  xy: 737, 260
+  size: 220, 141
+  orig: 256, 144
+  offset: 25, 3
+  index: -1
+Bubble_In_0004
+  rotate: false
+  xy: 446, 29
+  size: 220, 139
+  orig: 256, 144
+  offset: 25, 5
+  index: -1
+Bubble_In_0028
+  rotate: false
+  xy: 2, 2
+  size: 220, 144
+  orig: 256, 144
+  offset: 23, 0
+  index: -1
+Bubble_In_0029
+  rotate: false
+  xy: 204, 152
+  size: 220, 144
+  orig: 256, 144
+  offset: 23, 0
+  index: -1
+Bubble_In_0043
+  rotate: true
+  xy: 391, 538
+  size: 224, 111
+  orig: 256, 144
+  offset: 22, 0
+  index: -1
+Bubble_In_0044
+  rotate: true
+  xy: 391, 313
+  size: 223, 113
+  orig: 256, 144
+  offset: 23, 0
+  index: -1
+Bubble_In_0046
+  rotate: true
+  xy: 506, 315
+  size: 222, 114
+  orig: 256, 144
+  offset: 23, 1
+  index: -1
+Bubble_In_0047
+  rotate: true
+  xy: 616, 540
+  size: 222, 114
+  orig: 256, 144
+  offset: 22, 2
+  index: -1
+Bubble_In_0048
+  rotate: true
+  xy: 622, 316
+  size: 222, 113
+  orig: 256, 144
+  offset: 22, 4
+  index: -1
+Bubble_In_0049
+  rotate: true
+  xy: 732, 540
+  size: 222, 111
+  orig: 256, 144
+  offset: 22, 7
+  index: -1
+Bubble_In_0056
+  rotate: true
+  xy: 504, 539
+  size: 223, 110
+  orig: 256, 144
+  offset: 22, 21
+  index: -1
+Bubble_In_0058
+  rotate: false
+  xy: 737, 403
+  size: 221, 135
+  orig: 256, 144
+  offset: 24, 0
+  index: -1
+Bubble_In_0059
+  rotate: true
+  xy: 809, 38
+  size: 220, 137
+  orig: 256, 144
+  offset: 25, 0
+  index: -1
+Bubble_In_0060
+  rotate: true
+  xy: 668, 38
+  size: 220, 139
+  orig: 256, 144
+  offset: 25, 0
+  index: -1
+Light
+  rotate: true
+  xy: 204, 531
+  size: 231, 185
+  orig: 306, 345
+  offset: 54, 0
+  index: -1
+Light_night
+  rotate: true
+  xy: 204, 298
+  size: 231, 185
+  orig: 306, 345
+  offset: 54, 0
+  index: -1
+Submarine
+  rotate: true
+  xy: 2, 456
+  size: 306, 200
+  orig: 306, 200
+  offset: 0, 0
+  index: -1
+Submarine_night
+  rotate: true
+  xy: 2, 148
+  size: 306, 200
+  orig: 306, 200
+  offset: 0, 0
+  index: -1

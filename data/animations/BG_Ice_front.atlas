@@ -1,0 +1,298 @@
+
+BG_Ice_front.png
+size: 1018,1018
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Snow_0001
+  rotate: false
+  xy: 2, 818
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0002
+  rotate: false
+  xy: 310, 818
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0003
+  rotate: false
+  xy: 618, 818
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0004
+  rotate: true
+  xy: 2, 510
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0005
+  rotate: true
+  xy: 2, 202
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0006
+  rotate: false
+  xy: 2, 2
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0008
+  rotate: true
+  xy: 202, 510
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0009
+  rotate: true
+  xy: 202, 202
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0010
+  rotate: false
+  xy: 310, 2
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0030
+  rotate: false
+  xy: 310, 2
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0011
+  rotate: false
+  xy: 618, 618
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0012
+  rotate: true
+  xy: 402, 510
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0013
+  rotate: true
+  xy: 602, 310
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0014
+  rotate: true
+  xy: 402, 202
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0015
+  rotate: true
+  xy: 618, 2
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0016
+  rotate: true
+  xy: 802, 310
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0017
+  rotate: true
+  xy: 818, 2
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+
+BG_Ice_front2.png
+size: 1018,1018
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Snow_0018
+  rotate: false
+  xy: 2, 818
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0019
+  rotate: false
+  xy: 310, 818
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0020
+  rotate: false
+  xy: 618, 818
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0040
+  rotate: false
+  xy: 618, 818
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0021
+  rotate: true
+  xy: 2, 510
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0022
+  rotate: true
+  xy: 2, 202
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0023
+  rotate: false
+  xy: 2, 2
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0024
+  rotate: true
+  xy: 202, 510
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0025
+  rotate: true
+  xy: 202, 202
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0026
+  rotate: false
+  xy: 310, 2
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0028
+  rotate: false
+  xy: 618, 618
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0029
+  rotate: true
+  xy: 402, 510
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0031
+  rotate: true
+  xy: 602, 310
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0032
+  rotate: true
+  xy: 402, 202
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0033
+  rotate: true
+  xy: 618, 2
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0034
+  rotate: true
+  xy: 802, 310
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0035
+  rotate: true
+  xy: 818, 2
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+
+BG_Ice_front3.png
+size: 926,402
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Snow_0007
+  rotate: false
+  xy: 618, 203
+  size: 306, 197
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0027
+  rotate: false
+  xy: 618, 4
+  size: 306, 197
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0036
+  rotate: false
+  xy: 2, 202
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0037
+  rotate: false
+  xy: 2, 2
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0038
+  rotate: false
+  xy: 310, 202
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+Snow_0039
+  rotate: false
+  xy: 310, 2
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1

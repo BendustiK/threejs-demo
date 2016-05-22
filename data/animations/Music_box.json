@@ -1,0 +1,691 @@
+{
+"skeleton": { "hash": "A+KcifSwXpwZ0sTEWuDDBZ0bk40", "spine": "2.1.27", "width": 705.92, "height": 709.4, "images": "" },
+"bones": [
+	{ "name": "Music_box_picture" },
+	{ "name": "Movie", "parent": "Music_box_picture", "y": 30, "scaleX": 0.85, "scaleY": 0.85 },
+	{ "name": "Actor_1", "parent": "Movie", "y": -157.03 },
+	{ "name": "Actor_2", "parent": "Movie", "x": 101.31, "y": -198.63 },
+	{ "name": "Actor_3", "parent": "Movie", "x": -103.08, "y": -199.87 },
+	{ "name": "Actor_shadow_1", "parent": "Movie", "y": -104.34 },
+	{ "name": "Actor_shadow_2", "parent": "Movie", "x": 103.41, "y": -146.92 },
+	{ "name": "Actor_shadow_3", "parent": "Movie", "x": -102.54, "y": -148.66 },
+	{ "name": "Box_shadow_00", "parent": "Movie" },
+	{ "name": "Logo_1", "parent": "Movie", "y": -42, "scaleY": 0.8 },
+	{ "name": "Logo_3", "parent": "Movie", "y": -52.58 },
+	{ "name": "Music", "parent": "Movie" },
+	{ "name": "Music_box_Down", "parent": "Movie" },
+	{ "name": "Music_box_Up_B", "parent": "Movie" },
+	{ "name": "Music_box_Up_F", "parent": "Movie" }
+],
+"slots": [
+	{ "name": "Shadow_box", "bone": "Box_shadow_00", "attachment": "Shadow_box" },
+	{ "name": "Box_new_0004", "bone": "Music_box_Up_B", "attachment": "Box_new_0004" },
+	{ "name": "Music_box_Down", "bone": "Music_box_Down", "attachment": "Box_new_0000" },
+	{ "name": "妖精2_04", "bone": "Logo_3", "attachment": "Logo_01" },
+	{ "name": "Shadow_Black", "bone": "Actor_shadow_1", "attachment": "Shadow_Black" },
+	{ "name": "Shadow_Black2", "bone": "Actor_shadow_2", "attachment": "Shadow_Black" },
+	{ "name": "Shadow_Black3", "bone": "Actor_shadow_3", "attachment": "Shadow_Black" },
+	{ "name": "妖精2_05", "bone": "Actor_1", "attachment": "Actor_00" },
+	{ "name": "妖精2_08", "bone": "Actor_2", "attachment": "Actor_04" },
+	{ "name": "妖精2_11", "bone": "Actor_3", "attachment": "Actor_07" },
+	{ "name": "妖精2_13", "bone": "Music", "attachment": "Music_03" },
+	{ "name": "Box_new_0001", "bone": "Music_box_Up_F", "attachment": "Box_new_0001" },
+	{ "name": "妖精2_02", "bone": "Logo_1", "attachment": "Logo_00" }
+],
+"skins": {
+	"default": {
+		"Box_new_0001": {
+			"Box_new_0001": { "width": 756, "height": 782 },
+			"Box_new_0002": { "width": 756, "height": 782 },
+			"Box_new_0003": { "width": 756, "height": 782 }
+		},
+		"Box_new_0004": {
+			"Box_new_0004": { "width": 756, "height": 782 },
+			"Box_new_0005": { "width": 756, "height": 782 },
+			"Box_new_0006": { "width": 756, "height": 782 }
+		},
+		"Music_box_Down": {
+			"Box_new_0000": { "width": 756, "height": 782 }
+		},
+		"Shadow_Black": {
+			"Shadow_Black": { "width": 150, "height": 150 }
+		},
+		"Shadow_Black2": {
+			"Shadow_Black": { "width": 150, "height": 150 }
+		},
+		"Shadow_Black3": {
+			"Shadow_Black": { "width": 150, "height": 150 }
+		},
+		"Shadow_box": {
+			"Shadow_box": { "y": -18.56, "scaleX": 5.5, "scaleY": 5, "width": 151, "height": 156 }
+		},
+		"妖精2_02": {
+			"Logo_00": { "width": 756, "height": 782 }
+		},
+		"妖精2_04": {
+			"Logo_01": { "width": 756, "height": 782 }
+		},
+		"妖精2_05": {
+			"Actor_00": { "y": 113, "width": 756, "height": 782 },
+			"Actor_02": { "y": 113, "width": 756, "height": 782 },
+			"Actor_03": { "y": 113, "width": 756, "height": 782 },
+			"Actor_head_00": { "y": 219, "width": 756, "height": 782 }
+		},
+		"妖精2_08": {
+			"Actor_04": { "x": -103, "y": 157, "width": 756, "height": 782 },
+			"Actor_05": { "x": -103, "y": 157, "width": 756, "height": 782 },
+			"Actor_06": { "x": -103, "y": 157, "width": 756, "height": 782 },
+			"Actor_head_01": { "x": -103, "y": 217, "width": 756, "height": 782 }
+		},
+		"妖精2_11": {
+			"Actor_07": { "x": 106, "y": 158, "width": 756, "height": 782 },
+			"Actor_08": { "x": 106, "y": 158, "width": 756, "height": 782 },
+			"Actor_head_02": { "x": 106, "y": 214, "width": 756, "height": 782 }
+		},
+		"妖精2_13": {
+			"Music_00": { "width": 756, "height": 782 },
+			"Music_02": { "width": 756, "height": 782 },
+			"Music_03": { "width": 756, "height": 782 }
+		}
+	}
+},
+"events": {
+	"end": {},
+	"open": {},
+	"play": {},
+	"stop": {}
+},
+"animations": {
+	"Music_box_open": {
+		"slots": {
+			"Box_new_0001": {
+				"attachment": [
+					{ "time": 0, "name": "Box_new_0001" },
+					{ "time": 0.1333, "name": "Box_new_0002" },
+					{ "time": 0.2, "name": "Box_new_0003" },
+					{ "time": 0.2666, "name": null }
+				]
+			},
+			"Box_new_0004": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "Box_new_0004" },
+					{ "time": 0.3333, "name": "Box_new_0005" },
+					{ "time": 0.4, "name": "Box_new_0006" }
+				]
+			},
+			"Music_box_Down": {
+				"attachment": [
+					{ "time": 0, "name": "Box_new_0000" }
+				]
+			},
+			"Shadow_Black": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": "Shadow_Black" }
+				],
+				"color": [
+					{
+						"time": 0.3333,
+						"color": "ffffff00",
+						"curve": [ 0.067, 0.35, 0.677, 0.99 ]
+					},
+					{ "time": 0.4333, "color": "ffffffff" }
+				]
+			},
+			"Shadow_Black2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4333, "name": "Shadow_Black" }
+				],
+				"color": [
+					{
+						"time": 0.4333,
+						"color": "ffffff00",
+						"curve": [ 0.067, 0.35, 0.677, 0.99 ]
+					},
+					{ "time": 0.5666, "color": "ffffffff" }
+				]
+			},
+			"Shadow_Black3": {
+				"attachment": [
+					{ "time": 0, "name": "Shadow_Black" },
+					{ "time": 0.2333, "name": null },
+					{ "time": 0.4, "name": "Shadow_Black" }
+				],
+				"color": [
+					{
+						"time": 0.4,
+						"color": "ffffff00",
+						"curve": [ 0.067, 0.35, 0.677, 0.99 ]
+					},
+					{ "time": 0.5666, "color": "ffffffff" }
+				]
+			},
+			"Shadow_box": {
+				"attachment": [
+					{ "time": 0, "name": "Shadow_box" }
+				]
+			},
+			"妖精2_02": {
+				"attachment": [
+					{ "time": 0, "name": "Logo_00" },
+					{ "time": 0.2666, "name": null }
+				]
+			},
+			"妖精2_04": {
+				"attachment": [
+					{ "time": 0, "name": "Logo_01" }
+				]
+			},
+			"妖精2_05": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "Actor_head_00" },
+					{ "time": 0.2666, "name": "Actor_00" },
+					{ "time": 1, "name": "Actor_00" }
+				]
+			},
+			"妖精2_08": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "Actor_head_01" },
+					{ "time": 0.3666, "name": "Actor_04" }
+				]
+			},
+			"妖精2_11": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "Actor_head_02" },
+					{ "time": 0.3333, "name": "Actor_07" }
+				]
+			},
+			"妖精2_13": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Actor_2": {
+				"translate": [
+					{ "time": 0.2, "x": 8.86, "y": -17.5, "curve": "stepped" },
+					{
+						"time": 0.3666,
+						"x": 8.86,
+						"y": -12.8,
+						"curve": [ 0.206, 0.44, 0.536, 0.77 ]
+					},
+					{ "time": 0.5, "x": 8.86, "y": 10.06 },
+					{ "time": 0.5333, "x": 8.86, "y": 0.9, "curve": "stepped" },
+					{ "time": 1, "x": 8.86, "y": 0.9 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 0.7, "y": 0.7, "curve": "stepped" },
+					{ "time": 0.3666, "x": 0.95, "y": 1.05 },
+					{ "time": 0.5333, "x": 1.05, "y": 0.95 },
+					{ "time": 0.7666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"Actor_3": {
+				"translate": [
+					{ "time": 0.2, "x": -11.51, "y": -13.62, "curve": "stepped" },
+					{
+						"time": 0.3333,
+						"x": -11.51,
+						"y": -10.69,
+						"curve": [ 0.198, 0.46, 0.526, 0.78 ]
+					},
+					{ "time": 0.5, "x": -11.51, "y": 8.11 },
+					{ "time": 0.5333, "x": -11.51, "y": 0.9, "curve": "stepped" },
+					{ "time": 1, "x": -11.51, "y": 0.9 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 0.7, "y": 0.7, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0.95, "y": 1.05 },
+					{ "time": 0.5333, "x": 1.05, "y": 0.95 },
+					{ "time": 0.7666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"Actor_shadow_1": {
+				"translate": [
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"Music": {
+				"translate": [
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"Music_box_Up_B": {
+				"translate": [
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"Music_box_Up_F": {
+				"translate": [
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"Actor_1": {
+				"translate": [
+					{ "time": 0.2, "x": 0, "y": -52.87, "curve": "stepped" },
+					{
+						"time": 0.2666,
+						"x": 0,
+						"y": -8.88,
+						"curve": [ 0.182, 0.49, 0.509, 0.81 ]
+					},
+					{ "time": 0.3666, "x": 0, "y": 11.73 },
+					{ "time": 0.4, "x": 0, "y": -2.55, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": -2.55 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 0.7, "y": 0.7, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0.95, "y": 1.05 },
+					{ "time": 0.4, "x": 1.05, "y": 0.95 },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"Logo_1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 7, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 21, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 21 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 0.875, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 0.75, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 0.75 }
+				]
+			},
+			"Music_box_Down": {
+				"translate": [
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"Logo_3": {
+				"translate": [
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"Box_shadow_00": {
+				"translate": [
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"Actor_shadow_3": {
+				"translate": [
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"Actor_shadow_2": {
+				"translate": [
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "open" },
+			{ "time": 1, "name": "end" }
+		]
+	},
+	"Music_box_play": {
+		"slots": {
+			"Box_new_0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Box_new_0004": {
+				"attachment": [
+					{ "time": 0, "name": "Box_new_0006" }
+				]
+			},
+			"Music_box_Down": {
+				"attachment": [
+					{ "time": 0, "name": "Box_new_0000" }
+				]
+			},
+			"妖精2_02": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"妖精2_05": {
+				"attachment": [
+					{ "time": 0, "name": "Actor_00" },
+					{ "time": 0.2, "name": "Actor_02" },
+					{ "time": 0.4, "name": "Actor_03" },
+					{ "time": 0.6, "name": "Actor_02" },
+					{ "time": 0.8, "name": "Actor_00" },
+					{ "time": 1, "name": "Actor_02" },
+					{ "time": 1.2, "name": "Actor_03" },
+					{ "time": 1.4, "name": "Actor_02" },
+					{ "time": 1.6, "name": "Actor_00" }
+				]
+			},
+			"妖精2_08": {
+				"attachment": [
+					{ "time": 0, "name": "Actor_04" },
+					{ "time": 0.2, "name": "Actor_05" },
+					{ "time": 0.4, "name": "Actor_06" },
+					{ "time": 0.6, "name": "Actor_05" },
+					{ "time": 0.8, "name": "Actor_04" },
+					{ "time": 1, "name": "Actor_05" },
+					{ "time": 1.2, "name": "Actor_06" },
+					{ "time": 1.4, "name": "Actor_05" },
+					{ "time": 1.6, "name": "Actor_04" }
+				]
+			},
+			"妖精2_11": {
+				"attachment": [
+					{ "time": 0, "name": "Actor_07" },
+					{ "time": 0.4, "name": "Actor_08" },
+					{ "time": 0.8, "name": "Actor_07" },
+					{ "time": 1.2, "name": "Actor_08" },
+					{ "time": 1.6, "name": "Actor_07" }
+				]
+			},
+			"妖精2_13": {
+				"attachment": [
+					{ "time": 0, "name": "Music_00" },
+					{ "time": 0.5333, "name": "Music_02" },
+					{ "time": 1.0666, "name": "Music_03" },
+					{ "time": 1.6, "name": "Music_00" }
+				]
+			}
+		},
+		"bones": {
+			"Music": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.8, "x": 0, "y": -12.87 },
+					{ "time": 1.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Music_box_Down": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Actor_shadow_2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Actor_2": {
+				"translate": [
+					{ "time": 0, "x": 8.86, "y": 0.9 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Logo_3": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Actor_1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -2.55 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Music_box_Up_F": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Actor_3": {
+				"translate": [
+					{ "time": 0, "x": -11.51, "y": 0.9 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Music_box_Up_B": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Box_shadow_00": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Actor_shadow_3": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Actor_shadow_1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Logo_1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 21 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 0.75 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "play" }
+		]
+	},
+	"Music_box_stop": {
+		"slots": {
+			"Box_new_0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Box_new_0004": {
+				"attachment": [
+					{ "time": 0, "name": "Box_new_0006" }
+				]
+			},
+			"Music_box_Down": {
+				"attachment": [
+					{ "time": 0, "name": "Box_new_0000" }
+				]
+			},
+			"妖精2_02": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"妖精2_05": {
+				"attachment": [
+					{ "time": 0, "name": "Actor_00" }
+				]
+			},
+			"妖精2_13": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Logo_3": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Music_box_Up_F": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Logo_1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 21 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 0.75 }
+				]
+			},
+			"Actor_3": {
+				"translate": [
+					{ "time": 0, "x": -11.51, "y": 0.9 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Actor_shadow_3": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Music_box_Down": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Actor_shadow_1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Actor_1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -2.55 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Actor_shadow_2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Music_box_Up_B": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Actor_2": {
+				"translate": [
+					{ "time": 0, "x": 8.86, "y": 0.9 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Box_shadow_00": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Music": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "stop" }
+		]
+	}
+}
+}

@@ -1,0 +1,13 @@
+
+Shadow.png
+size: 256,64
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Shadow_Black
+  rotate: false
+  xy: 2, 2
+  size: 150, 45
+  orig: 150, 150
+  offset: 0, 0
+  index: -1

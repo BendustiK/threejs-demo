@@ -1,0 +1,181 @@
+
+Music_box.png
+size: 1024,1024
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Actor_00
+  rotate: true
+  xy: 192, 199
+  size: 102, 204
+  orig: 567, 587
+  offset: 230, 206
+  index: -1
+Actor_02
+  rotate: true
+  xy: 436, 268
+  size: 102, 203
+  orig: 567, 587
+  offset: 230, 206
+  index: -1
+Actor_03
+  rotate: true
+  xy: 657, 550
+  size: 102, 201
+  orig: 567, 587
+  offset: 230, 206
+  index: -1
+Actor_04
+  rotate: false
+  xy: 657, 654
+  size: 137, 201
+  orig: 567, 587
+  offset: 316, 173
+  index: -1
+Actor_05
+  rotate: false
+  xy: 796, 654
+  size: 136, 201
+  orig: 567, 587
+  offset: 321, 173
+  index: -1
+Actor_06
+  rotate: true
+  xy: 178, 49
+  size: 148, 201
+  orig: 567, 587
+  offset: 317, 173
+  index: -1
+Actor_07
+  rotate: false
+  xy: 2, 34
+  size: 174, 208
+  orig: 567, 587
+  offset: 132, 171
+  index: -1
+Actor_08
+  rotate: false
+  xy: 436, 372
+  size: 176, 205
+  orig: 567, 587
+  offset: 130, 171
+  index: -1
+Actor_head_00
+  rotate: true
+  xy: 381, 93
+  size: 102, 153
+  orig: 567, 587
+  offset: 226, 147
+  index: -1
+Actor_head_01
+  rotate: true
+  xy: 641, 291
+  size: 114, 139
+  orig: 567, 587
+  offset: 312, 125
+  index: -1
+Actor_head_02
+  rotate: false
+  xy: 614, 407
+  size: 175, 141
+  orig: 567, 587
+  offset: 128, 127
+  index: -1
+Box_new_0000
+  rotate: false
+  xy: 2, 789
+  size: 308, 233
+  orig: 567, 587
+  offset: 128, 37
+  index: -1
+Box_new_0001
+  rotate: false
+  xy: 312, 822
+  size: 323, 200
+  orig: 567, 587
+  offset: 121, 114
+  index: -1
+Box_new_0002
+  rotate: true
+  xy: 2, 244
+  size: 325, 188
+  orig: 567, 587
+  offset: 120, 126
+  index: -1
+Box_new_0003
+  rotate: false
+  xy: 637, 857
+  size: 324, 165
+  orig: 567, 587
+  offset: 120, 152
+  index: -1
+Box_new_0004
+  rotate: false
+  xy: 2, 571
+  size: 308, 216
+  orig: 567, 587
+  offset: 127, 255
+  index: -1
+Box_new_0005
+  rotate: false
+  xy: 312, 579
+  size: 271, 241
+  orig: 567, 587
+  offset: 146, 256
+  index: -1
+Box_new_0006
+  rotate: true
+  xy: 192, 303
+  size: 266, 242
+  orig: 567, 587
+  offset: 148, 255
+  index: -1
+Logo_00
+  rotate: true
+  xy: 791, 380
+  size: 168, 86
+  orig: 567, 587
+  offset: 198, 258
+  index: -1
+Logo_01
+  rotate: false
+  xy: 178, 2
+  size: 139, 45
+  orig: 567, 587
+  offset: 213, 95
+  index: -1
+Music_00
+  rotate: true
+  xy: 585, 616
+  size: 204, 70
+  orig: 567, 587
+  offset: 186, 382
+  index: -1
+Music_02
+  rotate: true
+  xy: 934, 677
+  size: 178, 67
+  orig: 567, 587
+  offset: 194, 380
+  index: -1
+Music_03
+  rotate: false
+  xy: 398, 197
+  size: 197, 69
+  orig: 567, 587
+  offset: 185, 379
+  index: -1
+Shadow_Black
+  rotate: false
+  xy: 381, 57
+  size: 113, 34
+  orig: 113, 113
+  offset: 0, 0
+  index: -1
+Shadow_box
+  rotate: false
+  xy: 319, 2
+  size: 59, 45
+  orig: 113, 117
+  offset: 27, 3
+  index: -1

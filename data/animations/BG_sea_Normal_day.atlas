@@ -1,0 +1,27 @@
+
+BG_sea_Normal_day.png
+size: 1024,256
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+Cloud_Day_U
+  rotate: false
+  xy: 2, 2
+  size: 470, 46
+  orig: 470, 46
+  offset: 0, 0
+  index: -1
+Mountain
+  rotate: false
+  xy: 2, 50
+  size: 612, 53
+  orig: 612, 84
+  offset: 0, 0
+  index: -1
+Sky
+  rotate: false
+  xy: 2, 105
+  size: 612, 84
+  orig: 612, 84
+  offset: 0, 0
+  index: -1

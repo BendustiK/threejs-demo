@@ -1,0 +1,43 @@
+{
+"skeleton": { "hash": "Qq2ESHWWiK2hW1MMXtJVPkvRmqk", "spine": "2.1.27", "width": 5507.06, "height": 243.21, "images": "" },
+"bones": [
+	{ "name": "BG_picture" },
+	{ "name": "Sky", "parent": "BG_picture" },
+	{ "name": "Cloud_Other_picture", "parent": "Sky", "y": -79.71 },
+	{ "name": "Sky_picture", "parent": "Sky" }
+],
+"slots": [
+	{ "name": "Sky", "bone": "Sky_picture", "attachment": "Sky" },
+	{ "name": "Cloud_U", "bone": "Cloud_Other_picture", "color": "ffffffc9", "attachment": "Cloud_Day_U" },
+	{ "name": "Cloud_U2", "bone": "Cloud_Other_picture", "color": "ffffffc8", "attachment": "Cloud_Day_U" },
+	{ "name": "Mountain", "bone": "Sky_picture", "attachment": "Mountain" }
+],
+"skins": {
+	"default": {
+		"Cloud_U": {
+			"Cloud_Day_U": { "x": -3720.06, "y": -48, "scaleX": 5, "scaleY": 5, "width": 470, "height": 46 }
+		},
+		"Cloud_U2": {
+			"Cloud_Day_U": { "x": -1178, "y": -48, "scaleX": 5, "scaleY": 5, "width": 470, "height": 46 }
+		},
+		"Mountain": {
+			"Mountain": { "y": -84.44, "scaleX": 2, "scaleY": 2, "width": 612, "height": 84 }
+		},
+		"Sky": {
+			"Sky": { "y": -83.5, "scaleX": 2, "scaleY": 2, "width": 612, "height": 84 }
+		}
+	}
+},
+"animations": {
+	"BG_Philippine_Sea_day": {
+		"bones": {
+			"Cloud_Other_picture": {
+				"translate": [
+					{ "time": 0, "x": 629.17, "y": 2.87 },
+					{ "time": 160, "x": 3171.04, "y": 2.87 }
+				]
+			}
+		}
+	}
+}
+}
