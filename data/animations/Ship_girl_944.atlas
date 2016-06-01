@@ -1,0 +1,230 @@
+
+Ship_girl_944.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gun_R_000
+  rotate: false
+  xy: 132, 13
+  size: 73, 74
+  orig: 400, 400
+  offset: 145, 56
+  index: -1
+Gun_R_fluorescence_000
+  rotate: true
+  xy: 560, 423
+  size: 148, 110
+  orig: 400, 400
+  offset: 105, 37
+  index: -1
+Hair_000
+  rotate: false
+  xy: 561, 274
+  size: 100, 147
+  orig: 400, 400
+  offset: 215, 200
+  index: -1
+Hair_light_000
+  rotate: false
+  xy: 613, 581
+  size: 138, 159
+  orig: 400, 400
+  offset: 229, 189
+  index: -1
+Hand_L_000
+  rotate: false
+  xy: 511, 35
+  size: 58, 63
+  orig: 400, 400
+  offset: 228, 185
+  index: -1
+Hand_L_light_000
+  rotate: false
+  xy: 888, 400
+  size: 115, 94
+  orig: 400, 400
+  offset: 222, 176
+  index: -1
+Hand_R_000
+  rotate: false
+  xy: 374, 630
+  size: 27, 43
+  orig: 400, 400
+  offset: 224, 197
+  index: -1
+Head_000
+  rotate: false
+  xy: 760, 500
+  size: 136, 128
+  orig: 400, 400
+  offset: 174, 222
+  index: -1
+Head_fluorescence_000
+  rotate: true
+  xy: 229, 74
+  size: 245, 166
+  orig: 400, 400
+  offset: 115, 189
+  index: -1
+Head_light_000
+  rotate: false
+  xy: 397, 249
+  size: 162, 164
+  orig: 400, 400
+  offset: 187, 214
+  index: -1
+Leg_L_D_000
+  rotate: false
+  xy: 374, 368
+  size: 20, 45
+  orig: 400, 400
+  offset: 215, 121
+  index: -1
+Leg_L_U_000
+  rotate: false
+  xy: 561, 240
+  size: 50, 32
+  orig: 400, 400
+  offset: 218, 152
+  index: -1
+Leg_L_U_light_000
+  rotate: false
+  xy: 397, 21
+  size: 112, 77
+  orig: 400, 400
+  offset: 181, 125
+  index: -1
+Leg_R_D_000
+  rotate: false
+  xy: 374, 321
+  size: 19, 45
+  orig: 400, 400
+  offset: 204, 123
+  index: -1
+Leg_R_U_000
+  rotate: false
+  xy: 313, 2
+  size: 42, 70
+  orig: 400, 400
+  offset: 204, 120
+  index: -1
+Rodney_body_normal
+  rotate: true
+  xy: 207, 7
+  size: 65, 104
+  orig: 400, 400
+  offset: 217, 154
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: true
+  xy: 898, 496
+  size: 132, 97
+  orig: 400, 400
+  offset: 202, 127
+  index: -1
+Ship_behind_000
+  rotate: true
+  xy: 357, 16
+  size: 56, 32
+  orig: 400, 400
+  offset: 72, 68
+  index: -1
+Ship_body_000
+  rotate: false
+  xy: 2, 89
+  size: 225, 230
+  orig: 400, 400
+  offset: 84, 22
+  index: -1
+Ship_body_fluorescence_000
+  rotate: false
+  xy: 374, 415
+  size: 184, 156
+  orig: 400, 400
+  offset: 87, 13
+  index: -1
+Ship_body_light_000
+  rotate: true
+  xy: 672, 438
+  size: 141, 86
+  orig: 400, 400
+  offset: 117, 154
+  index: -1
+Ship_bridge_000
+  rotate: false
+  xy: 965, 668
+  size: 29, 58
+  orig: 400, 400
+  offset: 146, 198
+  index: -1
+Ship_halo_000
+  rotate: false
+  xy: 2, 321
+  size: 370, 352
+  orig: 400, 400
+  offset: 9, 19
+  index: -1
+Ship_halo_fluorescence_000
+  rotate: false
+  xy: 2, 675
+  size: 400, 347
+  orig: 400, 400
+  offset: 0, 27
+  index: -1
+Ship_halo_light_000
+  rotate: true
+  xy: 404, 742
+  size: 280, 349
+  orig: 400, 400
+  offset: 120, 50
+  index: -1
+Ship_head_000
+  rotate: false
+  xy: 404, 573
+  size: 207, 167
+  orig: 400, 400
+  offset: 146, 21
+  index: -1
+Ship_head_f_000
+  rotate: true
+  xy: 755, 630
+  size: 185, 208
+  orig: 400, 400
+  offset: 215, 0
+  index: -1
+Ship_head_fluorescence_000
+  rotate: false
+  xy: 755, 817
+  size: 244, 205
+  orig: 400, 400
+  offset: 110, 8
+  index: -1
+Ship_side_R_000
+  rotate: true
+  xy: 965, 728
+  size: 87, 43
+  orig: 400, 400
+  offset: 63, 27
+  index: -1
+Ship_side_R_fluorescence_000
+  rotate: false
+  xy: 2, 5
+  size: 128, 82
+  orig: 400, 400
+  offset: 35, 6
+  index: -1
+Ship_tail_000
+  rotate: false
+  xy: 397, 100
+  size: 149, 147
+  orig: 400, 400
+  offset: 95, 180
+  index: -1
+Ship_tail_fluorescence_000
+  rotate: false
+  xy: 760, 400
+  size: 126, 98
+  orig: 400, 400
+  offset: 103, 222
+  index: -1

@@ -1,13 +1,13 @@
 {
-"skeleton": { "hash": "0OZJPyG/RCumaeuEPo5d0erkeYo", "spine": "3.2.01", "width": 338.16, "height": 340.95, "images": "" },
+"skeleton": { "hash": "RxQ1zp8im5YgnzetM7hI+I93IE4", "spine": "3.2.01", "width": 507.52, "height": 511.42, "images": "" },
 "bones": [
 	{ "name": "Root_All", "x": 6.14, "y": 12.85 },
 	{ "name": "Ship_All", "parent": "Root_All", "x": 23.04, "y": -28.05 },
-	{ "name": "Body", "parent": "Ship_All", "length": 255.84, "rotation": 90, "x": -59.92, "y": -12.78 },
+	{ "name": "Body", "parent": "Ship_All", "length": 255.84, "rotation": 90, "x": -70.9, "y": -23.76, "scaleX": 1.5, "scaleY": 1.5 },
 	{ "name": "JB", "parent": "Body", "length": 101.78, "rotation": -108.02, "x": 109.81, "y": 27.15 },
 	{ "name": "A", "parent": "JB", "length": 66.64, "rotation": -4.53, "x": -22.34, "y": -11.98 },
 	{ "name": "Antiaircraft", "parent": "Body", "length": 44.62, "rotation": -63.27, "x": 216.79, "y": -67.83 },
-	{ "name": "Attack_Point", "parent": "Body", "length": 25.69, "rotation": -74.34, "x": 148.49, "y": -98.1 },
+	{ "name": "Attack_Point", "parent": "Body", "length": 25.69, "rotation": -74.34, "x": 147.68, "y": -158.29 },
 	{ "name": "girl", "parent": "Body", "length": 57.17, "rotation": 4.9, "x": 64.41, "y": -28.5 },
 	{ "name": "hand_R1", "parent": "girl", "length": 19.48, "rotation": -81.86, "x": 72.27, "y": -3.92 },
 	{ "name": "R2", "parent": "hand_R1", "length": 31.47, "rotation": 74.47, "x": 23.37, "y": -0.8 },
@@ -50,7 +50,7 @@
 	{ "name": "Smoke_L1", "parent": "Body", "length": 79.53, "rotation": -46.53, "x": 233.78, "y": -92.49 },
 	{ "name": "Smoke_R1", "parent": "Body", "length": 72.29, "rotation": 44.63, "x": 65.76, "y": 86.34 },
 	{ "name": "Smoke_R2", "parent": "Body", "length": 69.8, "rotation": 48.79, "x": 200.12, "y": 99.97 },
-	{ "name": "Throw_Point", "parent": "Body", "length": 24.91, "rotation": -88.64, "x": 245.36, "y": -132.89 },
+	{ "name": "Throw_Point", "parent": "Body", "length": 24.91, "rotation": -88.64, "x": 85.13, "y": -174.37 },
 	{ "name": "head", "parent": "girl", "length": 64.68, "rotation": 6.29, "x": 83.96, "y": 15.6 },
 	{ "name": "jaw", "parent": "JB", "length": 119.19, "rotation": 96.45, "x": -12.88, "y": 7.35 },
 	{ "name": "leg_L1", "parent": "girl", "length": 44.07, "rotation": -35.53, "x": 33.28, "y": -3.08 },
@@ -330,7 +330,7 @@
 			"book_light2": { "x": -25.48, "y": 42.09, "rotation": -131.62, "width": 330, "height": 330 }
 		},
 		"eye_light": {
-			"eye_light": { "x": -20.63, "y": -17.58, "rotation": -101.19, "width": 330, "height": 330 }
+			"eye_light": { "x": -20.14, "y": -15.09, "rotation": -101.19, "width": 330, "height": 330 }
 		},
 		"hand_L1": {
 			"hand_L1": { "x": -2.12, "y": 32.41, "rotation": 111.84, "width": 330, "height": 330 }
@@ -4197,6 +4197,13 @@
 	},
 	"normal": {
 		"slots": {
+			"B_light2": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff47" },
+					{ "time": 2, "color": "ffffffff" }
+				]
+			},
 			"JB_L2-2_light": {
 				"attachment": [
 					{ "time": 0, "name": null }

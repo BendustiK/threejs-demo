@@ -19,8 +19,8 @@ B
   offset: 86, 93
   index: -1
 B_light2
-  rotate: false
-  xy: 957, 274
+  rotate: true
+  xy: 862, 31
   size: 57, 39
   orig: 330, 330
   offset: 110, 98
@@ -54,15 +54,15 @@ JB_L2-2_light1
   offset: 0, 45
   index: -1
 JB_L2-2_light2
-  rotate: false
-  xy: 875, 128
+  rotate: true
+  xy: 957, 281
   size: 32, 63
   orig: 330, 330
   offset: 38, 60
   index: -1
 JB_L3-1
   rotate: false
-  xy: 926, 221
+  xy: 941, 228
   size: 44, 51
   orig: 330, 330
   offset: 70, 18
@@ -90,7 +90,7 @@ JB_L3-2_light2
   index: -1
 JB_L4-1
   rotate: false
-  xy: 936, 167
+  xy: 987, 247
   size: 29, 32
   orig: 330, 330
   offset: 125, 34
@@ -118,7 +118,7 @@ JB_L4-2_light2
   index: -1
 JB_R
   rotate: true
-  xy: 708, 8
+  xy: 703, 8
   size: 70, 44
   orig: 330, 330
   offset: 184, 125
@@ -132,14 +132,14 @@ JB_R1
   index: -1
 JB_R2-1
   rotate: false
-  xy: 909, 124
+  xy: 872, 90
   size: 25, 25
   orig: 330, 330
   offset: 189, 165
   index: -1
 JB_R2-2
   rotate: false
-  xy: 899, 216
+  xy: 835, 29
   size: 25, 58
   orig: 330, 330
   offset: 193, 178
@@ -152,15 +152,15 @@ JB_R2-2_light1
   offset: 155, 170
   index: -1
 JB_R2-2_light2
-  rotate: true
-  xy: 622, 5
+  rotate: false
+  xy: 1009, 388
   size: 10, 38
   orig: 330, 330
   offset: 206, 178
   index: -1
 JB_R3-1
   rotate: false
-  xy: 973, 200
+  xy: 877, 2
   size: 34, 27
   orig: 330, 330
   offset: 204, 155
@@ -181,14 +181,14 @@ JB_R3-2_light1
   index: -1
 JB_R3-2_light2
   rotate: true
-  xy: 160, 3
+  xy: 749, 2
   size: 22, 62
   orig: 330, 330
   offset: 228, 166
   index: -1
 JB_R4-1
   rotate: false
-  xy: 899, 193
+  xy: 904, 134
   size: 30, 21
   orig: 330, 330
   offset: 220, 144
@@ -230,7 +230,7 @@ JB_hand_L2
   index: -1
 JB_hand_L2_light2
   rotate: true
-  xy: 936, 126
+  xy: 813, 8
   size: 16, 20
   orig: 330, 330
   offset: 91, 63
@@ -292,8 +292,8 @@ L2_light1
   offset: 47, 69
   index: -1
 L2_light2
-  rotate: true
-  xy: 73, 3
+  rotate: false
+  xy: 261, 8
   size: 14, 17
   orig: 330, 330
   offset: 81, 191
@@ -314,7 +314,7 @@ L3_light1
   index: -1
 L3_light2
   rotate: true
-  xy: 92, 3
+  xy: 50, 3
   size: 14, 16
   orig: 330, 330
   offset: 153, 129
@@ -383,22 +383,22 @@ R3_light1
   offset: 225, 125
   index: -1
 Rodney_body_normal
-  rotate: false
-  xy: 754, 35
-  size: 68, 52
+  rotate: true
+  xy: 622, 5
+  size: 73, 79
   orig: 330, 330
-  offset: 124, 134
+  offset: 119, 134
   index: -1
 Rodney_obai_red
   rotate: false
-  xy: 325, 3
+  xy: 941, 205
   size: 33, 21
   orig: 33, 21
   offset: 0, 0
   index: -1
 WB
   rotate: false
-  xy: 276, 6
+  xy: 212, 7
   size: 47, 18
   orig: 330, 330
   offset: 119, 168
@@ -412,35 +412,35 @@ book
   index: -1
 book_light2
   rotate: false
-  xy: 622, 17
+  xy: 749, 26
   size: 84, 61
   orig: 330, 330
   offset: 134, 192
   index: -1
 eye_light
   rotate: false
-  xy: 1009, 413
+  xy: 1009, 373
   size: 13, 13
   orig: 330, 330
   offset: 131, 195
   index: -1
 hand_L1
   rotate: false
-  xy: 830, 2
+  xy: 943, 172
   size: 20, 31
   orig: 330, 330
   offset: 119, 148
   index: -1
 hand_L2
-  rotate: true
-  xy: 909, 151
+  rotate: false
+  xy: 835, 2
   size: 40, 25
   orig: 330, 330
   offset: 119, 132
   index: -1
 hand_L2_light2
   rotate: false
-  xy: 936, 144
+  xy: 987, 224
   size: 25, 21
   orig: 330, 330
   offset: 130, 135
@@ -461,14 +461,14 @@ hand_R1_light1
   index: -1
 hand_R2
   rotate: true
-  xy: 931, 201
+  xy: 899, 202
   size: 18, 40
   orig: 330, 330
   offset: 174, 176
   index: -1
 hand_R2_light2
   rotate: true
-  xy: 50, 3
+  xy: 904, 118
   size: 14, 21
   orig: 330, 330
   offset: 178, 192
@@ -488,8 +488,8 @@ head_light1
   offset: 92, 179
   index: -1
 head_light2
-  rotate: true
-  xy: 754, 6
+  rotate: false
+  xy: 875, 117
   size: 27, 74
   orig: 330, 330
   offset: 104, 177
@@ -517,7 +517,7 @@ jaw_light2
   index: -1
 leg_L1
   rotate: false
-  xy: 824, 35
+  xy: 899, 222
   size: 40, 52
   orig: 330, 330
   offset: 159, 129
@@ -538,14 +538,14 @@ leg_L2_light1
   index: -1
 leg_R1
   rotate: false
-  xy: 972, 229
+  xy: 904, 157
   size: 37, 43
   orig: 330, 330
   offset: 179, 130
   index: -1
 leg_R2
   rotate: false
-  xy: 224, 7
+  xy: 160, 7
   size: 50, 18
   orig: 330, 330
   offset: 209, 156

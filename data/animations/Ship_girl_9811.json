@@ -1,9 +1,9 @@
 {
-"skeleton": { "hash": "G8Gq1IsLd5Vf5gqOmHVazYQcrr8", "spine": "3.2.01", "width": 445.18, "height": 445.18, "images": "" },
+"skeleton": { "hash": "QOdpOAV+wV2XrLD6WVFtk6bZNTg", "spine": "3.2.01", "width": 628.55, "height": 622.76, "images": "" },
 "bones": [
 	{ "name": "Root_All", "x": 6.14, "y": 12.85 },
 	{ "name": "Ship_All", "parent": "Root_All", "x": 23.04, "y": -28.05 },
-	{ "name": "Body", "parent": "Ship_All", "length": 255.84, "rotation": 90, "x": -40.39, "y": 14.3 },
+	{ "name": "Body", "parent": "Ship_All", "length": 255.84, "rotation": 90, "x": -108.03, "y": -4.23, "scaleX": 1.5, "scaleY": 1.5 },
 	{ "name": "JB", "parent": "Body", "length": 53.51, "rotation": -90.45, "x": 119.81, "y": 27.67 },
 	{ "name": "JB_hand_down1", "parent": "JB", "length": 21.16, "rotation": -107.07, "x": 20.61, "y": 7.73 },
 	{ "name": "JB_hand_down2", "parent": "JB_hand_down1", "length": 56.25, "x": 25.02, "y": 0.09 },
@@ -12,7 +12,7 @@
 	{ "name": "F21", "parent": "JB_hand_down2", "length": 36.42, "rotation": 10.33, "x": 54.28, "y": 2.64 },
 	{ "name": "22", "parent": "F21", "length": 32.7, "rotation": 64.9, "x": 36.42, "y": -0.23 },
 	{ "name": "Antiaircraft", "parent": "Body", "length": 44.62, "rotation": -56.62, "x": 205.27, "y": -66.98 },
-	{ "name": "Attack_Point", "parent": "Body", "length": 25.69, "rotation": -88.64, "x": 121.06, "y": -119.43 },
+	{ "name": "Attack_Point", "parent": "Body", "length": 25.69, "rotation": -88.64, "x": 121.06, "y": -136.89 },
 	{ "name": "girl", "parent": "Body", "length": 57.17, "rotation": 4.9, "x": 64.41, "y": -28.5 },
 	{ "name": "D1", "parent": "girl", "length": 31.44, "rotation": 105.4, "x": 47.94, "y": -23.41 },
 	{ "name": "D2", "parent": "girl", "length": 16.06, "rotation": 75.32, "x": 50.44, "y": -19.79 },
@@ -29,7 +29,7 @@
 	{ "name": "JR", "parent": "JB", "length": 80.28, "rotation": 74.17, "x": 47.3, "y": 24.74 },
 	{ "name": "hand_L1", "parent": "girl", "length": 19.55, "rotation": 134.77, "x": 48.78, "y": -21.63 },
 	{ "name": "L2", "parent": "hand_L1", "length": 29.24, "rotation": -101.13, "x": 20.51, "y": -0.35 },
-	{ "name": "LJ", "parent": "JB", "length": 77.16, "rotation": -117.81, "x": 11.87, "y": -2.98 },
+	{ "name": "LJ", "parent": "JB", "length": 77.16, "rotation": -127.89, "x": 11.87, "y": -2.98 },
 	{
 		"name": "Obai_all",
 		"parent": "girl",
@@ -63,9 +63,10 @@
 	{ "name": "hair", "parent": "head", "length": 47.42, "rotation": 164.17, "x": 62.57, "y": 4.33 },
 	{ "name": "leg_L", "parent": "girl", "length": 65.08, "rotation": 179.54, "x": 19.1, "y": -24.01 },
 	{ "name": "leg_R", "parent": "girl", "length": 61.9, "rotation": -168.43, "x": 13.54, "y": -42.3 },
-	{ "name": "tail", "parent": "JB", "length": 142.16, "rotation": -2.27, "x": -0.3, "y": -94.69 }
+	{ "name": "tail", "parent": "LJ", "length": 142.16, "rotation": 107.24, "x": 72.25, "y": 11.4 }
 ],
 "slots": [
+	{ "name": "pilot", "bone": "girl", "attachment": "pilot" },
 	{ "name": "JB_hand_up2", "bone": "JB_hand_up2", "attachment": "JB_hand_up" },
 	{ "name": "JB_hand_up_light1", "bone": "JB_hand_up2", "attachment": "JB_hand_up_light1", "blend": "additive" },
 	{ "name": "JB_hand_up_light2", "bone": "JB_hand_up2", "attachment": "JB_hand_up_light2", "blend": "additive" },
@@ -302,11 +303,14 @@
 		"leg_R_light1": {
 			"leg_R_light1": { "x": -57.55, "y": -25.86, "rotation": 73.52, "width": 330, "height": 330 }
 		},
+		"pilot": {
+			"pilot": { "x": 64.41, "y": -5.68, "rotation": -94.9, "width": 330, "height": 330 }
+		},
 		"tail": {
-			"tail": { "x": 69.86, "y": 110.13, "rotation": 2.72, "width": 330, "height": 330 }
+			"tail": { "x": 63.76, "y": 108.64, "rotation": 20.78, "width": 330, "height": 330 }
 		},
 		"tail_light1": {
-			"tail_light1": { "x": 69.86, "y": 110.13, "rotation": 2.72, "width": 330, "height": 330 }
+			"tail_light1": { "x": 63.76, "y": 108.64, "rotation": 20.78, "width": 330, "height": 330 }
 		}
 	}
 },
@@ -2522,6 +2526,13 @@
 					{ "time": 1.1333, "color": "ffffffff" }
 				]
 			},
+			"LJ": {
+				"color": [
+					{ "time": 0.0666, "color": "8c4c51ff", "curve": "stepped" },
+					{ "time": 0.7666, "color": "8c4c51ff" },
+					{ "time": 1.1333, "color": "ffffffff" }
+				]
+			},
 			"Light_Body": {
 				"color": [
 					{ "time": 0.5333, "color": "fffffffc" },
@@ -3109,13 +3120,17 @@
 			},
 			"tail": {
 				"rotate": [
-					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1, "angle": 4.73 },
+					{ "time": 1.1666, "angle": -7.96 },
 					{ "time": 1.5666, "angle": 0 }
 				],
 				"translate": [
 					{ "time": 0, "x": 0, "y": 0 },
-					{ "time": 0.3333, "x": -27.61, "y": -2.88 },
-					{ "time": 1, "x": 14.97, "y": -4.68 },
+					{ "time": 0.1, "x": 17.36, "y": 1.26 },
+					{ "time": 0.8333, "x": 21.46, "y": 0.03 },
+					{ "time": 1.1666, "x": 17.99, "y": -1.93 },
+					{ "time": 1.3666, "x": 14.53, "y": 0.47 },
 					{ "time": 1.5666, "x": 0, "y": 0 }
 				]
 			},
@@ -3382,6 +3397,23 @@
 				],
 				"translate": [
 					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5666, "x": 0, "y": 0 }
+				]
+			},
+			"LJ": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1666, "angle": -6.61 },
+					{ "time": 0.3333, "angle": -18.45 },
+					{ "time": 0.5, "angle": -12.41 },
+					{ "time": 1.1666, "angle": 7.58 },
+					{ "time": 1.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": -1.5, "y": -8.24 },
+					{ "time": 0.5, "x": 4.44, "y": -4.21 },
+					{ "time": 0.9333, "x": 9.85, "y": 7.28 },
 					{ "time": 1.5666, "x": 0, "y": 0 }
 				]
 			}
@@ -4532,12 +4564,13 @@
 			"tail": {
 				"rotate": [
 					{ "time": 0, "angle": 0 },
-					{ "time": 0.3333, "angle": -17.8 },
-					{ "time": 1, "angle": -36.69 },
+					{ "time": 0.3333, "angle": -40.19 },
+					{ "time": 1, "angle": -57.25 },
 					{ "time": 2, "angle": 0 }
 				],
 				"translate": [
-					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 19.97, "y": -4.89 },
 					{ "time": 2, "x": 0, "y": 0 }
 				]
 			},

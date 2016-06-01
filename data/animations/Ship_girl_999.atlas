@@ -2,7 +2,7 @@
 Ship_girl_999.png
 size: 1024,256
 format: RGBA8888
-filter: MipMapLinearLinear,MipMapLinearLinear
+filter: Linear,Linear
 repeat: none
 Red_0001
   rotate: false

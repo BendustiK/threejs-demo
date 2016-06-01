@@ -1,0 +1,118 @@
+
+Ship_girl_940.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+DL
+  rotate: true
+  xy: 701, 83
+  size: 68, 66
+  orig: 300, 300
+  offset: 21, 87
+  index: -1
+DR
+  rotate: false
+  xy: 400, 13
+  size: 88, 73
+  orig: 300, 300
+  offset: 198, 77
+  index: -1
+DR_light2
+  rotate: false
+  xy: 443, 138
+  size: 134, 116
+  orig: 300, 300
+  offset: 166, 57
+  index: -1
+Rodney_body_normal
+  rotate: false
+  xy: 2, 62
+  size: 168, 192
+  orig: 300, 300
+  offset: 54, 67
+  index: -1
+Rodney_body_up_normal
+  rotate: false
+  xy: 490, 13
+  size: 72, 73
+  orig: 300, 300
+  offset: 105, 17
+  index: -1
+Rodney_body_up_normal_light
+  rotate: false
+  xy: 579, 153
+  size: 131, 101
+  orig: 300, 300
+  offset: 84, 11
+  index: -1
+Rodney_obai_red
+  rotate: false
+  xy: 972, 226
+  size: 45, 28
+  orig: 45, 28
+  offset: 0, 0
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: false
+  xy: 172, 67
+  size: 131, 187
+  orig: 300, 300
+  offset: 120, 52
+  index: -1
+jb1
+  rotate: true
+  xy: 2, 14
+  size: 46, 141
+  orig: 300, 300
+  offset: 50, 109
+  index: -1
+jb2
+  rotate: true
+  xy: 443, 88
+  size: 48, 138
+  orig: 300, 300
+  offset: 96, 124
+  index: -1
+jb3
+  rotate: true
+  xy: 841, 175
+  size: 79, 129
+  orig: 300, 300
+  offset: 137, 144
+  index: -1
+jb4
+  rotate: true
+  xy: 712, 157
+  size: 97, 127
+  orig: 300, 300
+  offset: 179, 167
+  index: -1
+jb4_light2
+  rotate: false
+  xy: 305, 108
+  size: 136, 146
+  orig: 300, 300
+  offset: 164, 154
+  index: -1
+jb_down
+  rotate: false
+  xy: 583, 62
+  size: 116, 89
+  orig: 300, 300
+  offset: 99, 14
+  index: -1
+jb_down_light2
+  rotate: false
+  xy: 305, 2
+  size: 93, 104
+  orig: 300, 300
+  offset: 154, 13
+  index: -1
+tail
+  rotate: false
+  xy: 841, 158
+  size: 108, 15
+  orig: 108, 15
+  offset: 0, 0
+  index: -1

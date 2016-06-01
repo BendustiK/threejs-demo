@@ -20,17 +20,17 @@ D2
   index: -1
 JB
   rotate: false
-  xy: 252, 98
+  xy: 252, 96
   size: 55, 52
   orig: 330, 330
   offset: 119, 168
   index: -1
 JB2
   rotate: true
-  xy: 920, 336
-  size: 84, 102
+  xy: 920, 335
+  size: 86, 102
   orig: 330, 330
-  offset: 102, 121
+  offset: 100, 121
   index: -1
 JB_hand_up
   rotate: false
@@ -83,10 +83,10 @@ JR
   index: -1
 LJ
   rotate: true
-  xy: 946, 422
-  size: 88, 73
+  xy: 946, 423
+  size: 87, 75
   orig: 330, 330
-  offset: 59, 72
+  offset: 59, 70
   index: -1
 L_finger1_1
   rotate: false
@@ -215,8 +215,8 @@ Rodney_ship_body_normal_light
   offset: 166, 100
   index: -1
 eye_light
-  rotate: true
-  xy: 600, 103
+  rotate: false
+  xy: 479, 109
   size: 29, 23
   orig: 330, 330
   offset: 197, 162
@@ -230,7 +230,7 @@ hair
   index: -1
 hand_L1
   rotate: false
-  xy: 625, 111
+  xy: 600, 108
   size: 25, 24
   orig: 330, 330
   offset: 162, 131
@@ -349,8 +349,8 @@ leg_L
   index: -1
 leg_R
   rotate: true
-  xy: 252, 152
-  size: 27, 69
+  xy: 252, 150
+  size: 29, 69
   orig: 330, 330
   offset: 201, 54
   index: -1
@@ -360,6 +360,13 @@ leg_R_light1
   size: 91, 92
   orig: 330, 330
   offset: 174, 43
+  index: -1
+pilot
+  rotate: false
+  xy: 441, 99
+  size: 36, 33
+  orig: 330, 330
+  offset: 177, 153
   index: -1
 tail
   rotate: false

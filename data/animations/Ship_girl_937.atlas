@@ -1,0 +1,83 @@
+
+Ship_girl_937.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Rodney_body_normal
+  rotate: false
+  xy: 311, 97
+  size: 106, 157
+  orig: 300, 300
+  offset: 76, 5
+  index: -1
+Rodney_ship_body_normal_light
+  rotate: true
+  xy: 574, 152
+  size: 102, 114
+  orig: 300, 300
+  offset: 110, 15
+  index: -1
+cs1
+  rotate: true
+  xy: 690, 154
+  size: 17, 62
+  orig: 17, 62
+  offset: 0, 0
+  index: -1
+cs2
+  rotate: true
+  xy: 419, 148
+  size: 18, 109
+  orig: 18, 109
+  offset: 0, 0
+  index: -1
+cs3
+  rotate: false
+  xy: 140, 2
+  size: 21, 87
+  orig: 25, 87
+  offset: 3, 0
+  index: -1
+driver
+  rotate: false
+  xy: 690, 173
+  size: 77, 81
+  orig: 300, 300
+  offset: 66, 95
+  index: -1
+gun
+  rotate: false
+  xy: 419, 168
+  size: 153, 86
+  orig: 300, 300
+  offset: 108, 51
+  index: -1
+gun_light
+  rotate: false
+  xy: 2, 2
+  size: 136, 87
+  orig: 300, 300
+  offset: 153, 38
+  index: -1
+head
+  rotate: false
+  xy: 172, 92
+  size: 137, 162
+  orig: 300, 300
+  offset: 80, 122
+  index: -1
+head_light
+  rotate: false
+  xy: 2, 91
+  size: 168, 163
+  orig: 300, 300
+  offset: 92, 137
+  index: -1
+tail
+  rotate: true
+  xy: 769, 234
+  size: 20, 88
+  orig: 20, 88
+  offset: 0, 0
+  index: -1

@@ -39,7 +39,7 @@ angular.module('warshipgirls', []).controller('WarshipGirlListCtrl', ["$http", "
 
     	var shipGirlData = [];
     	ctrl.meta.warshipgirlsMapping = {};
-    	_.each(ctrl.meta.warshipgirls.shipCard, function(data, index, list){
+    	_.each(ctrl.meta.warshipgirls.shipCard, function(data){
     		if (data.npc == 0 || (data.npc == 1 && data.picId > 800)) {
     			shipGirlData.push(data);
     		}
