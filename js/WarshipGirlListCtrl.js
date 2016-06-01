@@ -37,8 +37,12 @@ angular.module('warshipgirls', []).controller('WarshipGirlListCtrl', ["$http", "
     }).success(function(data){
     	ctrl.meta.warshipgirls = data;
 
+    	var shipGirlData = [];
     	ctrl.meta.warshipgirlsMapping = {};
-    	_.each(ctrl.meta.warshipgirls.shipCard, function(data){
+    	_.each(ctrl.meta.warshipgirls.shipCard, function(data, index, list){
+    		if (data.npc == 0 || (data.npc == 1 && data.picId > 800)) {
+    			shipGirlData.push(data);
+    		}
     		ctrl.meta.warshipgirlsMapping[data.cid] = data;
     	});
 
@@ -51,13 +55,22 @@ angular.module('warshipgirls', []).controller('WarshipGirlListCtrl', ["$http", "
     			skinShipData = {type: "skin", title: data.title, picId: data.skinId, evoShipId: data.skinId};
     		}
 
-    		ctrl.meta.warshipgirls.shipCard.push(skinShipData);
+    		shipGirlData.push(skinShipData);
+
+    		// ctrl.meta.warshipgirls.shipCard.push(skinShipData);
     	});
-    	
+
+    	shipGirlData.sort(ctrl.sortShip);
+
+    	ctrl.data.shipCards = shipGirlData;
     	ctrl.data.animations = [];
     	ctrl.data.skins = [];
     	ctrl.selectShip();
     });
+	};
+
+	ctrl.sortShip = function(a, b) {
+		return parseInt(a.picId) - parseInt(b.picId);
 	};
 
 	ctrl.selectShip = function() {
