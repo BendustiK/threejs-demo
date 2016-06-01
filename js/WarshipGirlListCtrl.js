@@ -10,17 +10,23 @@ angular.module('warshipgirls', []).controller('WarshipGirlListCtrl', ["$http", "
 
 	ctrl.getShipTitle = function(data) {
 		var shipId = "";
-		if (data.shipIndex != undefined) {
-			shipId = "" + data.shipIndex;
-		} else if (data.picId != undefined) {
-			shipId = "" + data.picId;
+		if (data.type != undefined && data.type == "skin") {
+			shipId = "" + data.evoShipId;
 		} else {
-			shipId = "???";
+			if (data.shipIndex != undefined) {
+				shipId = "" + data.shipIndex;
+			} else if (data.picId != undefined) {
+				shipId = "" + data.picId;
+			} else {
+				shipId = "???";
+			}
 		}
+		
 		var title = shipId + ' - ' + data.title;
 		if (parseInt(data.evoClass) == 1) {
 			title = title + "(改)";
 		}
+		
 		return title;
 	};
 
@@ -30,7 +36,24 @@ angular.module('warshipgirls', []).controller('WarshipGirlListCtrl', ["$http", "
       url: "data/warshipgirls.json"
     }).success(function(data){
     	ctrl.meta.warshipgirls = data;
+
+    	ctrl.meta.warshipgirlsMapping = {};
+    	_.each(ctrl.meta.warshipgirls.shipCard, function(data){
+    		ctrl.meta.warshipgirlsMapping[data.cid] = data;
+    	});
+
     	ctrl.data.shipCard = ctrl.meta.warshipgirls.shipCard[0];
+    	_.each(ctrl.meta.warshipgirls.ShipSkin, function(data){
+    		var skinShipData = {};
+    		if (ctrl.meta.warshipgirlsMapping[data.evoCid] != undefined) {
+    			skinShipData = {type: "skin", title: ctrl.meta.warshipgirlsMapping[data.evoCid].title + "("+data.title+")", picId: data.skinId, evoShipId: ctrl.meta.warshipgirlsMapping[data.evoCid].shipIndex};
+    		} else {
+    			skinShipData = {type: "skin", title: data.title, picId: data.skinId, evoShipId: data.skinId};
+    		}
+
+    		ctrl.meta.warshipgirls.shipCard.push(skinShipData);
+    	});
+    	
     	ctrl.data.animations = [];
     	ctrl.data.skins = [];
     	ctrl.selectShip();
